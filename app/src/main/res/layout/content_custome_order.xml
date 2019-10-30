@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.jewelmart.swarnsarita.CustomeOrderActivity"
+    tools:showIn="@layout/activity_custome_order">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/category_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:visibility="gone"
+
+                    />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_grosswt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint=" Weight"
+                    android:inputType="number|numberDecimal"
+                    android:visibility="visible"
+                    app:met_baseColor="@color/black"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextSize="10sp"
+                    app:met_primaryColor="@color/colorAccent" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_netwt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint="Net Weight"
+                    android:inputType="number|numberDecimal"
+                    android:visibility="gone"
+                    app:met_baseColor="@color/black"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextSize="10sp"
+                    app:met_primaryColor="@color/colorAccent" />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_length"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint="Length"
+                    android:inputType="number|numberDecimal"
+                    android:visibility="gone"
+                    app:met_baseColor="@color/black"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextSize="10sp"
+                    app:met_primaryColor="@color/colorAccent" />
+
+
+                <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+                <!--android:id="@+id/et_meting"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="6dp"-->
+                <!--android:hint="Melting"-->
+                <!--android:inputType="number"-->
+                <!--app:met_baseColor="@color/black"-->
+                <!--app:met_clearButton="true"-->
+                <!--app:met_floatingLabel="highlight"-->
+                <!--app:met_floatingLabelTextSize="10sp"-->
+                <!--app:met_iconPadding="5dp"-->
+                <!--app:met_primaryColor="@color/colorAccent" />-->
+
+
+                <Spinner
+                    android:id="@+id/melting_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_delivery_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:hint="Delivery Date"
+                    android:inputType="number|numberDecimal"
+                    android:visibility="gone"
+                    app:met_baseColor="@color/black"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextSize="10sp"
+                    app:met_iconPadding="5dp"
+                    app:met_primaryColor="@color/colorAccent" />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:hint="Size"
+                    android:inputType="number|numberDecimal"
+                    android:visibility="visible"
+                    app:met_baseColor="@color/black"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_iconPadding="5dp"
+                    app:met_primaryColor="@color/colorAccent" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:hint="Color"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    app:met_baseColor="@color/black"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_iconPadding="5dp"
+                    app:met_primaryColor="@color/colorAccent" />
+
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:focusable="false"
+                    android:hint="Delivery Date"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    app:met_baseColor="@color/black"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_iconPadding="5dp"
+                    app:met_primaryColor="@color/colorAccent" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_remarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:hint="Remarks"
+                    android:inputType="text"
+                    android:visibility="visible"
+                    app:met_baseColor="@color/black"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_iconPadding="5dp"
+                    app:met_primaryColor="@color/colorAccent" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/ic_add" />
+
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:text="Submit Order"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

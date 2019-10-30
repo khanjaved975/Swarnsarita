@@ -1,0 +1,955 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:2:1-185:12
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:2:1-185:12
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:2:1-185:12
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:2:1-185:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.1.0.aar/6abffcafddde1515bd76365e7e23d1e8/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.stephentuso:welcome:1.4.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/AndroidManifest.xml:2:1-12:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/efb2ce3f3a03f02657e19c9567b1d8fe/AndroidManifest.xml:2:1-10:12
+MERGED from [com.hbb20:ccp:2.0.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.shalskar:PeekAndPop:1.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/52480f17ac228a99140cd2f4591eefb7/AndroidManifest.xml:2:1-12:12
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crystalrangeseekbar-1.1.3.aar/d188efbc3a68533fbb2a09df373943b2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.2.aar/0b07960774210a4088eb5295836e14ac/AndroidManifest.xml:18:1-27:12
+MERGED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:2:1-68:12
+MERGED from [com.jsibbold:zoomage:1.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/zoomage-1.1.0.aar/bd5f120dc6b7a3ddfea5b1aeaf5b53d8/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:preference-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/AndroidManifest.xml:17:1-28:12
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/ed6bb49b58bb81b06cf4378e2be6ee80/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/28b5da83da9ce587a2ff8bccf6b4e4e1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8d1b5147f01b84290f0899b69f4fcbdb/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.0.aar/e5c82fe7d59f52dad9719edac550d9fb/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.0.aar/22a1dc5262bb2555645911895f4afb0e/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-core:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.0.aar/c9202a2640a8ef95ddc12cc27229b3e7/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.0.aar/c2dd3f2cf58500bd76e9ab8ff87b1afb/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.0.aar/d8b438a0b09f9c55391139a54bb7b24c/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.0.aar/5b0d4ca04855a814a8b8aebeab714e12/AndroidManifest.xml:16:1-23:12
+MERGED from [jp.wasabeef:fresco-processors:2.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fresco-processors-2.0.0.aar/ebf59a80cdd5bd17c40714f4ffaa0287/AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.fresco:fresco:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fresco-0.9.0.aar/c5fcbaf6e6525af0e3e1d82defcb734a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/drawee-0.9.0.aar/d7d80f259145ce37def783c73930b573/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-0.9.0.aar/df4df63035abb3fb28d7829da779fd49/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-0.9.0.aar/d795b6e280a976b72f16463e56c81e51/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cefd40c268f025895dfa603a976f2aec/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04caf484284bf830819104b8995ec261/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b4bfedaddd7bafb664543da653e293fa/AndroidManifest.xml:17:1-28:12
+MERGED from [com.patrickpissurno:ripple-effect:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ripple-effect-1.3.1.aar/7ed18f3bdb64f4000b273d7b58aa4ed8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/16c05554ca4e67f6c58ffc346ff4c28b/AndroidManifest.xml:17:1-28:12
+MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/50fadd3b2feb34f35901bd6801e4bd27/AndroidManifest.xml:2:1-12:12
+MERGED from [com.balysv:material-ripple:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/material-ripple-1.0.2.aar/c24e8c172eb526e35fb611b29007a2a1/AndroidManifest.xml:2:1-14:12
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/searchablespinnerlibrary-1.3.1.aar/1d0ef2bf7bf0e641862551e54c69bf20/AndroidManifest.xml:2:1-17:12
+MERGED from [com.bignerdranch.android:expandablerecyclerview:2.1.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/expandablerecyclerview-2.1.1.aar/7b4d52fa19c28560825117c55ee44580/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/circularimageview-3.0.2.aar/ddbbea465a92f6e0b345588a58172e00/AndroidManifest.xml:2:1-15:12
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/fbaf3b8a65538498b369096f9261f72d/AndroidManifest.xml:2:1-14:12
+MERGED from [me.relex:circleindicator:1.2.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/circleindicator-1.2.2.aar/b91bd4100724ff5a8516d5a1bac85c38/AndroidManifest.xml:2:1-12:12
+MERGED from [com.wang.avi:library:2.1.3] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/library-2.1.3.aar/85bb2bbb47681965469977b21f4c5765/AndroidManifest.xml:2:1-11:12
+MERGED from [id.zelory:compressor:2.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/52e46b08a2601392466873549858c4aa/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jaredrummler:material-spinner:1.2.4] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/material-spinner-1.2.4.aar/d80563d8fa38e1d5639d7911b736c115/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/075c17a00971da69d1913e1fa218944a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/fa92a08fb6326a86800be58d67c0a454/AndroidManifest.xml:2:1-7:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3c8509ae34a9e382ba2d411c4a13673c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/abf34790efafd02def805c6c73c35a58/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2090b4da5e473f68dae81c5f7b3a2278/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b89b28cea588c4bde0352916559be9e3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1476acbd5c68ddc645f083921cbfe68f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b1742120541593ba6a7bbb20c312fc18/AndroidManifest.xml:17:1-31:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.7.0.aar/66de75e07eb562f38d0784afcabfadf4/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/856712c40cc025e9ae4485c839a79eed/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a8218e6e42e8e7b20ceca9fe12c4cd50/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/c42bc7d708bec0cb5bb4f5844266ce94/AndroidManifest.xml:22:1-33:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb4255919536f5eea6a1a39cc43f1588/AndroidManifest.xml:17:1-30:12
+MERGED from [com.facebook.fresco:fbcore:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fbcore-0.9.0.aar/a596cce3d0625823d944b99ac4ed2409/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:2:1-185:12
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:2:1-185:12
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:2:1-185:12
+	package
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:4:5-44
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+	tools:node
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:7:5-25
+	android:versionName
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:9:5-67
+MERGED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:16:5-67
+MERGED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:20:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:16:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.7.0.aar/66de75e07eb562f38d0784afcabfadf4/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.7.0.aar/66de75e07eb562f38d0784afcabfadf4/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/856712c40cc025e9ae4485c839a79eed/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/856712c40cc025e9ae4485c839a79eed/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a8218e6e42e8e7b20ceca9fe12c4cd50/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a8218e6e42e8e7b20ceca9fe12c4cd50/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/c42bc7d708bec0cb5bb4f5844266ce94/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/c42bc7d708bec0cb5bb4f5844266ce94/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:10:5-79
+MERGED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:17:5-79
+MERGED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:11:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:14:5-82
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:14:22-79
+uses-feature#android.hardware.camera
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:16:5-60
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:16:19-57
+permission#com.project.jewelmart.darshan.permission.C2D_MESSAGE
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:18:5-20:47
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:20:9-44
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:19:9-76
+uses-permission#com.project.jewelmart.darshan.permission.C2D_MESSAGE
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:22:5-92
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:22:22-89
+application
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:24:5-183:19
+MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.1.0.aar/6abffcafddde1515bd76365e7e23d1e8/AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.1.0.aar/6abffcafddde1515bd76365e7e23d1e8/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.hbb20:ccp:2.0.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/AndroidManifest.xml:11:5-15:19
+MERGED from [com.hbb20:ccp:2.0.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/AndroidManifest.xml:11:5-15:19
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crystalrangeseekbar-1.1.3.aar/d188efbc3a68533fbb2a09df373943b2/AndroidManifest.xml:11:5-15:19
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crystalrangeseekbar-1.1.3.aar/d188efbc3a68533fbb2a09df373943b2/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:19:5-66:19
+MERGED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:19:5-66:19
+MERGED from [com.android.support:preference-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:preference-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/AndroidManifest.xml:22:5-26:19
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/ed6bb49b58bb81b06cf4378e2be6ee80/AndroidManifest.xml:11:5-20
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/ed6bb49b58bb81b06cf4378e2be6ee80/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/28b5da83da9ce587a2ff8bccf6b4e4e1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/28b5da83da9ce587a2ff8bccf6b4e4e1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8d1b5147f01b84290f0899b69f4fcbdb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8d1b5147f01b84290f0899b69f4fcbdb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.0.aar/e5c82fe7d59f52dad9719edac550d9fb/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.0.aar/e5c82fe7d59f52dad9719edac550d9fb/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.0.aar/22a1dc5262bb2555645911895f4afb0e/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.0.aar/22a1dc5262bb2555645911895f4afb0e/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:24:5-19
+MERGED from [com.google.firebase:firebase-core:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.0.aar/c9202a2640a8ef95ddc12cc27229b3e7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.0.aar/c9202a2640a8ef95ddc12cc27229b3e7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.0.aar/c2dd3f2cf58500bd76e9ab8ff87b1afb/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.0.aar/c2dd3f2cf58500bd76e9ab8ff87b1afb/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.0.aar/d8b438a0b09f9c55391139a54bb7b24c/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.0.aar/d8b438a0b09f9c55391139a54bb7b24c/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.0.aar/5b0d4ca04855a814a8b8aebeab714e12/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.0.aar/5b0d4ca04855a814a8b8aebeab714e12/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cefd40c268f025895dfa603a976f2aec/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cefd40c268f025895dfa603a976f2aec/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04caf484284bf830819104b8995ec261/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04caf484284bf830819104b8995ec261/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b4bfedaddd7bafb664543da653e293fa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b4bfedaddd7bafb664543da653e293fa/AndroidManifest.xml:22:5-26:19
+MERGED from [com.patrickpissurno:ripple-effect:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ripple-effect-1.3.1.aar/7ed18f3bdb64f4000b273d7b58aa4ed8/AndroidManifest.xml:12:5-20
+MERGED from [com.patrickpissurno:ripple-effect:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ripple-effect-1.3.1.aar/7ed18f3bdb64f4000b273d7b58aa4ed8/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/16c05554ca4e67f6c58ffc346ff4c28b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/16c05554ca4e67f6c58ffc346ff4c28b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.balysv:material-ripple:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/material-ripple-1.0.2.aar/c24e8c172eb526e35fb611b29007a2a1/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv:material-ripple:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/material-ripple-1.0.2.aar/c24e8c172eb526e35fb611b29007a2a1/AndroidManifest.xml:12:5-20
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/searchablespinnerlibrary-1.3.1.aar/1d0ef2bf7bf0e641862551e54c69bf20/AndroidManifest.xml:11:5-15:19
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/searchablespinnerlibrary-1.3.1.aar/1d0ef2bf7bf0e641862551e54c69bf20/AndroidManifest.xml:11:5-15:19
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/circularimageview-3.0.2.aar/ddbbea465a92f6e0b345588a58172e00/AndroidManifest.xml:11:5-13:38
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/circularimageview-3.0.2.aar/ddbbea465a92f6e0b345588a58172e00/AndroidManifest.xml:11:5-13:38
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/fbaf3b8a65538498b369096f9261f72d/AndroidManifest.xml:12:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/fbaf3b8a65538498b369096f9261f72d/AndroidManifest.xml:12:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:18:5-24:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3c8509ae34a9e382ba2d411c4a13673c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3c8509ae34a9e382ba2d411c4a13673c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/abf34790efafd02def805c6c73c35a58/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/abf34790efafd02def805c6c73c35a58/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2090b4da5e473f68dae81c5f7b3a2278/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2090b4da5e473f68dae81c5f7b3a2278/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b89b28cea588c4bde0352916559be9e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b89b28cea588c4bde0352916559be9e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1476acbd5c68ddc645f083921cbfe68f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1476acbd5c68ddc645f083921cbfe68f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b1742120541593ba6a7bbb20c312fc18/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b1742120541593ba6a7bbb20c312fc18/AndroidManifest.xml:25:5-29:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.7.0.aar/66de75e07eb562f38d0784afcabfadf4/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.7.0.aar/66de75e07eb562f38d0784afcabfadf4/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/856712c40cc025e9ae4485c839a79eed/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/856712c40cc025e9ae4485c839a79eed/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a8218e6e42e8e7b20ceca9fe12c4cd50/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a8218e6e42e8e7b20ceca9fe12c4cd50/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/c42bc7d708bec0cb5bb4f5844266ce94/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/c42bc7d708bec0cb5bb4f5844266ce94/AndroidManifest.xml:31:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb4255919536f5eea6a1a39cc43f1588/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb4255919536f5eea6a1a39cc43f1588/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:33:9-35
+	android:label
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:30:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:28:9-43
+	android:debuggable
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:27:9-35
+	android:largeHeap
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:31:9-33
+	android:icon
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:29:9-43
+	android:allowBackup
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:34:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:32:9-69
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:25:9-76
+activity#com.project.jewelmart.darshan.BannerDetialActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:35:9-36:68
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:36:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:35:19-84
+activity#com.project.jewelmart.darshan.MainActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:37:9-41:59
+	android:label
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:40:13-45
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:39:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:38:13-70
+activity#com.project.jewelmart.darshan.LoginActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:42:9-45:59
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:44:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:43:13-71
+activity#com.project.jewelmart.darshan.SampleWelcomeActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:46:9-49:63
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:48:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:49:13-60
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:47:13-79
+activity#com.project.jewelmart.darshan.RegistrationActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:50:9-53:59
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:52:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:51:13-78
+activity#com.project.jewelmart.darshan.ProductDetailActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:54:9-58:57
+	android:windowSoftInputMode
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:58:13-54
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:56:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:55:13-79
+activity#com.project.jewelmart.darshan.SplashActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:59:9-69:20
+	android:label
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:62:13-45
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:61:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:63:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:60:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:64:13-68:29
+action#android.intent.action.MAIN
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:65:17-69
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:65:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:67:17-77
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:67:27-74
+activity#com.project.jewelmart.darshan.ProductGridActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:70:9-74:59
+	android:label
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:73:13-64
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:72:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:74:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:71:13-77
+activity#com.project.jewelmart.darshan.LargeViewActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:75:9-77:59
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:77:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:76:13-75
+activity#com.project.jewelmart.darshan.MyCollectionActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:78:9-82:59
+	android:label
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:81:13-65
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:80:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:82:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:79:13-78
+activity#com.project.jewelmart.darshan.CartActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:83:9-86:59
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:85:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:86:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:84:13-70
+activity#com.project.jewelmart.darshan.CheckoutActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:87:9-90:59
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:89:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:88:13-74
+activity#com.project.jewelmart.darshan.ServiceAlert
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:91:9-94:52
+	android:screenOrientation
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:94:13-49
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:93:13-74
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:92:13-70
+service#com.project.jewelmart.darshan.ScreenShotService
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:96:9-83
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:96:18-80
+service#com.project.jewelmart.darshan.service.MyFirebaseMessagingService
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:97:9-101:19
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:97:18-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:98:13-100:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:99:17-78
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:99:25-75
+service#com.project.jewelmart.darshan.service.MyFirebaseInstanceIDService
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:102:9-106:19
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:102:18-98
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:103:13-105:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:104:17-80
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:104:25-77
+service#com.amazonaws.mobileconnectors.s3.transferutility.TransferService
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:107:9-109:38
+	android:enabled
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:109:13-35
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:108:13-93
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:111:9-113:63
+	android:resource
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:113:13-60
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:112:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:118:9-120:53
+	android:resource
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:120:13-50
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:119:13-84
+meta-data#com.google.android.gms.version
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:121:9-123:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.0.aar/5b0d4ca04855a814a8b8aebeab714e12/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.0.aar/5b0d4ca04855a814a8b8aebeab714e12/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:123:13-66
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:122:13-58
+meta-data#preloaded_fonts
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:124:9-126:57
+	android:resource
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:126:13-54
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:125:13-43
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:128:9-136:20
+	android:grantUriPermissions
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:132:13-47
+	android:authorities
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:130:13-73
+	android:exported
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:131:13-37
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:129:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:133:13-135:73
+	android:resource
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:135:17-70
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:134:17-67
+activity#com.project.jewelmart.darshan.MyAccountActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:138:9-142:59
+	android:label
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:141:13-65
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:140:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:142:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:139:13-75
+activity#com.project.jewelmart.darshan.OrderHistoryActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:143:9-146:59
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:145:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:146:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:144:13-78
+activity#com.project.jewelmart.darshan.worker.WorkerActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:147:9-150:59
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:149:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:150:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:148:13-79
+activity#com.project.jewelmart.darshan.worker.OrderDetailsActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:151:9-155:57
+	android:windowSoftInputMode
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:155:13-54
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:153:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:154:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:152:13-85
+activity#com.project.jewelmart.darshan.SubCatagoryActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:156:9-159:59
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:158:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:159:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:157:13-77
+activity#com.project.jewelmart.darshan.CustomeOrderActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:160:9-164:59
+	android:label
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:163:13-65
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:162:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:164:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:161:13-78
+activity#com.project.jewelmart.darshan.NotificationActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:165:9-168:59
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:167:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:168:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:166:13-78
+activity#com.project.jewelmart.darshan.CustomHistoryActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:169:9-172:59
+	android:configChanges
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:171:13-74
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:172:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:170:13-79
+activity#com.project.jewelmart.darshan.OffersActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:173:9-175:68
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:175:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:174:13-72
+activity#com.project.jewelmart.darshan.AboutUsActivity
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:176:9-178:68
+	android:theme
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:178:13-56
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:177:13-73
+meta-data#io.fabric.ApiKey
+ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:180:9-182:72
+	android:value
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:182:13-69
+	android:name
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml:181:13-44
+uses-sdk
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.1.0.aar/6abffcafddde1515bd76365e7e23d1e8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.1.0.aar/6abffcafddde1515bd76365e7e23d1e8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/AndroidManifest.xml:21:5-23:62
+MERGED from [com.stephentuso:welcome:1.4.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.stephentuso:welcome:1.4.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/efb2ce3f3a03f02657e19c9567b1d8fe/AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/efb2ce3f3a03f02657e19c9567b1d8fe/AndroidManifest.xml:6:5-8:41
+MERGED from [com.hbb20:ccp:2.0.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.hbb20:ccp:2.0.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.shalskar:PeekAndPop:1.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/52480f17ac228a99140cd2f4591eefb7/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.shalskar:PeekAndPop:1.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/52480f17ac228a99140cd2f4591eefb7/AndroidManifest.xml:8:5-10:41
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crystalrangeseekbar-1.1.3.aar/d188efbc3a68533fbb2a09df373943b2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crystal:crystalrangeseekbar:1.1.3] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crystalrangeseekbar-1.1.3.aar/d188efbc3a68533fbb2a09df373943b2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.2.aar/0b07960774210a4088eb5295836e14ac/AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/android-networking-1.0.2.aar/0b07960774210a4088eb5295836e14ac/AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:11:5-13:41
+MERGED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:11:5-13:41
+MERGED from [com.jsibbold:zoomage:1.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/zoomage-1.1.0.aar/bd5f120dc6b7a3ddfea5b1aeaf5b53d8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.jsibbold:zoomage:1.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/zoomage-1.1.0.aar/bd5f120dc6b7a3ddfea5b1aeaf5b53d8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:preference-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/AndroidManifest.xml:20:5-44
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/ed6bb49b58bb81b06cf4378e2be6ee80/AndroidManifest.xml:7:5-9:41
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/ed6bb49b58bb81b06cf4378e2be6ee80/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/28b5da83da9ce587a2ff8bccf6b4e4e1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/28b5da83da9ce587a2ff8bccf6b4e4e1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8d1b5147f01b84290f0899b69f4fcbdb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8d1b5147f01b84290f0899b69f4fcbdb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.0.aar/e5c82fe7d59f52dad9719edac550d9fb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.0.aar/e5c82fe7d59f52dad9719edac550d9fb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.0.aar/22a1dc5262bb2555645911895f4afb0e/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.0.0.aar/22a1dc5262bb2555645911895f4afb0e/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:23:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.0.aar/c9202a2640a8ef95ddc12cc27229b3e7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.0.aar/c9202a2640a8ef95ddc12cc27229b3e7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.0.aar/c2dd3f2cf58500bd76e9ab8ff87b1afb/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.0.0.aar/c2dd3f2cf58500bd76e9ab8ff87b1afb/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.0.aar/d8b438a0b09f9c55391139a54bb7b24c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.0.aar/d8b438a0b09f9c55391139a54bb7b24c/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.0.aar/5b0d4ca04855a814a8b8aebeab714e12/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.0.aar/5b0d4ca04855a814a8b8aebeab714e12/AndroidManifest.xml:17:5-43
+MERGED from [jp.wasabeef:fresco-processors:2.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fresco-processors-2.0.0.aar/ebf59a80cdd5bd17c40714f4ffaa0287/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:fresco-processors:2.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fresco-processors-2.0.0.aar/ebf59a80cdd5bd17c40714f4ffaa0287/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fresco:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fresco-0.9.0.aar/c5fcbaf6e6525af0e3e1d82defcb734a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fresco-0.9.0.aar/c5fcbaf6e6525af0e3e1d82defcb734a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/drawee-0.9.0.aar/d7d80f259145ce37def783c73930b573/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/drawee-0.9.0.aar/d7d80f259145ce37def783c73930b573/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-0.9.0.aar/df4df63035abb3fb28d7829da779fd49/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-0.9.0.aar/df4df63035abb3fb28d7829da779fd49/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-0.9.0.aar/d795b6e280a976b72f16463e56c81e51/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-0.9.0.aar/d795b6e280a976b72f16463e56c81e51/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cefd40c268f025895dfa603a976f2aec/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cefd40c268f025895dfa603a976f2aec/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04caf484284bf830819104b8995ec261/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04caf484284bf830819104b8995ec261/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b4bfedaddd7bafb664543da653e293fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b4bfedaddd7bafb664543da653e293fa/AndroidManifest.xml:20:5-44
+MERGED from [com.patrickpissurno:ripple-effect:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ripple-effect-1.3.1.aar/7ed18f3bdb64f4000b273d7b58aa4ed8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.patrickpissurno:ripple-effect:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ripple-effect-1.3.1.aar/7ed18f3bdb64f4000b273d7b58aa4ed8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/16c05554ca4e67f6c58ffc346ff4c28b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/16c05554ca4e67f6c58ffc346ff4c28b/AndroidManifest.xml:20:5-44
+MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/50fadd3b2feb34f35901bd6801e4bd27/AndroidManifest.xml:8:5-10:41
+MERGED from [me.everything:overscroll-decor-android:1.0.4] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/50fadd3b2feb34f35901bd6801e4bd27/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv:material-ripple:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/material-ripple-1.0.2.aar/c24e8c172eb526e35fb611b29007a2a1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv:material-ripple:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/material-ripple-1.0.2.aar/c24e8c172eb526e35fb611b29007a2a1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/searchablespinnerlibrary-1.3.1.aar/1d0ef2bf7bf0e641862551e54c69bf20/AndroidManifest.xml:7:5-9:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/searchablespinnerlibrary-1.3.1.aar/1d0ef2bf7bf0e641862551e54c69bf20/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bignerdranch.android:expandablerecyclerview:2.1.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/expandablerecyclerview-2.1.1.aar/7b4d52fa19c28560825117c55ee44580/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bignerdranch.android:expandablerecyclerview:2.1.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/expandablerecyclerview-2.1.1.aar/7b4d52fa19c28560825117c55ee44580/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/circularimageview-3.0.2.aar/ddbbea465a92f6e0b345588a58172e00/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/circularimageview-3.0.2.aar/ddbbea465a92f6e0b345588a58172e00/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/fbaf3b8a65538498b369096f9261f72d/AndroidManifest.xml:8:5-10:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/fbaf3b8a65538498b369096f9261f72d/AndroidManifest.xml:8:5-10:41
+MERGED from [me.relex:circleindicator:1.2.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/circleindicator-1.2.2.aar/b91bd4100724ff5a8516d5a1bac85c38/AndroidManifest.xml:8:5-10:41
+MERGED from [me.relex:circleindicator:1.2.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/circleindicator-1.2.2.aar/b91bd4100724ff5a8516d5a1bac85c38/AndroidManifest.xml:8:5-10:41
+MERGED from [com.wang.avi:library:2.1.3] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/library-2.1.3.aar/85bb2bbb47681965469977b21f4c5765/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/library-2.1.3.aar/85bb2bbb47681965469977b21f4c5765/AndroidManifest.xml:7:5-9:41
+MERGED from [id.zelory:compressor:2.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/52e46b08a2601392466873549858c4aa/AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/52e46b08a2601392466873549858c4aa/AndroidManifest.xml:8:5-10:41
+MERGED from [com.jaredrummler:material-spinner:1.2.4] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/material-spinner-1.2.4.aar/d80563d8fa38e1d5639d7911b736c115/AndroidManifest.xml:6:5-8:41
+MERGED from [com.jaredrummler:material-spinner:1.2.4] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/material-spinner-1.2.4.aar/d80563d8fa38e1d5639d7911b736c115/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/075c17a00971da69d1913e1fa218944a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/075c17a00971da69d1913e1fa218944a/AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/fa92a08fb6326a86800be58d67c0a454/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/fa92a08fb6326a86800be58d67c0a454/AndroidManifest.xml:5:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:12:5-14:63
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3c8509ae34a9e382ba2d411c4a13673c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3c8509ae34a9e382ba2d411c4a13673c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/abf34790efafd02def805c6c73c35a58/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/abf34790efafd02def805c6c73c35a58/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2090b4da5e473f68dae81c5f7b3a2278/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2090b4da5e473f68dae81c5f7b3a2278/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b89b28cea588c4bde0352916559be9e3/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b89b28cea588c4bde0352916559be9e3/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1476acbd5c68ddc645f083921cbfe68f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1476acbd5c68ddc645f083921cbfe68f/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b1742120541593ba6a7bbb20c312fc18/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b1742120541593ba6a7bbb20c312fc18/AndroidManifest.xml:21:5-23:58
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.7.0.aar/66de75e07eb562f38d0784afcabfadf4/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.7.0.aar/66de75e07eb562f38d0784afcabfadf4/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/856712c40cc025e9ae4485c839a79eed/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/856712c40cc025e9ae4485c839a79eed/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a8218e6e42e8e7b20ceca9fe12c4cd50/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/answers-1.4.7.aar/a8218e6e42e8e7b20ceca9fe12c4cd50/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/c42bc7d708bec0cb5bb4f5844266ce94/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fabric-1.4.8.aar/c42bc7d708bec0cb5bb4f5844266ce94/AndroidManifest.xml:27:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb4255919536f5eea6a1a39cc43f1588/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb4255919536f5eea6a1a39cc43f1588/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fbcore-0.9.0.aar/a596cce3d0625823d944b99ac4ed2409/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.9.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/fbcore-0.9.0.aar/a596cce3d0625823d944b99ac4ed2409/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+		ADDED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/javedkhan/Desktop/Client/Darshan/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:preference-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:preference-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8d1b5147f01b84290f0899b69f4fcbdb/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8d1b5147f01b84290f0899b69f4fcbdb/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cefd40c268f025895dfa603a976f2aec/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/cefd40c268f025895dfa603a976f2aec/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04caf484284bf830819104b8995ec261/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/04caf484284bf830819104b8995ec261/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b4bfedaddd7bafb664543da653e293fa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b4bfedaddd7bafb664543da653e293fa/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/16c05554ca4e67f6c58ffc346ff4c28b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/16c05554ca4e67f6c58ffc346ff4c28b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3c8509ae34a9e382ba2d411c4a13673c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3c8509ae34a9e382ba2d411c4a13673c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/abf34790efafd02def805c6c73c35a58/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/abf34790efafd02def805c6c73c35a58/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2090b4da5e473f68dae81c5f7b3a2278/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/2090b4da5e473f68dae81c5f7b3a2278/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b89b28cea588c4bde0352916559be9e3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b89b28cea588c4bde0352916559be9e3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1476acbd5c68ddc645f083921cbfe68f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1476acbd5c68ddc645f083921cbfe68f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b1742120541593ba6a7bbb20c312fc18/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b1742120541593ba6a7bbb20c312fc18/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/AndroidManifest.xml:27:13-51
+activity#com.freshchat.consumer.sdk.activity.ChannelListActivity
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:20:9-22:68
+	android:theme
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:21:13-83
+activity#com.freshchat.consumer.sdk.activity.ConversationDetailActivity
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:23:9-27:57
+	android:windowSoftInputMode
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:27:13-54
+	android:configChanges
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:25:13-59
+	android:theme
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:26:13-65
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:24:13-90
+activity#com.freshchat.consumer.sdk.activity.DeeplinkInterstitialActivity
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:28:9-31:68
+	android:screenOrientation
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:30:13-49
+	android:theme
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:31:13-65
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:29:13-92
+activity#com.freshchat.consumer.sdk.activity.PictureAttachmentActivity
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:32:9-36:58
+	android:windowSoftInputMode
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:36:13-55
+	android:configChanges
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:34:13-59
+	android:theme
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:35:13-65
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:33:13-89
+activity#com.freshchat.consumer.sdk.activity.CategoryListActivity
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:37:9-39:68
+	android:theme
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:39:13-65
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:38:13-84
+activity#com.freshchat.consumer.sdk.activity.ArticleListActivity
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:40:9-43:58
+	android:windowSoftInputMode
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:43:13-55
+	android:theme
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:42:13-65
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:41:13-83
+activity#com.freshchat.consumer.sdk.activity.ArticleDetailActivity
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:44:9-46:68
+	android:theme
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:46:13-65
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:45:13-85
+activity#com.freshchat.consumer.sdk.activity.InterstitialActivity
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:47:9-50:54
+	android:configChanges
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:49:13-59
+	android:theme
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:50:13-51
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:48:13-84
+service#com.freshchat.consumer.sdk.service.FreshchatService
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:52:9-87
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:52:18-84
+receiver#com.freshchat.consumer.sdk.receiver.FreshchatReceiver
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:54:9-60:20
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:54:19-87
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCALE_CHANGED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:55:13-59:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:56:25-76
+action#android.intent.action.LOCALE_CHANGED
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:57:17-79
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:57:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:58:17-84
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:58:25-81
+receiver#com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:61:9-65:20
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:61:19-100
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:62:13-64:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:63:17-79
+	android:name
+		ADDED from [com.github.freshdesk:freshchat-android:1.3.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/AndroidManifest.xml:63:25-76
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.0.aar/e5c82fe7d59f52dad9719edac550d9fb/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.0.aar/e5c82fe7d59f52dad9719edac550d9fb/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.0.aar/e5c82fe7d59f52dad9719edac550d9fb/AndroidManifest.xml:23:18-87
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.0.aar/99a84a5437e7f86e1fa7dd0df31562e9/AndroidManifest.xml:21:52-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.0.aar/a79f514e2fb5d853664337eef6f073af/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.0.aar/b4d273f88e0374f7588f54337d7364ca/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:24:5-109
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:26:5-78
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.project.jewelmart.darshan
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:33:27-58
+category#com.project.jewelmart.darshan
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.0.aar/4821a8fd05ebe8b10e8580dc88dd25fd/AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.0.aar/4cd4962ffafe1f28d81af6ae188cddb0/AndroidManifest.xml:6:79-143
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/AndroidManifest.xml:19:19-85
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:19:9-23:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:21:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:23:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/crashlytics-2.10.1.aar/8810d27be8aee61238606cce2e6474a1/AndroidManifest.xml:20:13-75
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb4255919536f5eea6a1a39cc43f1588/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb4255919536f5eea6a1a39cc43f1588/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bb4255919536f5eea6a1a39cc43f1588/AndroidManifest.xml:26:13-58

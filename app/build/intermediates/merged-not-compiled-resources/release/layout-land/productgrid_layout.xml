@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:weightSum="2"
+                >
+
+                <Button
+                    android:id="@+id/summary"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:textColor="@color/white"
+                    android:text="Cart Summary"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/cantarell"
+                    android:textStyle="bold"
+                    android:layout_margin="4dp"
+                    android:background="@color/colorAccent"/>
+
+                <Button
+                    android:id="@+id/checkout"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:text="Place Order"
+                    android:layout_margin="4dp"
+                    android:fontFamily="@font/cantarell"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:background="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:scrollingCache="true"
+                android:visibility="visible"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+            <LinearLayout
+                android:id="@+id/nodata"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="visible"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:tint="@color/grey_60"
+                    android:src="@drawable/cart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:text="No result Found"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@color/grey_90"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="Try Again !!"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/grey_90" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

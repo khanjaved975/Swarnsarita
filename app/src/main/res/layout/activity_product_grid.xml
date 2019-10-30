@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/coordinator_layout"
+    android:layout_height="match_parent"
+    tools:context=".ProductGridActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+       <include layout="@layout/app_bar_layout"/>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="56dp"
+        android:layout_height="match_parent">-->
+
+    <include layout="@layout/content_product_grid" />
+
+<!--
+    </android.support.v4.widget.NestedScrollView>
+-->
+
+    <FrameLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/bottom_sheet_behavior" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

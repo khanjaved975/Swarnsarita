@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:elevation="5dp"
+    app:cardCornerRadius="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:minHeight="60dp"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_medium">
+
+            <ImageView
+                android:id="@+id/cancel"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:tint="@android:color/white"
+                app:srcCompat="@drawable/cancel" />
+
+            <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/cancel"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="4dp"
+                android:gravity="left"
+                android:text="Alert!"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|start"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_small"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:orientation="vertical">
+
+
+                <com.project.jewelmart.darshan.widgets.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    android:text="Summary"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scrollbars="vertical"
+                    android:scrollIndicators="right"
+                    android:padding="5dp">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:id="@+id/lyt_action"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:id="@+id/weight"
+                        style="@style/TextAppearance.AppCompat.Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/spacing_small"
+                        android:layout_weight="1"
+                        android:text="text"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:id="@+id/quantity"
+                        style="@style/TextAppearance.AppCompat.Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/spacing_small"
+                        android:layout_weight="1"
+
+                        android:text="text"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:id="@+id/offer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/spacing_medium"
+                        android:text="Offer Applied"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:id="@+id/gift_coupan_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_small"
+                        android:text="Coupan Name : "
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_60"
+                        android:textSize="15dp" />
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:id="@+id/gift_coupan_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_small"
+                        android:visibility="gone"
+                        android:text="Coupan Description : "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_60"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/bt_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_rounded_accent"
+                    android:fontFamily="@font/cantarell"
+                    android:paddingLeft="@dimen/spacing_mlarge"
+                    android:paddingRight="@dimen/spacing_mlarge"
+                    android:text="Ok"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

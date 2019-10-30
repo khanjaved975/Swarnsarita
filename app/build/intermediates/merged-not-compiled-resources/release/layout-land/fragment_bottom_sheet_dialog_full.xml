@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lyt_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/bt_close"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:tint="@color/grey_60"
+                app:srcCompat="@drawable/ic_action_back" />
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="0dp" />
+
+            <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                android:id="@+id/name_toolbar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Filter"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                />
+
+            <ImageButton
+                android:id="@+id/applyfilter"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:tint="@color/grey_60"
+                app:srcCompat="@drawable/ic_action_check" />
+
+            <ImageButton
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:tint="@color/grey_60"
+                app:srcCompat="@drawable/ic_more_vert" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/filt_cat"
+                android:layout_marginTop="3dp"
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#DFDFDF" />-->
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey_20" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:isScrollContainer="false"
+                android:scrollbars="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:id="@+id/tv_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:textColor="@color/grey_60"
+                        android:textSize="16dp" />
+
+                    <LinearLayout
+                        android:id="@+id/filter_range_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+                            android:id="@+id/rangeFilter"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            app:bar_color="@color/grey_60"
+                            app:bar_highlight_color="@color/colorAccent"
+                            app:corner_radius="8"
+                            app:data_type="_float"
+                            app:gap="0"
+                            app:left_thumb_color="@color/colorAccent"
+                            app:left_thumb_color_pressed="@color/colorAccent"
+
+                            app:right_thumb_color="@color/colorAccent"
+                            app:right_thumb_color_pressed="@color/colorAccent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:orientation="horizontal">
+
+                            <com.project.jewelmart.darshan.widgets.FontTextView
+                                android:id="@+id/tvMin"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left"
+                                android:padding="5dp"
+                                android:text="From"
+                                android:textColor="@color/grey_60"
+                                android:textSize="10dp" />
+
+                            <com.project.jewelmart.darshan.widgets.FontTextView
+                                android:id="@+id/tvMax"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="5dp"
+                                android:text="To"
+                                android:textColor="@color/grey_60"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="From"
+                            android:textColor="@color/grey_60"
+                            android:textSize="16dp" />
+
+                        <EditText
+                            android:id="@+id/etFrom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:enabled="true"
+                            android:hint="from"
+                            android:inputType="numberDecimal"
+                            android:padding="10dp" />
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="To"
+                            android:textColor="@color/grey_60"
+                            android:textSize="16dp" />
+
+                        <EditText
+                            android:id="@+id/etTo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:enabled="true"
+                            android:hint="to"
+                            android:inputType="numberDecimal"
+                            android:padding="16dp" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/filter_multiselect_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

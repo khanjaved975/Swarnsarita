@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw430dp-land-v13/values-sw430dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/values-sw430dp-land-v13/values-sw430dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,109",
+                        "endColumns": "53,50",
+                        "endOffsets": "104,155"
+                    }
+                }
+            ]
+        }
+    ]
+}

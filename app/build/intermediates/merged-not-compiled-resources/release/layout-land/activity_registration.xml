@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    tools:context="com.project.jewelmart.darshan.RegistrationActivity">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/login1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+
+
+<!--
+        <include layoutut="@layout/toolbar"/>
+-->
+
+        <com.project.jewelmart.darshan.components.CustomViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="50dp"
+
+            android:layout_weight="1"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:baselineAligned="false">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="back"
+            style="@style/ButtonStepper"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:enabled="false"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/cantarell"
+            android:drawableTint="@color/colorAccent"
+            android:drawableStart="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:drawableLeft="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.project.jewelmart.darshan.components.CirclePageIndicator
+                android:id="@+id/indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@android:color/transparent"
+                app:strokeColor="@color/colorAccent"
+                app:fillColor="@color/colorAccent"
+                app:centered="true"
+                app:radius="5sp"
+                />
+
+            <!-- app:strokeColor="@color/colorAccent"
+             app:fillColor="@color/colorAccent"
+             app:centered="true"
+             app:radius="5sp"-->
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="next"
+            style="@style/ButtonStepper"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/cantarell"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:enabled="true"
+            android:drawableTint="@color/colorAccent"
+            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+    </LinearLayout>
+
+</merge>
+

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="2dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+    // app:cardUseCompatPadding="true"
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        style="@style/RippleStyleBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lyt_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey_20" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="@dimen/spacing_middle"
+                    android:layout_height="0dp" />
+
+                <com.project.jewelmart.darshan.widgets.FontTextView
+                    android:id="@+id/prod_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Code"
+                    android:textColor="@color/grey_800" />
+
+                <com.project.jewelmart.darshan.widgets.FontTextView
+                    android:id="@+id/prod_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/prod_code"
+                    android:layout_alignBottom="@+id/prod_code"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+
+                    android:text="Product Name"
+                    android:textColor="@color/grey_800" />
+
+                <ImageButton
+                    android:id="@+id/more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/view"
+                    android:layout_marginEnd="3dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:tint="@color/colorAccent"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/ic_more_vert" />
+
+                <View
+                    android:layout_width="@dimen/spacing_small"
+                    android:layout_height="0dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <com.project.jewelmart.darshan.widgets.FontTextView
+                    android:id="@+id/gw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Gross_wt"
+                    android:visibility="gone"
+                    android:textColor="@color/grey_800" />
+
+                <com.project.jewelmart.darshan.widgets.FontTextView
+                    android:id="@+id/gw_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/gw"
+                    android:layout_alignBottom="@+id/gw"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:visibility="gone"
+
+                    android:text="Product Name"
+                    android:textColor="@color/grey_800" />
+
+                <!-- <ImageView
+                     android:id="@+id/wishlist_icon"
+                     android:layout_width="18dp"
+                     android:layout_height="18dp"
+                     android:layout_alignParentEnd="true"
+                     android:layout_alignParentTop="true"
+                     android:layout_marginRight="5dp"
+                     android:src="@drawable/wishlist"
+                     android:tint="@color/colorAccent"
+                     android:visibility="gone" />-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+
+                <com.project.jewelmart.darshan.widgets.FontTextView
+                    android:id="@+id/nt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+
+                    android:text="Net_wt"
+                    android:textColor="@color/grey_800" />
+
+                <com.project.jewelmart.darshan.widgets.FontTextView
+                    android:id="@+id/nt_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/nt"
+                    android:layout_alignBottom="@+id/nt"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:text="Product Name"
+                    android:textColor="@color/grey_800" />
+
+                <!-- <ImageView
+                     android:id="@+id/cart_icon"
+                     android:layout_width="18dp"
+                     android:layout_height="18dp"
+                     android:layout_alignParentEnd="true"
+                     android:layout_alignParentTop="true"
+                     android:layout_marginRight="5dp"
+                     android:src="@drawable/cart"
+                     android:tint="@color/colorAccent"
+                     android:visibility="gone" />-->
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_values"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/wishlist_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/edit2"
+                    android:tint="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/cart_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cart"
+                    android:tint="@color/colorAccent"
+                    android:visibility="visible" />
+
+                <!--<View
+                    android:layout_width="0dp"
+                    android:layout_height="5dp" />-->
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <ImageView
+        android:id="@+id/selected_layer"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#67000000"
+        android:padding="50dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/select_icon"
+        android:tint="@color/colorAccent"
+        android:visibility="gone" />
+
+</android.support.v7.widget.CardView>

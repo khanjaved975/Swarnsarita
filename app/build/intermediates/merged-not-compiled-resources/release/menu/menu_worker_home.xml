@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.javedkhan.darshan.com.example.techseed.goldguru.MainActivity">
+
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="1"
+        android:title="Cart"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="3"
+        android:title="Notification"
+        android:icon="@drawable/notification"
+        app:showAsAction="always" />
+    
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_custom_order"
+        android:orderInCategory="5"
+        android:title="Custom Orders"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="never" />
+
+</menu>

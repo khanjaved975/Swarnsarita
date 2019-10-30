@@ -1,0 +1,7 @@
+#Tue Oct 29 01:10:52 IST 2019
+base.0=/Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/dex/debug/mergeDexDebug/out

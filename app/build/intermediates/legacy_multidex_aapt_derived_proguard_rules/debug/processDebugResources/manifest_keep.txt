@@ -1,0 +1,2 @@
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:32
+-keep class com.project.jewelmart.darshan.utils.ApplicationClass { <init>(); }

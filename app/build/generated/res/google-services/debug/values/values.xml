@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://a2ztech-android.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">715245381668</string>
+    <string name="google_api_key" translatable="false">AIzaSyBVCAIMhkdK5U1Tm4_jKaAU4W4az0qBY_U</string>
+    <string name="google_app_id" translatable="false">1:715245381668:android:81222964f1facb7193d0b1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVCAIMhkdK5U1Tm4_jKaAU4W4az0qBY_U</string>
+    <string name="google_storage_bucket" translatable="false">a2ztech-android.appspot.com</string>
+    <string name="project_id" translatable="false">a2ztech-android</string>
+</resources>

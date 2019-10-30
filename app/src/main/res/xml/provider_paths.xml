@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths >
+    <external-path name="files/Pictures" path="Android/data/com.techseed.jewels.ordermanagement"/>
+   <!-- <root-path name="Pictures" path="Android/data/com.techseed.jewels.ordermanagement.akshat.provider"/>
+        <external-files-path name="my_images" path="my_images" />-->
+
+</paths>

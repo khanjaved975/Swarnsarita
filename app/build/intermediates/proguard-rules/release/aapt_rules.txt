@@ -1,0 +1,607 @@
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:137
+-keep class android.support.v4.content.FileProvider { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:116
+-keep class com.amazonaws.mobileconnectors.s3.transferutility.TransferService { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:319
+-keep class com.crashlytics.android.CrashlyticsInitProvider { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:220
+-keep class com.freshchat.consumer.sdk.activity.ArticleDetailActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:216
+-keep class com.freshchat.consumer.sdk.activity.ArticleListActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:213
+-keep class com.freshchat.consumer.sdk.activity.CategoryListActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:196
+-keep class com.freshchat.consumer.sdk.activity.ChannelListActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:199
+-keep class com.freshchat.consumer.sdk.activity.ConversationDetailActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:204
+-keep class com.freshchat.consumer.sdk.activity.DeeplinkInterstitialActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:223
+-keep class com.freshchat.consumer.sdk.activity.InterstitialActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:208
+-keep class com.freshchat.consumer.sdk.activity.PictureAttachmentActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:237
+-keep class com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:230
+-keep class com.freshchat.consumer.sdk.receiver.FreshchatReceiver { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:228
+-keep class com.freshchat.consumer.sdk.service.FreshchatService { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:314
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:259
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:273
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:254
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:269
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:293
+-keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:279
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:300
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:246
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:308
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:185
+-keep class com.project.jewelmart.darshan.AboutUsActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:43
+-keep class com.project.jewelmart.darshan.BannerDetialActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:92
+-keep class com.project.jewelmart.darshan.CartActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:96
+-keep class com.project.jewelmart.darshan.CheckoutActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:178
+-keep class com.project.jewelmart.darshan.CustomHistoryActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:169
+-keep class com.project.jewelmart.darshan.CustomeOrderActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:84
+-keep class com.project.jewelmart.darshan.LargeViewActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:51
+-keep class com.project.jewelmart.darshan.LoginActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:46
+-keep class com.project.jewelmart.darshan.MainActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:147
+-keep class com.project.jewelmart.darshan.MyAccountActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:87
+-keep class com.project.jewelmart.darshan.MyCollectionActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:174
+-keep class com.project.jewelmart.darshan.NotificationActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:182
+-keep class com.project.jewelmart.darshan.OffersActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:152
+-keep class com.project.jewelmart.darshan.OrderHistoryActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:63
+-keep class com.project.jewelmart.darshan.ProductDetailActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:79
+-keep class com.project.jewelmart.darshan.ProductGridActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:59
+-keep class com.project.jewelmart.darshan.RegistrationActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:55
+-keep class com.project.jewelmart.darshan.SampleWelcomeActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:105
+-keep class com.project.jewelmart.darshan.ScreenShotService { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:100
+-keep class com.project.jewelmart.darshan.ServiceAlert { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:68
+-keep class com.project.jewelmart.darshan.SplashActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:165
+-keep class com.project.jewelmart.darshan.SubCatagoryActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:111
+-keep class com.project.jewelmart.darshan.service.MyFirebaseInstanceIDService { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:106
+-keep class com.project.jewelmart.darshan.service.MyFirebaseMessagingService { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:32
+-keep class com.project.jewelmart.darshan.utils.ApplicationClass { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:160
+-keep class com.project.jewelmart.darshan.worker.OrderDetailsActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:156
+-keep class com.project.jewelmart.darshan.worker.WorkerActivity { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/content_my_collection.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/content_main.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_worker.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_sub_catagory.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_order_details.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_offers.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_my_account.xml:2
+-keep class android.support.constraint.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/res/layout/design_bottom_navigation_item.xml:26
+-keep class android.support.design.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/res/layout/design_navigation_item.xml:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/res/layout/design_navigation_menu.xml:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/res/layout/design_layout_snackbar_include.xml:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/fragment_bottom_sheet_dialog_full.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/app_bar_main.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_grid.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_detail.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_custome_order.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_checkout.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_cart.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/account_layout.xml:13
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_bottom_sheet_dialog_full.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/app_bar_main.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_worker.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_sub_catagory.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_grid.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_order_history.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_order_details.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_offers.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_notification.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_my_collection.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_custome_order.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_custom_history.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_checkout.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_cart.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_banner_detial.xml:14
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_about_us.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/account_layout.xml:13
+-keep class android.support.design.widget.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/res/layout/design_text_input_password_icon.xml:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:16
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_checkout.xml:16
+-keep class android.support.design.widget.CollapsingToolbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_grid.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_detail.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_my_collection.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_custome_order.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_checkout.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_cart.xml:2
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/res/layout/design_bottom_sheet_dialog.xml:26
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/app_bar_main.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_grid.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_my_collection.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_demo.xml:1
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_custome_order.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_checkout.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_cart.xml:2
+-keep class android.support.design.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/content_custome_order.xml:198
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:187
+-keep class android.support.design.widget.FloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_main.xml:16
+-keep class android.support.design.widget.NavigationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/res/layout/design_layout_snackbar.xml:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_cart.xml:18
+-keep class android.support.design.widget.TabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/fragment_one.xml:71
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_login.xml:72
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_two.xml:84
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_one.xml:72
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_set_password.xml:71
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_forget_pass.xml:71
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_change_password.xml:71
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_login.xml:79
+-keep class android.support.design.widget.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/fragment_one.xml:64
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_login.xml:66
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_two.xml:78
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_one.xml:65
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_set_password.xml:65
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_forget_pass.xml:65
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_change_password.xml:65
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_login.xml:72
+-keep class android.support.design.widget.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/large_view.xml:19
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_detail.xml:855
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_cart.xml:32
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/layout/wel_activity_welcome.xml:24
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/large_view.xml:19
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/home_layout.xml:34
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:37
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_order_details.xml:32
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_cart.xml:32
+-keep class android.support.v4.view.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/res/layout/freshchat_activity_article_list.xml:21
+-keep class android.support.v4.widget.ContentLoadingProgressBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_main.xml:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/home_layout.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_detail.xml:44
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_main.xml:33
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_checkout.xml:44
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/order_layout.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/home_layout.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_bottom_sheet_dialog_full.xml:61
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:90
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_order_details.xml:18
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_main.xml:33
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_checkout.xml:44
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_alert_dialog_title_material.xml:56
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.support.v4.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/res/layout-v11/preference_dropdown.xml:38
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/res/layout-v11/preference.xml:32
+-keep class android.support.v7.internal.widget.PreferenceImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/res/layout/preference_widget_seekbar.xml:66
+-keep class android.support.v7.preference.UnPressableLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_list_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_info.xml:138
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_registration.xml:49
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_set_password.xml:137
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_info_offers.xml:155
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_info.xml:146
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_forget_pass.xml:95
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_change_password.xml:137
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_cart_summary.xml:191
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_registration.xml:49
+-keep class android.support.v7.widget.AppCompatButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_shop_product_card.xml:80
+-keep class android.support.v7.widget.AppCompatRatingBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_four.xml:8
+-keep class android.support.v7.widget.AppCompatTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/sheet_list.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/scrollview_horizontal_item.xml:3
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/peek_view.xml:7
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/order_layout.xml:48
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/layout_item_demo.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_product_card.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_layout_cart.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_call_email.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/fragment_two.xml:26
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/fragment_one.xml:23
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_info_otp.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_info_offers.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_info.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_call_email.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/content_product_grid.xml:13
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_detail.xml:55
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_login.xml:33
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_checkout.xml:62
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/account_layout.xml:47
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/sheet_list.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/scrollview_horizontal_item.xml:3
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/peek_view.xml:7
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/order_layout.xml:47
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/layout_item_demo.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_shop_product_card.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_product_card.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_offers_layout.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_worker.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_category.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_cart.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_call_email.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_account_detail.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/home_layout.xml:19
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_two.xml:21
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_one.xml:23
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_set_password.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_info_otp.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_info_offers.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_info.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_forget_pass.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_change_password.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_cart_summary.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_call_email.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/content_product_grid.xml:13
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:108
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_login.xml:35
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_checkout.xml:62
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/account_layout.xml:42
+-keep class android.support.v7.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_screen_simple.xml:17
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/subcat_frag.xml:47
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/sheet_list.xml:55
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/fragment_bottom_sheet_dialog_full.xml:71
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/frag_wishlist_layout.xml:14
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_call_email.xml:50
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/content_product_grid.xml:82
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/content_my_collection.xml:11
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/cart_layout.xml:14
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_detail.xml:625
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_main.xml:66
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/subcat_frag2.xml:45
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/subcat_frag.xml:46
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/sheet_list.xml:55
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/productgrid_layout.xml:52
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/res/layout/preference_recyclerview.xml:18
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/res/layout/layout_picker_dialog.xml:69
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/res/layout/freshchat_activity_category_list.xml:6
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_demo_list.xml:7
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_bottom_sheet_dialog_full.xml:71
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/frag_wishlist_layout.xml:14
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_cart_summary.xml:76
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_call_email.xml:50
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/content_product_grid.xml:82
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/content_my_collection.xml:11
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/cart_layout.xml:14
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_worker.xml:18
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_sub_catagory.xml:26
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:583
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_order_details.xml:59
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_offers.xml:18
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_notification.xml:19
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_main.xml:66
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_custom_history.xml:21
+-keep class android.support.v7.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/preference-v7-26.1.0.aar/858174f9af45bbba04d84100a353a209/res/layout/preference_widget_switch_compat.xml:20
+-keep class android.support.v7.widget.SwitchCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/subcat_frag.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_detail.xml:25
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout-v26/abc_screen_toolbar.xml:37
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/subcat_frag2.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/subcat_frag.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/app_bar_layout.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:66
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_checkout.xml:32
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/layout/abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_login.xml:120
+-keep class com.andexert.library.RippleView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/app_bar_main.xml:31
+-keep class com.aurelhubert.ahbottomnavigation.AHBottomNavigation { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/left_drawer_item.xml:3
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_slider_image.xml:7
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_shop_product_card.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_product_card.xml:13
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_layout_cart.xml:18
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_layout.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_collection.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_account.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_main.xml:100
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/account_layout.xml:75
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/left_drawer_item.xml:3
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_summary_cart.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_sub_cat.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_slider_image.xml:7
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_shop_product_card.xml:10
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_product_card.xml:14
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_people.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_order_history.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_order_details.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_notification.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_worker.xml:17
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_category.xml:3
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_cart.xml:16
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_collection.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_account.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_main.xml:101
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/account_layout.xml:70
+-keep class com.balysv.materialripple.MaterialRippleLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_bottom_sheet_dialog_full.xml:116
+-keep class com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_registration.xml:11
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_login.xml:11
+-keep class com.flaviofaria.kenburnsview.KenBurnsView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/res/layout/freshchat_partial_message_fragment_audio.xml:17
+-keep class com.freshchat.consumer.sdk.ui.MediaSeekBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/res/layout/layout_picker_dialog.xml:76
+-keep class com.futuremind.recyclerviewfastscroll.FastScroller { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_one.xml:58
+-keep class com.hbb20.CountryCodePicker { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:363
+-keep class com.jaredrummler.materialspinner.MaterialSpinner { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_zom_image.xml:9
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_banner_detial.xml:23
+-keep class com.jsibbold.zoomage.ZoomageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/order_layout.xml:73
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/include_drawer_header_news.xml:16
+-keep class com.mikhaellopez.circularimageview.CircularImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_registration.xml:71
+-keep class com.project.jewelmart.darshan.components.CirclePageIndicator { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_registration.xml:29
+-keep class com.project.jewelmart.darshan.components.CustomViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/menu_action_item_badge.xml:25
+-keep class com.project.jewelmart.darshan.utils.MaterialBadgeTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_splash.xml:38
+-keep class com.project.jewelmart.darshan.widgets.FontBoldItalicTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/sheet_list.xml:28
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/peek_view.xml:24
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/left_drawer_item.xml:18
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_layout_cart.xml:130
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_collection.xml:40
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_call_email.xml:48
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_account.xml:40
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/fragment_one.xml:197
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/fragment_bottom_sheet_dialog_full.xml:32
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/frag_wishlist_layout.xml:39
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_info_offers.xml:45
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_call_email.xml:27
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/app_bar_layout.xml:12
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_splash.xml:81
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_detail.xml:75
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_main.xml:49
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/account_layout.xml:63
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/subcat_frag2.xml:30
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/subcat_frag.xml:31
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/sheet_list.xml:28
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/peek_view.xml:24
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/menuitemlayout.xml:6
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/left_drawer_item.xml:18
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_summary_cart.xml:25
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_sub_cat.xml:29
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_product_card.xml:230
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_order_history.xml:42
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_notification.xml:41
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_category.xml:39
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_cart.xml:171
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_collection.xml:40
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_call_email.xml:47
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_account_detail.xml:47
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_account.xml:40
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/include_drawer_header_news.xml:35
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_one.xml:197
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_bottom_sheet_dialog_full.xml:32
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/frag_wishlist_layout.xml:39
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_set_password.xml:44
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_info_offers.xml:45
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_info.xml:44
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_forget_pass.xml:44
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_change_password.xml:44
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_cart_summary.xml:33
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_call_email.xml:25
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/app_bar_layout.xml:12
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:74
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_main.xml:49
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_banner_detial.xml:36
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/account_layout.xml:58
+-keep class com.project.jewelmart.darshan.widgets.FontBoldTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_layout_cart.xml:47
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_layout.xml:30
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_collection.xml:49
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_call_email.xml:77
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/item_account.xml:50
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/include_drawer_header_news.xml:57
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/filter_cat_item.xml:39
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_info_offers.xml:73
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/dialog_info.xml:81
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/adapter2.xml:31
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_splash.xml:94
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout-land/activity_product_detail.xml:121
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_summary_cart.xml:36
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_product_card.xml:47
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_order_history.xml:54
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_order_details.xml:20
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_offers_layout.xml:47
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_notification.xml:51
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_cart.xml:59
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout.xml:30
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_collection.xml:49
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_call_email.xml:76
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_account_detail.xml:76
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_account.xml:50
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/include_drawer_header_news.xml:57
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_bottom_sheet_dialog_full.xml:100
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/filter_cat_item.xml:39
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_info_offers.xml:73
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_info.xml:65
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/dialog_cart_summary.xml:63
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/adapter2.xml:31
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_splash.xml:50
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/activity_product_detail.xml:174
+-keep class com.project.jewelmart.darshan.widgets.FontTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_layout_category.xml:24
+-keep class com.project.jewelmart.darshan.widgets.SquareImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/content_custome_order.xml:46
+-keep class com.rengwuxian.materialedittext.MaterialEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/layout/wel_activity_welcome.xml:12
+-keep class com.stephentuso.welcome.WelcomeBackgroundView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/layout/wel_bottom_standard.xml:28
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/layout/wel_bottom_single_button.xml:7
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/layout/wel_bottom_indicator.xml:2
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/layout/wel_bottom_done_image.xml:28
+# Referenced at /Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/layout/wel_bottom_button_bar.xml:7
+-keep class com.stephentuso.welcome.WelcomeViewPagerIndicator { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/fragment_two.xml:52
+-keep class com.toptoche.searchablespinnerlibrary.SearchableSpinner { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_progress_indicator.xml:11
+# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/src/main/res/layout/item_progress.xml:10
+-keep class com.wang.avi.AVLoadingIndicatorView { <init>(android.content.Context, android.util.AttributeSet); }
+

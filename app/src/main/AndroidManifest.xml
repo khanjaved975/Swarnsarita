@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.jewelmart.swarnsarita"
+    android:versionCode="1"
+    android:versionName="1.0"
+    tools:node="replace">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <permission
+        android:name="com.project.jewelmart.swarnsarita.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.project.jewelmart.swarnsarita.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".utils.ApplicationClass"
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BannerDetialActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SampleWelcomeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/SampleWelcomeScreenTheme" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProductDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProductGridActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_product_grid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LargeViewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyCollectionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_my_collection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CartActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CheckoutActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ServiceAlert"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".ScreenShotService" />
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_action_announce" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.project.jewelmart.swarnsarita.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/freshchat_file_provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".MyAccountActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_my_collection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OrderHistoryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".worker.WorkerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".worker.OrderDetailsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SubCatagoryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomeOrderActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_custome_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NotificationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomHistoryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OffersActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="53ad9aa5f6c1f77146131a3fb1716aaec56d6d70" />
+    </application>
+
+</manifest>

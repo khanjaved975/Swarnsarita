@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.javedkhan.darshan.com.example.techseed.goldguru.MainActivity">
+    <item
+        android:id="@+id/action_cart2"
+        android:orderInCategory="1"
+        android:title="Cart"
+        android:icon="@drawable/ic_action_cart"
+        app:actionLayout="@layout/menu_action_item_badge"
+        app:showAsAction="always" />
+
+   <!-- <item
+        android:id="@+id/action_wishlist2"
+        android:orderInCategory="2"
+        android:title="Wishlist"
+        android:icon="@drawable/wishlist"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_list"
+        android:orderInCategory="4"
+        android:title="list"
+        android:icon="@drawable/wishlist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_listdefault"
+        android:orderInCategory="3"
+        android:title="default"
+        android:icon="@drawable/wishlist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_grid"
+        android:orderInCategory="5"
+        android:title="Grid 1"
+        android:icon="@drawable/wishlist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_grid2"
+        android:orderInCategory="6"
+        android:title="Grid 2"
+        android:icon="@drawable/wishlist"
+        app:showAsAction="never" />-->
+</menu>

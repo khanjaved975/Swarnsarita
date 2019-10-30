@@ -1,0 +1,156 @@
+{
+  "project_info": {
+    "project_number": "715245381668",
+    "firebase_url": "https://a2ztech-android.firebaseio.com",
+    "project_id": "a2ztech-android",
+    "storage_bucket": "a2ztech-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715245381668:android:f01673c65513c0d1",
+        "android_client_info": {
+          "package_name": "com.a2ztech.jewelmart.ordermanagement.uniquechains"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCAIMhkdK5U1Tm4_jKaAU4W4az0qBY_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715245381668:android:cf7685768d07ed2c93d0b1",
+        "android_client_info": {
+          "package_name": "com.project.jewelmart.darshan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCAIMhkdK5U1Tm4_jKaAU4W4az0qBY_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715245381668:android:d8d42c85818b6fec",
+        "android_client_info": {
+          "package_name": "com.project.jewelmart.mjsons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCAIMhkdK5U1Tm4_jKaAU4W4az0qBY_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715245381668:android:0388c382b1f19732",
+        "android_client_info": {
+          "package_name": "com.project.jewelmart.sunberah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCAIMhkdK5U1Tm4_jKaAU4W4az0qBY_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715245381668:android:81222964f1facb7193d0b1",
+        "android_client_info": {
+          "package_name": "com.project.jewelmart.swarnsarita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCAIMhkdK5U1Tm4_jKaAU4W4az0qBY_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

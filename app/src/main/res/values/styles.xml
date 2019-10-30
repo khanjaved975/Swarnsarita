@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBarOverlay">true</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextAppearance.Subhead.Bold" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="SampleWelcomeScreenTheme" parent="WelcomeScreenTheme">
+        <item name="welcomeIndicatorStyle">@style/WelcomeScreenPageIndicator.Animated</item>
+        <item name="welcomeTitleTextStyle">@style/WelcomeScreenText.Title.Centered</item>
+        <item name="welcomeLargeTextStyle">@style/WelcomeScreenText.Large.Centered</item>
+        <item name="welcomeNormalTextStyle">@style/WelcomeScreenText.Centered</item>
+    </style>
+
+    <style name="WelcomeScreenPageIndicator.Animated">
+        <item name="animation">slide</item>
+    </style>
+
+    <style name="Button.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Toolbar.Light" parent="@style/AppTheme">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="colorAccent">@android:color/white</item>
+
+    </style>
+
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ButtonStepper">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+    <style name="Yellow.Small.AppCompatRatingBar" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/grey_60</item>
+        <item name="colorControlActivated">@color/yellow_600</item>
+    </style>
+
+    <style name="Yellow.Small.AppCompatRatingBar.White" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/grey_20</item>
+        <item name="colorControlActivated">@color/yellow_600</item>
+    </style>
+
+    <style name="RippleStyleBlack" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+
+    <style name="Button.Primary.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+
+</resources>

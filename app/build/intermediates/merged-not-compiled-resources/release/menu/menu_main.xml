@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.javedkhan.darshan.com.example.techseed.goldguru.MainActivity">
+   <!-- <item
+        android:id="@+id/action_openRight"
+        android:orderInCategory="2"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_open_right"
+        app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="2"
+        android:title="Refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="3"
+        android:title="Notification"
+        android:icon="@drawable/ic_notification"
+        app:actionLayout="@layout/menu_action_item_badge"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_hometheme"
+        android:orderInCategory="1"
+        android:title="@string/action_settings"
+        android:visible="false"
+        android:icon="@drawable/ic_action_filter"
+        app:showAsAction="always" />
+</menu>

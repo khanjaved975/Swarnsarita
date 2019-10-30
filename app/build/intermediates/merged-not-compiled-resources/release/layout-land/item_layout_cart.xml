@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            style="@style/RippleStyleBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/lyt_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cart_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/logo" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="@dimen/spacing_middle"
+                        android:layout_height="0dp" />
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:id="@+id/cart_prod_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Code"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_60" />
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:id="@+id/prod_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/prod_code"
+                        android:layout_alignBottom="@+id/prod_code"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="40dp"
+                        android:text="Product Name"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_60" />
+
+                    <ImageButton
+                        android:id="@+id/more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/spacing_xlarge"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@+id/view"
+                        android:layout_marginEnd="8dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:tint="@color/colorAccent"
+                        app:srcCompat="@drawable/ic_more_vert" />
+
+                    <View
+                        android:layout_width="@dimen/spacing_small"
+                        android:layout_height="0dp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Gross_wt"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_60" />
+
+                    <com.project.jewelmart.darshan.widgets.FontTextView
+                        android:id="@+id/cart_prod_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/gw"
+                        android:layout_alignBottom="@+id/gw"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="40dp"
+                        android:text="Product Name"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_60" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/item_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:minHeight="?attr/actionBarSize"
+                    android:orientation="horizontal">
+
+                    <!--  <ImageButton
+                          android:layout_width="?attr/actionBarSize"
+                          android:layout_height="?attr/actionBarSize"
+                          android:background="@android:color/transparent"
+                          android:tint="@color/grey_60"
+                          app:srcCompat="@drawable/ic_action_list" />
+  -->
+                    <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Item (s)"
+                        android:layout_marginLeft="5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/grey_60" />
+
+
+                    <ImageButton
+                        android:id="@+id/bt_toggle_items"
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:tint="@color/colorAccent"
+                        app:srcCompat="@drawable/ic_arrow_drop" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cart_expand_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_small"
+                    android:layout_marginLeft="2dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_smlarge"
+                        android:layout_marginLeft="?attr/actionBarSize"
+                        android:layout_marginRight="@dimen/spacing_smlarge"
+                        android:layout_marginStart="4dp"
+                        android:gravity="center_vertical"
+                        android:minHeight="@dimen/spacing_mxlarge"
+                        android:orientation="horizontal">
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Gross Weight"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/grey_60" />
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:id="@+id/cart_gross_wt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$ 455.62"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/grey_60" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_smlarge"
+                        android:layout_marginLeft="?attr/actionBarSize"
+                        android:layout_marginRight="@dimen/spacing_smlarge"
+                        android:layout_marginStart="4dp"
+                        android:gravity="center_vertical"
+                        android:minHeight="@dimen/spacing_mxlarge"
+                        android:orientation="horizontal">
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Net Weight"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/grey_60" />
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:id="@+id/cart_net_wt"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:text="$ 278.12"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/grey_60" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_smlarge"
+                        android:layout_marginLeft="?attr/actionBarSize"
+                        android:layout_marginRight="@dimen/spacing_smlarge"
+                        android:layout_marginStart="4dp"
+                        android:gravity="center_vertical"
+                        android:minHeight="@dimen/spacing_mxlarge"
+                        android:orientation="horizontal">
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Quantity"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/grey_60" />
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:id="@+id/cart_product_quantity"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:text="$ 719.00"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/grey_60" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_smlarge"
+                        android:layout_marginLeft="?attr/actionBarSize"
+                        android:layout_marginRight="@dimen/spacing_smlarge"
+                        android:layout_marginStart="4dp"
+                        android:gravity="center_vertical"
+                        android:minHeight="@dimen/spacing_mxlarge"
+                        android:orientation="horizontal">
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Remark"
+
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/grey_60" />
+
+                        <com.project.jewelmart.darshan.widgets.FontTextView
+                            android:id="@+id/cart_remark"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$ 573.50"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textColor="@color/grey_60" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/spacing_smlarge"
+                        android:layout_marginLeft="?attr/actionBarSize"
+                        android:layout_marginRight="@dimen/spacing_smlarge"
+                        android:layout_marginStart="4dp"
+                        android:gravity="center_vertical"
+                        android:minHeight="@dimen/spacing_xlarge"
+                        android:orientation="horizontal">
+
+                        <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Total Price"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textStyle="bold" />
+
+                        <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                            android:id="@+id/cart_total_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$ 2026.24"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_values"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="5dp" />
+
+            </LinearLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+</android.support.v7.widget.CardView>
+</ScrollView>

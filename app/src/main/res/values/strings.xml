@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Swarnsarita </string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutus">
+        Shree Fine Jewels Pvt. Ltd. is a well reputed fine jewelery company. We manufacture high quality fine jewelry products and market them throughout the world. Our team is consisted of more than 20 professionals who are specialists in creating amazing fine jewelry. We aim to make stylish fine jewelry affordable for all.
+
+We are into fine jewelry business for more than a decade now. We are serving the fine jewelry industry since 2001 and after inception we never had to look back. We have grown consistently over the years and have reached a significant position in the industry now.
+
+Although we manufacture a wide variety of products, our area of monopoly is Alphabet Pendants, 2 in1 Ring pendant and 3 in1 Necklace. We are also specialized in fine gold CZ studded jewelry. Our average product weight ranges from 0.600gm to 25gm. The purity and clarity of each product are blended with the excellence of innovative appealing design.
+        </string>
+    <string name="contact_us">
+        Registered Office:
+Plot no. 71/A, Government Industrial Estate, Charkop, Kandivali (W), Mumbai - 400067\n\n
+    Branch Office:
+Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="freshchat_file_provider_authority">com.project.jewelmart.mjsons.provider</string>
+
+    <string name="error_name">Ingrese Nombres</string>
+    <string name="color">#ffffff</string>
+    <string name="error_lastname">Ingrese Apellidos</string>
+    <string name="error_address">Ingrese Dirección</string>
+    <string name="error_card">Ingrese Número de Tarjeta de Crédito</string>
+
+    <string name="notifications_admin_channel_name">Global channel</string>
+    <string name="no_internet">No Internet Connection , Please Try after Connecting</string>
+    <string name="notifications_admin_channel_description">Notifications sent from the app admin</string>
+
+    <string-array name="array">
+        <item>Cappuccino</item>
+        <item>Espresso</item>
+        <item>Mocha</item>
+        <item>Caffè Americano</item>
+        <item>Cafe Zorro</item>
+    </string-array>
+
+    <string-array name="usertype_array">
+        <item>Retailer</item>
+        <item>Wholesaler</item>
+        <item>Individual</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="array_usertype">
+        <item>Select User Type</item>
+        <item>Client</item>
+        <item>Worker</item>
+    </string-array>
+
+
+    <array name="tab_colors">
+        <item name="tab_1">@color/grey_60</item>
+        <item name="tab_2">@color/grey_60</item>
+        <item name="tab_3">@color/grey_60</item>
+        <item name="tab_4">@color/grey_60</item>
+        <item name="tab_5">@color/colorAccent</item>
+    </array>
+
+
+    <integer-array name="shop_product_image">
+
+    </integer-array>
+
+    <string-array name="shop_product_title">
+        <item>Fashion B07 Keara 933</item>
+        <item>Coup Hoodie Jacket</item>
+        <item>Gala Suede Jacket Flower</item>
+        <item>Qonnoq Checked Blouse</item>
+        <item>Java Seven Belladji 674</item>
+
+        <item>Kanvas Sneaker Shoes</item>
+        <item>Clarks Idamarie Faye Lea</item>
+        <item>Piero Rush Women</item>
+    </string-array>
+
+    <string-array name="shop_product_price">
+        <item>$ 48.90</item>
+        <item>$ 89.00</item>
+        <item>$ 66.80</item>
+        <item>$ 34.50</item>
+        <item>$ 44.90</item>
+
+        <item>$ 59.00</item>
+        <item>$ 78.20</item>
+        <item>$ 96.00</item>
+    </string-array>
+
+
+    <integer-array name="people_images">
+
+
+    </integer-array>
+
+
+    <string-array name="people_names">
+        <item>Chnage Password</item>
+        <item>My Account</item>
+        <item>Logout</item>
+
+
+        <item>Share App</item>
+        <item>Rate App</item>
+        <item>Rate App</item>
+
+
+        <item>Terms &amp; Condition</item>
+        <item>Privacy Policy</item>
+        <item>Version</item>
+
+    </string-array>
+
+
+    <string-array name="month">
+        <item>Account</item>
+        <item>Share &amp; Rate App</item>
+        <item>More</item>
+        <!-- <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>-->
+    </string-array>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin
+        \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin
+    </string>
+    <string name="title_activity_product_grid">Product Grid</string>
+    <string name="title_activity_my_collection">MyCollection</string>
+    <string name="title_activity_custome_order">CustomeOrderActivity</string>
+
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/filter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/filter_select"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/filt_img"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:scaleType="fitXY" />-->
+
+    <LinearLayout
+        android:id="@+id/llfilt_text"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <View
+            android:id="@+id/selection"
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:visibility="gone">
+
+        </View>
+
+
+        <com.project.jewelmart.swarnsarita.widgets.FontTextView
+            android:id="@+id/filt_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="8"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="asds"
+            android:textColor="@drawable/filtertext_select"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/filt_check"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/filt_text"
+            android:layout_weight="2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_checked"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBaseline="@+id/llfilt_text"
+        android:layout_alignLeft="@id/llfilt_text"
+        android:layout_alignRight="@id/llfilt_text"
+        android:layout_below="@+id/llfilt_text"
+        android:layout_marginTop="5dp"
+        android:background="@color/green_100"
+        android:visibility="gone" />
+
+  <!--  <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_60" />-->
+
+
+</RelativeLayout>
