@@ -14,7 +14,7 @@ import java.util.List;
 
 public class SingletonSupport {
 
-    public ArrayList<Appdata.CountryDatum> countriesList;
+    public ArrayList<Appdata.CountryDatum> countriesList=null;
     public ArrayList<Appdata.Melting> meltinglist;
     public ArrayList<Appdata.Color> colors;
     public ArrayList<Appdata.Polish> polish;

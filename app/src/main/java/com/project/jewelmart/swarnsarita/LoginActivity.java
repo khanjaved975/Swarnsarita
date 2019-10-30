@@ -22,12 +22,16 @@ import android.widget.Toast;
 import com.project.jewelmart.swarnsarita.interfaces.APIInterface;
 import com.project.jewelmart.swarnsarita.networkutils.APIClient;
 import com.project.jewelmart.swarnsarita.networkutils.CheckNetwork;
+import com.project.jewelmart.swarnsarita.pojo.Appdata;
 import com.project.jewelmart.swarnsarita.pojo.Loginstatus;
 import com.project.jewelmart.swarnsarita.R;
 import com.project.jewelmart.swarnsarita.utils.ProgressIndicator;
 import com.project.jewelmart.swarnsarita.utils.SingletonSupport;
 import com.project.jewelmart.swarnsarita.utils.Tools;
 import com.project.jewelmart.swarnsarita.utils.UserSessionManager;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -61,10 +65,11 @@ public class LoginActivity extends AppCompatActivity {
             LoginActivity.this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER_PORTRAIT);
         }
 
-        // Intent intent = badgenew Intent(this, SampleWelcomeActivity.class);
-        // startActivity(intent);
         userSessionManager = new UserSessionManager(this);
         apiInterface = APIClient.getClient().create(APIInterface.class);
+        if (SingletonSupport.getInstance().countriesList==null) {
+            getAppdata();
+        }
         link_signup = (Button) findViewById(R.id.link_signup);
         forgetpass = (Button) findViewById(R.id.forgetpass);
         et_phoneNo = (TextInputEditText) findViewById(R.id.input_mobile);
@@ -256,6 +261,44 @@ public class LoginActivity extends AppCompatActivity {
         dialog.show();
         dialog.getWindow().setAttributes(lp);
     }
+
+
+    public void getAppdata() {
+        Call<Appdata> countriesCall = apiInterface.doAppDate();
+        countriesCall.enqueue(new Callback<Appdata>() {
+            @Override
+            public void onResponse(Call<Appdata> call, Response<Appdata> response) {
+                Log.d("TAG", response.code() + "");
+                try {
+                    Appdata resource = response.body();
+                    if (resource != null) {
+                        List<Appdata.Melting> melting = null;
+                        if (resource.getMelting() != null) {
+                            melting = resource.getMelting();
+                        }
+                        List<Appdata.CountryDatum> contries = resource.getCountryData();
+                        List<Appdata.Color> colors = resource.getColor();
+                        List<Appdata.Tone> tone = resource.getTone();
+                        List<Appdata.Polish> polishes = resource.getPolish();
+                        SingletonSupport.getInstance().countriesList = (ArrayList<Appdata.CountryDatum>) contries;
+                        SingletonSupport.getInstance().colors = (ArrayList<Appdata.Color>) colors;
+                        SingletonSupport.getInstance().meltinglist = (ArrayList<Appdata.Melting>) melting;
+                        SingletonSupport.getInstance().tone = (ArrayList<Appdata.Tone>) tone;
+                        SingletonSupport.getInstance().polish = (ArrayList<Appdata.Polish>) polishes;
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                // SingletonSupport.getInstance().clientIdList= (ArrayList<ClientId.Client>) ListCountry;
+            }
+
+            @Override
+            public void onFailure(Call<Appdata> call, Throwable t) {
+                call.cancel();
+            }
+        });
+    }
+
 
 
 
