@@ -2983,6 +2983,8 @@ int menu menu_product_more 0x7f0d000d
 int menu menu_wishlist_more 0x7f0d000e
 int menu menu_worker_home 0x7f0d000f
 int mipmap ic_launcher 0x7f0e0000
+int mipmap ic_launcher_foreground 0x7f0e0001
+int mipmap ic_launcher_round 0x7f0e0002
 int raw a_new_lang_template 0x7f0f0000
 int raw arabic 0x7f0f0001
 int raw badgenew 0x7f0f0002

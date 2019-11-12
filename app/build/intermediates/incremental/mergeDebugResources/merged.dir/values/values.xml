@@ -349,7 +349,7 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#AC238D</color>
+    <color name="colorAccent">#DFA94E</color>
     <color name="colorBottomNavigationAccent">#FF4081</color>
     <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
     <color name="colorBottomNavigationDisable">#3A000000</color>
@@ -1108,7 +1108,7 @@ Although we manufacture a wide variety of products, our area of monopoly is Alph
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="color">#ffffff</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">c6306cec-b3ff-410e-a848-4c5514fc79bf</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">4255f5c6-4c7e-4adf-84eb-a36e57946a88</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>

@@ -74,7 +74,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="scalingPercent" value="55" />
+                                                <entry key="scalingPercent" value="48" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -86,7 +86,7 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="foregroundImage" value="$PROJECT_DIR$/../../temp/MJSONS/MJ sons logo png.png" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Downloads/Swarnsarita Logo Final.png" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -114,6 +114,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="paddingPercent" value="5" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -125,7 +126,7 @@
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="cropped" value="true" />
-                                      <entry key="imageAsset" value="$PROJECT_DIR$/../../temp/Darshan/darshan_logo.jpg" />
+                                      <entry key="imageAsset" value="$USER_HOME$/Downloads/Swarnsarita Logo Final.png" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -152,11 +153,6 @@
                                 </PersistentState>
                               </value>
                             </entry>
-                          </map>
-                        </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
                           </map>
                         </option>
                       </PersistentState>
