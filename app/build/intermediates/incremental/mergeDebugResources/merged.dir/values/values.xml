@@ -1096,19 +1096,15 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="aboutus">
-        Shree Fine Jewels Pvt. Ltd. is a well reputed fine jewelery company. We manufacture high quality fine jewelry products and market them throughout the world. Our team is consisted of more than 20 professionals who are specialists in creating amazing fine jewelry. We aim to make stylish fine jewelry affordable for all.
-
-We are into fine jewelry business for more than a decade now. We are serving the fine jewelry industry since 2001 and after inception we never had to look back. We have grown consistently over the years and have reached a significant position in the industry now.
-
-Although we manufacture a wide variety of products, our area of monopoly is Alphabet Pendants, 2 in1 Ring pendant and 3 in1 Necklace. We are also specialized in fine gold CZ studded jewelry. Our average product weight ranges from 0.600gm to 25gm. The purity and clarity of each product are blended with the excellence of innovative appealing design.
-        </string>
+        Swarnsarita Gems Ltd. is renowned Manufacturer, Wholesaler of high-end Gold Jewellery and Diamond Jewellery. Backed by team of highly experienced individuals Swarnsarita Gems Ltd. has customers pan India &amp; abroad. The Chairman &amp; Managing Director of the company Mr. Mahendra M Chordia has more than 20 years of Experience in the field of Jewellery manufacturing &amp; he has a strong goodwill and presence in the market. Swarnasarita Gems Ltd. is listed on the Bombay Stock exchange as a result of takeover of Shyam Star Gems Ltd. an existing profit making company.
+    </string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Swarnsarita </string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="color">#ffffff</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">4255f5c6-4c7e-4adf-84eb-a36e57946a88</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">2584c45e-c2c6-44bf-99ff-67c2bd5354b0</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -1128,9 +1124,10 @@ Although we manufacture a wide variety of products, our area of monopoly is Alph
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="contact_us">
         Registered Office:
-Plot no. 71/A, Government Industrial Estate, Charkop, Kandivali (W), Mumbai - 400067\n\n
-    Branch Office:
-Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</string>
+Swarnsarita Gems Ltd.
+125/127, 6th Floor, Daya Mandir Building,
+Mumbadevi Road, Above Sharda Hotel,
+Zaveri Bazar. Mumbai- 400003</string>
     <string name="default_web_client_id" translatable="false">715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com</string>
     <string name="error_address">Ingrese Dirección</string>
     <string name="error_card">Ingrese Número de Tarjeta de Crédito</string>

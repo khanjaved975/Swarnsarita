@@ -65,7 +65,7 @@ public class AboutUsActivity extends AppCompatActivity {
                 alertDialog.show();
             }
         });
-        webview.loadUrl("http://mjsons.jewelmart.biz/about");
+        webview.loadUrl("https://www.swarnsarita.com/journey.php");
 
     }
 
