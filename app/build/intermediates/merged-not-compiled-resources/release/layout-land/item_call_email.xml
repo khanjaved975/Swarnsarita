@@ -45,7 +45,7 @@
                     android:paddingBottom="@dimen/spacing_small"
                     android:paddingTop="@dimen/spacing_middle">
 
-                    <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                    <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                         android:id="@+id/location"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
             android:paddingBottom="@dimen/spacing_small"
             android:paddingTop="@dimen/spacing_small">
 
-            <com.project.jewelmart.darshan.widgets.FontTextView
+            <com.project.jewelmart.swarnsarita.widgets.FontTextView
                 android:id="@+id/phone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/grey_60" />
 
-            <com.project.jewelmart.darshan.widgets.FontTextView
+            <com.project.jewelmart.swarnsarita.widgets.FontTextView
                 android:id="@+id/email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

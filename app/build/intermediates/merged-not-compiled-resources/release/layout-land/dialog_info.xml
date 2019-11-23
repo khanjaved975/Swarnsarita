@@ -78,7 +78,7 @@
                 android:layout_marginTop="@dimen/spacing_small"
                 android:orientation="vertical">
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -90,7 +90,7 @@
                     android:textStyle="bold"
                     android:textSize="15dp" />
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/gift_coupan_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
                     android:textColor="@color/grey_60"
                     android:textSize="15dp" />
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/gift_coupan_msg"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
 
             </LinearLayout>
 
-            <com.project.jewelmart.darshan.widgets.FontTextView
+            <com.project.jewelmart.swarnsarita.widgets.FontTextView
                 android:id="@+id/content2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

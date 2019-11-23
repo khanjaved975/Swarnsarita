@@ -1,2 +1,2 @@
-# Referenced at /Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:32
--keep class com.project.jewelmart.darshan.utils.ApplicationClass { <init>(); }
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:32
+-keep class com.project.jewelmart.swarnsarita.utils.ApplicationClass { <init>(); }

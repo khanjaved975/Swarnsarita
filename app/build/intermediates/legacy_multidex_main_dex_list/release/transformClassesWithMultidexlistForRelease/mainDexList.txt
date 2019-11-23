@@ -98,11 +98,11 @@ com/google/a/a/e.class
 com/google/android/gms/common/annotation/KeepName.class
 com/google/android/gms/common/util/DynamiteApi.class
 com/jsibbold/zoomage/a.class
-com/project/jewelmart/darshan/b/a.class
-com/project/jewelmart/darshan/e/a.class
-com/project/jewelmart/darshan/utils/ApplicationClass$1.class
-com/project/jewelmart/darshan/utils/ApplicationClass.class
-com/project/jewelmart/darshan/utils/h.class
+com/project/jewelmart/swarnsarita/b/a.class
+com/project/jewelmart/swarnsarita/e/a.class
+com/project/jewelmart/swarnsarita/utils/ApplicationClass$1.class
+com/project/jewelmart/swarnsarita/utils/ApplicationClass.class
+com/project/jewelmart/swarnsarita/utils/h.class
 d/b.class
 d/b/a.class
 d/b/b.class

@@ -72,7 +72,7 @@
                                 android:orientation="horizontal"
                                 android:weightSum="10">
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:id="@+id/product_name"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
                                 android:layout_marginTop="5dp"
                                 android:background="@color/grey_10" />
 
-                            <com.project.jewelmart.darshan.widgets.FontTextView
+                            <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Quantity"
@@ -144,7 +144,7 @@
                                     app:rippleColor="@android:color/white"
                                     app:srcCompat="@drawable/ic_remove" />
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:id="@+id/tv_qty"
                                     android:layout_width="115dp"
                                     android:layout_height="wrap_content"
@@ -171,7 +171,7 @@
                             </LinearLayout>
 
 
-                            <com.project.jewelmart.darshan.widgets.FontTextView
+                            <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/spacing_small"
@@ -198,7 +198,7 @@
                                 android:orientation="horizontal">
 
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="@dimen/spacing_medium"
@@ -213,7 +213,7 @@
                                     android:layout_height="0dp"
                                     android:layout_weight="1" />
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:id="@+id/totalprice"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -256,7 +256,7 @@
                                     android:tint="@color/colorAccent"
                                     app:srcCompat="@drawable/ic_action_list" />-->
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -288,7 +288,7 @@
                                 android:orientation="horizontal"
                                 android:weightSum="6">
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:layout_width="120dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center_horizontal|center_vertical"
@@ -320,7 +320,7 @@
                                 android:orientation="horizontal"
                                 android:weightSum="6">
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:layout_width="120dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center_horizontal|center_vertical"
@@ -351,7 +351,7 @@
                                 android:orientation="horizontal"
                                 android:weightSum="6">
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:layout_width="120dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center_horizontal|center_vertical"
@@ -382,7 +382,7 @@
                                 android:orientation="horizontal"
                                 android:weightSum="6">
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:layout_width="120dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center_horizontal|center_vertical"
@@ -424,7 +424,7 @@
                                     android:orientation="horizontal"
                                     android:weightSum="6">
 
-                                    <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                    <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center_horizontal|center_vertical"
@@ -456,7 +456,7 @@
                                     android:orientation="horizontal"
                                     android:weightSum="6">
 
-                                    <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                    <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center_horizontal|center_vertical"
@@ -488,7 +488,7 @@
                                     android:orientation="horizontal"
                                     android:weightSum="6">
 
-                                    <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                    <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center_horizontal|center_vertical"
@@ -521,7 +521,7 @@
                                     android:orientation="horizontal"
                                     android:weightSum="6">
 
-                                    <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                    <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center_horizontal|center_vertical"
@@ -582,7 +582,7 @@
                                      android:tint="@color/grey_60"
                                      app:srcCompat="@drawable/ic_action_list" />-->
 
-                                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
@@ -636,7 +636,7 @@
                                         android:visibility="gone"
                                         android:orientation="vertical">
 
-                                        <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                        <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                             android:id="@+id/labour_label"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
@@ -659,7 +659,7 @@
                                                 android:layout_height="wrap_content"
                                                 android:gravity="center_horizontal">
 
-                                                <com.project.jewelmart.darshan.widgets.FontTextView
+                                                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                     android:layout_width="match_parent"
                                                     android:layout_height="wrap_content"
                                                     android:layout_gravity="center"
@@ -670,7 +670,7 @@
                                                     android:textSize="16dp"
                                                     android:textStyle="bold" />
 
-                                                <com.project.jewelmart.darshan.widgets.FontTextView
+                                                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                     android:layout_width="match_parent"
                                                     android:layout_height="wrap_content"
                                                     android:layout_gravity="center"
@@ -681,7 +681,7 @@
                                                     android:textSize="16dp"
                                                     android:textStyle="bold" />
 
-                                                <com.project.jewelmart.darshan.widgets.FontTextView
+                                                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                     android:layout_width="match_parent"
                                                     android:layout_height="wrap_content"
                                                     android:layout_gravity="center"
@@ -706,7 +706,7 @@
                                                 android:layout_height="wrap_content"
                                                 android:gravity="center_horizontal">
 
-                                                <com.project.jewelmart.darshan.widgets.FontTextView
+                                                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                     android:id="@+id/lbr_name_value"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="wrap_content"
@@ -717,7 +717,7 @@
                                                     android:textColor="@color/grey_60"
                                                     android:textSize="16sp" />
 
-                                                <com.project.jewelmart.darshan.widgets.FontTextView
+                                                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                     android:id="@+id/lbr_rate_value"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="wrap_content"
@@ -728,7 +728,7 @@
                                                     android:textColor="@color/grey_60"
                                                     android:textSize="16sp" />
 
-                                                <com.project.jewelmart.darshan.widgets.FontTextView
+                                                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                     android:id="@+id/lbr_amount_value"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="wrap_content"
@@ -748,7 +748,7 @@
                                             android:layout_height="wrap_content"
                                             android:orientation="vertical">
 
-                                        <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                                        <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                                             android:id="@+id/charges_label"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
@@ -763,7 +763,7 @@
                                             android:layout_height="wrap_content"
                                             android:orientation="horizontal">
 
-                                            <com.project.jewelmart.darshan.widgets.FontTextView
+                                            <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                 android:id="@+id/cert_title"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
@@ -773,7 +773,7 @@
                                                 android:text="Certification Charges"
                                                 android:textColor="@color/grey_60" />
 
-                                            <com.project.jewelmart.darshan.widgets.FontTextView
+                                            <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                 android:id="@+id/cert_value"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
@@ -798,7 +798,7 @@
                                             android:layout_height="wrap_content"
                                             android:orientation="horizontal">
 
-                                            <com.project.jewelmart.darshan.widgets.FontTextView
+                                            <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                 android:id="@+id/hall_title"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
@@ -808,7 +808,7 @@
                                                 android:text="Hallmarking Charges"
                                                 android:textColor="@color/grey_60" />
 
-                                            <com.project.jewelmart.darshan.widgets.FontTextView
+                                            <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                                 android:id="@+id/hall_value"
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
@@ -909,7 +909,7 @@
                 app:cardElevation="2dp"
                 app:contentPadding="@dimen/spacing_medium">
 
-                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
@@ -958,7 +958,7 @@
 
                 app:contentPadding="@dimen/spacing_medium">
 
-                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"

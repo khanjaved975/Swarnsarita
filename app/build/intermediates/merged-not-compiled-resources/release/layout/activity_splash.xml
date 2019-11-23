@@ -35,7 +35,7 @@
         </LinearLayout>
 
 
-        <com.project.jewelmart.darshan.widgets.FontBoldItalicTextView
+        <com.project.jewelmart.swarnsarita.widgets.FontBoldItalicTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14dp"
@@ -47,7 +47,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
 
-        <com.project.jewelmart.darshan.widgets.FontTextView
+        <com.project.jewelmart.swarnsarita.widgets.FontTextView
             android:id="@+id/version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

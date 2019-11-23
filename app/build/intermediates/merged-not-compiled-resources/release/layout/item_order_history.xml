@@ -39,7 +39,7 @@
                 android:paddingBottom="@dimen/spacing_middle"
                 android:paddingTop="@dimen/spacing_middle">
 
-                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                     android:id="@+id/orderid"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                    <com.project.jewelmart.darshan.widgets.FontTextView
+                    <com.project.jewelmart.swarnsarita.widgets.FontTextView
                         android:id="@+id/grosswt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Small"
                         android:textColor="@color/grey_40" />
 
-                    <com.project.jewelmart.darshan.widgets.FontTextView
+                    <com.project.jewelmart.swarnsarita.widgets.FontTextView
                         android:id="@+id/netwt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                    <com.project.jewelmart.darshan.widgets.FontTextView
+                    <com.project.jewelmart.swarnsarita.widgets.FontTextView
                         android:id="@+id/quantity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Small"
                         android:textColor="@color/grey_40" />
 
-                    <com.project.jewelmart.darshan.widgets.FontTextView
+                    <com.project.jewelmart.swarnsarita.widgets.FontTextView
                         android:id="@+id/delivery_date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <com.project.jewelmart.darshan.widgets.FontTextView
+                    <com.project.jewelmart.swarnsarita.widgets.FontTextView
                         android:id="@+id/status"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -133,7 +133,7 @@
                         android:textColor="@color/grey_40" />
 
 
-                    <com.project.jewelmart.darshan.widgets.FontTextView
+                    <com.project.jewelmart.swarnsarita.widgets.FontTextView
                         android:id="@+id/type"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -185,7 +185,7 @@
                 </RelativeLayout>
 
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/offer_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -199,7 +199,7 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Small"
                     android:textColor="@color/grey_40" />
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/offer_description"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-com.project.jewelmart.darshan
+com.project.jewelmart.swarnsarita
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -2984,6 +2984,8 @@ menu menu_product_more
 menu menu_wishlist_more
 menu menu_worker_home
 mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 raw a_new_lang_template
 raw arabic
 raw badgenew

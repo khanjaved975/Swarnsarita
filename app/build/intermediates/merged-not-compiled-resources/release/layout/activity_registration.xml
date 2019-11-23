@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
 
-    tools:context="com.project.jewelmart.darshan.RegistrationActivity">
+    tools:context="com.project.jewelmart.swarnsarita.RegistrationActivity">
 
     <com.flaviofaria.kenburnsview.KenBurnsView
         android:id="@+id/image"
@@ -26,7 +26,7 @@
         <include layoutut="@layout/toolbar"/>
 -->
 
-        <com.project.jewelmart.darshan.components.CustomViewPager
+        <com.project.jewelmart.swarnsarita.components.CustomViewPager
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -68,7 +68,7 @@
             android:layout_weight="1"
             android:gravity="center">
 
-            <com.project.jewelmart.darshan.components.CirclePageIndicator
+            <com.project.jewelmart.swarnsarita.components.CirclePageIndicator
                 android:id="@+id/indicator"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

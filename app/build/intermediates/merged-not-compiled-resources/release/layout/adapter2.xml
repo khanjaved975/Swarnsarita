@@ -28,7 +28,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="10dp" />
 
-        <com.project.jewelmart.darshan.widgets.FontTextView
+        <com.project.jewelmart.swarnsarita.widgets.FontTextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

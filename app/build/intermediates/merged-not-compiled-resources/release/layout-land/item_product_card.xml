@@ -42,7 +42,7 @@
                     android:layout_width="@dimen/spacing_middle"
                     android:layout_height="0dp" />
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/prod_code"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
                     android:text="Code"
                     android:textColor="@color/grey_800" />
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/prod_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
                 android:layout_marginLeft="4dp"
                 android:orientation="horizontal">
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/gw"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
                     android:visibility="gone"
                     android:textColor="@color/grey_800" />
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/gw_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
                 android:layout_marginLeft="4dp"
                 android:orientation="horizontal">
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/nt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -138,7 +138,7 @@
                     android:text="Net_wt"
                     android:textColor="@color/grey_800" />
 
-                <com.project.jewelmart.darshan.widgets.FontTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontTextView
                     android:id="@+id/nt_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

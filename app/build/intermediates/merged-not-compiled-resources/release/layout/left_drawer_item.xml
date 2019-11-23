@@ -15,7 +15,7 @@
         android:paddingTop="8dp">
 
 
-        <com.project.jewelmart.darshan.widgets.FontBoldTextView
+        <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
             android:id="@+id/drawer_itemName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

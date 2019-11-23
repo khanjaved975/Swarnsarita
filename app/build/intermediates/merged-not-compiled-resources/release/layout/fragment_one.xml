@@ -194,7 +194,7 @@ android:background="@android:color/transparent"
 
 
 
-                <com.project.jewelmart.darshan.widgets.FontBoldTextView
+                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Gender"

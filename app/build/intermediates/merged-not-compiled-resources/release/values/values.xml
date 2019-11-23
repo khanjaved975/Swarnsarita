@@ -46,7 +46,15 @@
         <item>Account</item>
         <item>Share &amp; Rate App</item>
         <item>More</item>
-        
+        <!-- <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>-->
     </string-array>
     <integer-array name="people_images">
 
@@ -349,7 +357,7 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#AC238D</color>
+    <color name="colorAccent">#DFA94E</color>
     <color name="colorBottomNavigationAccent">#FF4081</color>
     <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
     <color name="colorBottomNavigationDisable">#3A000000</color>
@@ -1096,19 +1104,15 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="aboutus">
-        Shree Fine Jewels Pvt. Ltd. is a well reputed fine jewelery company. We manufacture high quality fine jewelry products and market them throughout the world. Our team is consisted of more than 20 professionals who are specialists in creating amazing fine jewelry. We aim to make stylish fine jewelry affordable for all.
-
-We are into fine jewelry business for more than a decade now. We are serving the fine jewelry industry since 2001 and after inception we never had to look back. We have grown consistently over the years and have reached a significant position in the industry now.
-
-Although we manufacture a wide variety of products, our area of monopoly is Alphabet Pendants, 2 in1 Ring pendant and 3 in1 Necklace. We are also specialized in fine gold CZ studded jewelry. Our average product weight ranges from 0.600gm to 25gm. The purity and clarity of each product are blended with the excellence of innovative appealing design.
-        </string>
+        Swarnsarita Gems Ltd. is renowned Manufacturer, Wholesaler of high-end Gold Jewellery and Diamond Jewellery. Backed by team of highly experienced individuals Swarnsarita Gems Ltd. has customers pan India &amp; abroad. The Chairman &amp; Managing Director of the company Mr. Mahendra M Chordia has more than 20 years of Experience in the field of Jewellery manufacturing &amp; he has a strong goodwill and presence in the market. Swarnasarita Gems Ltd. is listed on the Bombay Stock exchange as a result of takeover of Shyam Star Gems Ltd. an existing profit making company.
+    </string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">Darshan </string>
+    <string name="app_name">Swarnsarita </string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="color">#ffffff</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">588c66c2-6fb7-4a61-bd19-5c943bae8289</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">e29f33c4-4c26-4f37-b65a-82154617209c</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -1128,9 +1132,10 @@ Although we manufacture a wide variety of products, our area of monopoly is Alph
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="contact_us">
         Registered Office:
-Plot no. 71/A, Government Industrial Estate, Charkop, Kandivali (W), Mumbai - 400067\n\n
-    Branch Office:
-Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</string>
+Swarnsarita Gems Ltd.
+125/127, 6th Floor, Daya Mandir Building,
+Mumbadevi Road, Above Sharda Hotel,
+Zaveri Bazar. Mumbai- 400003</string>
     <string name="default_web_client_id" translatable="false">715245381668-kceij2l9uv7mtjbtdb33k7nplplt8vtl.apps.googleusercontent.com</string>
     <string name="error_address">Ingrese Dirección</string>
     <string name="error_card">Ingrese Número de Tarjeta de Crédito</string>
@@ -1220,7 +1225,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
     <string name="freshchat_yes">Yes</string>
     <string name="gcm_defaultSenderId" translatable="false">715245381668</string>
     <string name="google_api_key" translatable="false">AIzaSyBVCAIMhkdK5U1Tm4_jKaAU4W4az0qBY_U</string>
-    <string name="google_app_id" translatable="false">1:715245381668:android:cf7685768d07ed2c93d0b1</string>
+    <string name="google_app_id" translatable="false">1:715245381668:android:81222964f1facb7193d0b1</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVCAIMhkdK5U1Tm4_jKaAU4W4az0qBY_U</string>
     <string name="google_storage_bucket" translatable="false">a2ztech-android.appspot.com</string>
     <string name="lorem_ipsum">
@@ -1284,7 +1289,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -1522,7 +1527,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="actionBarWidgetTheme">@null</item>
         <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
 
-        
+        <!-- Panel attributes -->
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
@@ -1573,7 +1578,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
 
-        
+        <!-- Used by MediaRouter -->
         <item name="isLightTheme">false</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
@@ -1610,7 +1615,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="colorButtonNormal">@color/button_material_light</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
 
-        
+        <!-- Used by MediaRouter -->
         <item name="isLightTheme">true</item>
     </style>
     <style name="Base.V14.Widget.Design.AppBarLayout" parent="android:Widget">
@@ -1625,7 +1630,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
 
         <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
 
-        
+        <!-- Used by MediaRouter -->
         <item name="isLightTheme">false</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
@@ -1636,7 +1641,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
-        
+        <!-- Action Bar Styles -->
         <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
@@ -1653,10 +1658,10 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        
+        <!-- Dropdown Spinner Attributes -->
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
 
-        
+        <!-- Action Mode -->
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -1669,14 +1674,14 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
-        
+        <!-- Panel attributes -->
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
         <item name="android:panelBackground">@android:color/transparent</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
-        
+        <!-- List attributes -->
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -1686,16 +1691,16 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
-        
+        <!-- Spinner styles -->
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
-        
+        <!-- Popup Menu styles -->
         <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
@@ -1704,17 +1709,17 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="dropDownListViewStyle">?android:attr/dropDownListViewStyle</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
-        
+        <!-- SearchView attributes -->
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
-        
+        <!-- ShareActionProvider attributes -->
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
-        
+        <!-- Toolbar styles -->
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -1723,7 +1728,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="editTextColor">?android:attr/textColorPrimary</item>
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
-        
+        <!-- Color palette -->
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorAccent">@color/accent_material_dark</item>
@@ -1746,7 +1751,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
-        
+        <!-- Button styles -->
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -1759,7 +1764,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="buttonBarNegativeButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
-        
+        <!-- Dialog attributes -->
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
 
@@ -1769,13 +1774,14 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
         <item name="listDividerAlertDialog">@null</item>
 
-        
+        <!-- Define these here; ContextThemeWrappers around themes that define them should
+             always clear these values. -->
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
-        
+        <!-- Tooltip attributes -->
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_light</item>
         <item name="tooltipForegroundColor">@color/foreground_material_light</item>
 
@@ -1812,7 +1818,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
 
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
 
-        
+        <!-- Used by MediaRouter -->
         <item name="isLightTheme">true</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
@@ -1823,7 +1829,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
-        
+        <!-- Action Bar Styles -->
         <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
@@ -1840,7 +1846,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        
+        <!-- Action Mode -->
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -1853,17 +1859,17 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
-        
+        <!-- Dropdown Spinner Attributes -->
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
 
-        
+        <!-- Panel attributes -->
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
         <item name="android:panelBackground">@android:color/transparent</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
 
-        
+        <!-- List attributes -->
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -1873,16 +1879,16 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
-        
+        <!-- Spinner styles -->
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
-        
+        <!-- Popup Menu styles -->
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
@@ -1891,17 +1897,17 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="dropDownListViewStyle">?android:attr/dropDownListViewStyle</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
-        
+        <!-- SearchView attributes -->
         <item name="searchViewStyle">@style/Widget.AppCompat.Light.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
-        
+        <!-- ShareActionProvider attributes -->
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
-        
+        <!-- Toolbar styles -->
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -1910,7 +1916,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="editTextColor">?android:attr/textColorPrimary</item>
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
-        
+        <!-- Color palette -->
         <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
         <item name="colorPrimary">@color/primary_material_light</item>
         <item name="colorAccent">@color/accent_material_light</item>
@@ -1933,7 +1939,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
-        
+        <!-- Button styles -->
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -1946,7 +1952,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="buttonBarNegativeButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
-        
+        <!-- Dialog attributes -->
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
 
@@ -1956,13 +1962,14 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
         <item name="listDividerAlertDialog">@null</item>
 
-        
+        <!-- Define these here; ContextThemeWrappers around themes that define them should
+             always clear these values. -->
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
-        
+        <!-- Tooltip attributes -->
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_dark</item>
         <item name="tooltipForegroundColor">@color/foreground_material_dark</item>
 
@@ -2381,7 +2388,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
-        
+        <!-- Window colors -->
         <item name="android:colorForeground">@color/foreground_material_dark</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
@@ -2390,7 +2397,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="android:backgroundDimAmount">0.6</item>
         <item name="android:windowBackground">@color/background_material_dark</item>
 
-        
+        <!-- Text colors -->
         <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
@@ -2403,7 +2410,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
         <item name="android:textColorLink">?attr/colorAccent</item>
 
-        
+        <!-- Text styles -->
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -2423,7 +2430,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
     <style name="Platform.AppCompat.Light" parent="android:Theme.Light">
         <item name="android:windowNoTitle">true</item>
 
-        
+        <!-- Window colors -->
         <item name="android:colorForeground">@color/foreground_material_light</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_light</item>
@@ -2432,7 +2439,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="android:backgroundDimAmount">0.6</item>
         <item name="android:windowBackground">@color/background_material_light</item>
 
-        
+        <!-- Text colors -->
         <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
@@ -2446,7 +2453,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="android:textColorHighlight">@color/highlighted_text_material_light</item>
         <item name="android:textColorLink">?attr/colorAccent</item>
 
-        
+        <!-- Text styles -->
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -2465,12 +2472,12 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
     </style>
     <style name="Platform.ThemeOverlay.AppCompat" parent=""/>
     <style name="Platform.ThemeOverlay.AppCompat.Dark">
-        
+        <!-- Action Bar styles -->
         <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
 
-        
+        <!-- SearchView styles -->
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
@@ -2479,7 +2486,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
 
-        
+        <!-- SearchView attributes -->
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
@@ -2489,7 +2496,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
     </style>
     <style name="Preference.Category">
         <item name="android:layout">@layout/preference_category</item>
-        
+        <!-- The title should not dim if the category is disabled, instead only the preference children should dim. -->
         <item name="android:shouldDisableView">false</item>
         <item name="android:selectable">false</item>
     </style>
@@ -2791,7 +2798,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
 
         <item name="android:windowBackground">@color/freshchat_background_light</item>
 
-        
+        <!-- Action Icons -->
         <item name="freshchatPlayIcon">@drawable/freshchat_ic_play</item>
         <item name="freshchatStopIcon">@drawable/freshchat_ic_stop</item>
         <item name="freshchatSendIcon">@drawable/freshchat_ic_send</item>
@@ -2800,25 +2807,25 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
 
-        
+        <!-- ActionBar Menu Icons -->
         <item name="freshchatSearchIcon">@drawable/freshchat_ic_action_search_light</item>
         <item name="freshchatSpeakerIcon">@null</item>
         <item name="freshchatEarpieceIcon">@null</item>
 
-        
+        <!-- Misc Icons-->
         <item name="freshchatTeamMemberAvatarIcon">@id/freshchat_display_app_icon</item>
         <item name="freshchatContactUsIcon">@drawable/freshchat_ic_action_contact_us</item>
 
-        
+        <!-- Chat Bubbles -->
         <item name="freshchatChatBubbleLeft">@drawable/freshchat_chat_bubble_left</item>
         <item name="freshchatChatBubbleRight">@drawable/freshchat_chat_bubble_right</item>
 
-        
+        <!-- Misc Drawables -->
         <item name="freshchatVoiceVisualizer">@drawable/freshchat_voice_visualizer_drawable</item>
         <item name="freshchatVoiceMessageSeekbar">@drawable/freshchat_voice_message_seekbar</item>
         <item name="freshchatVoiceMessageSeekbarThumb">@drawable/freshchat_voice_message_seekbar_thumb</item>
 
-        
+        <!-- Message Widget Styles -->
         <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
         <item name="freshchatMessageListItemStyle">@style/Widget.Freshchat.MessageListItem</item>
         <item name="freshchatMessageReplyViewStyle">@style/Widget.Freshchat.MessageReplyView</item>
@@ -2827,7 +2834,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
         <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
 
-        
+        <!-- Message Text Styles -->
         <item name="freshchatTeamMemberNameTextStyle">@style/Widget.Freshchat.TeamMemberName</item>
         <item name="freshchatUserMessageTextStyle">@style/Widget.Freshchat.UserMessage</item>
         <item name="freshchatTeamMemberMessageTextStyle">@style/Widget.Freshchat.TeamMemberMessage</item>
@@ -2835,61 +2842,61 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="freshchatTeamMemberMessageTimeTextStyle">@style/Widget.Freshchat.TeamMemberMessageTime</item>
         <item name="freshchatVoiceMessageDurationTextStyle">@style/Widget.Freshchat.VoiceMessageDuration</item>
 
-        
+        <!-- Chat Resolution Confirmation Prompt Styles -->
         <item name="freshchatChatResolutionPositiveButtonStyle">@style/Widget.Freshchat.ChatResolutionPositiveButton</item>
         <item name="freshchatChatResolutionNegativeButtonStyle">@style/Widget.Freshchat.ChatResolutionNegativeButton</item>
         <item name="freshchatChatResolutionPromptTextStyle">@style/Widget.Freshchat.ChatResolutionPromptText</item>
         <item name="freshchatChatResolutionPromptViewStyle">@style/Widget.Freshchat.ChatResolutionPromptView</item>
 
-        
+        <!-- Customer Survey Dialog Styles -->
         <item name="freshchatCustomerSurveyDialog">@style/Widget.Freshchat.CustomerSurveyDialog.Light</item>
         <item name="freshchatCustomerSurveyQuestionTextStyle">@style/Widget.Freshchat.CustomerSurveyQuestionStyle</item>
         <item name="freshchatCustomerSurveyRatingBarStyle">@style/Widget.Freshchat.CustomerSurveyRatingBar</item>
         <item name="freshchatCustomerSurveyCommentsInputViewStyle">@style/Widget.Freshchat.CustomerSurveyCommentsEditText</item>
 
-        
+        <!--Alert Dialog Customization-->
         <item name="freshchatAlertDialog">@style/Widget.Freshchat.Dialog.Alert.Light</item>
 
-        
+        <!-- Channel Widget Styles -->
         <item name="freshchatChannelListStyle">@style/Widget.Freshchat.ChannelList</item>
         <item name="freshchatChannelListItemStyle">@style/Widget.Freshchat.ChannelListItem</item>
         <item name="freshchatChannelAltIconStyle">@style/Widget.Freshchat.ChannelAltIcon</item>
 
-        
+        <!-- Channel Text Styles -->
         <item name="freshchatChannelNameTextStyle">@style/Widget.Freshchat.ChannelName</item>
         <item name="freshchatChannelDescriptionTextStyle">@style/Widget.Freshchat.ChannelDescription</item>
         <item name="freshchatChannelLastUpdatedAtTextStyle">@style/Widget.Freshchat.ChannelLastUpdatedAt</item>
         <item name="freshchatChannelUnreadCountTextStyle">@style/Widget.Freshchat.ChannelUnreadCount</item>
         <item name="freshchatChannelListEmptyTextStyle">@style/Widget.Freshchat.ChannelListEmptyText</item>
 
-        
+        <!-- FAQ Category Widget Styles -->
         <item name="freshchatFAQCategoryListStyle">@style/Widget.Freshchat.FAQCategoryList</item>
         <item name="freshchatFAQCategoryListItemStyle">@style/Widget.Freshchat.FAQCategoryListItem</item>
         <item name="freshchatFAQCategoryAltIconStyle">@style/Widget.Freshchat.FAQCategoryAltIcon</item>
 
-        
+        <!-- FAQ Category Text Styles -->
         <item name="freshchatFAQCategoryNameTextStyle">@style/Widget.Freshchat.FAQCategoryName</item>
         <item name="freshchatFAQCategoryDescriptionTextStyle">@style/Widget.Freshchat.FAQCategoryDescription</item>
         <item name="freshchatFAQListEmptyTextStyle">@style/Widget.Freshchat.FAQListEmptyText</item>
 
-        
+        <!-- FAQ List Widget Styles -->
         <item name="freshchatFAQListStyle">@style/Widget.Freshchat.FAQList</item>
         <item name="freshchatFAQListItemStyle">@style/Widget.Freshchat.FAQListItem</item>
 
-        
+        <!-- FAQ Detail Widget Styles -->
         <item name="freshchatFAQUpvoteButtonStyle">@style/Widget.Freshchat.FAQUpvoteButton</item>
         <item name="freshchatFAQDownvoteButtonStyle">@style/Widget.Freshchat.FAQDownvoteButton</item>
         <item name="freshchatFAQVotingPromptTextStyle">@style/Widget.Freshchat.FAQVotingPromptText</item>
         <item name="freshchatFAQVotingPromptViewStyle">@style/Widget.Freshchat.FAQVotingPromptView</item>
 
-        
+        <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>
     </style>
     <style name="Theme.Freshchat.Light.DarkActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
 
         <item name="android:windowBackground">@color/freshchat_background_light</item>
 
-        
+        <!-- Action Icons -->
         <item name="freshchatPlayIcon">@drawable/freshchat_ic_play</item>
         <item name="freshchatStopIcon">@drawable/freshchat_ic_stop</item>
         <item name="freshchatSendIcon">@drawable/freshchat_ic_send</item>
@@ -2898,25 +2905,25 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="freshchatRecordIcon">@drawable/freshchat_ic_record</item>
         <item name="freshchatActionSelectableItemBackground">?attr/selectableItemBackground</item>
 
-        
+        <!-- Menu Icons -->
         <item name="freshchatSearchIcon">@drawable/freshchat_ic_action_search_dark</item>
         <item name="freshchatSpeakerIcon">@null</item>
         <item name="freshchatEarpieceIcon">@null</item>
 
-        
+        <!-- Misc Icons-->
         <item name="freshchatTeamMemberAvatarIcon">@id/freshchat_display_app_icon</item>
         <item name="freshchatContactUsIcon">@drawable/freshchat_ic_action_contact_us</item>
 
-        
+        <!-- Chat Bubbles -->
         <item name="freshchatChatBubbleLeft">@drawable/freshchat_chat_bubble_left</item>
         <item name="freshchatChatBubbleRight">@drawable/freshchat_chat_bubble_right</item>
 
-        
+        <!-- Misc Drawables -->
         <item name="freshchatVoiceVisualizer">@drawable/freshchat_voice_visualizer_drawable</item>
         <item name="freshchatVoiceMessageSeekbar">@drawable/freshchat_voice_message_seekbar</item>
         <item name="freshchatVoiceMessageSeekbarThumb">@drawable/freshchat_voice_message_seekbar_thumb</item>
 
-        
+        <!-- Message Widget Styles -->
         <item name="freshchatMessageListStyle">@style/Widget.Freshchat.MessageList</item>
         <item name="freshchatMessageListItemStyle">@style/Widget.Freshchat.MessageListItem</item>
         <item name="freshchatMessageReplyViewStyle">@style/Widget.Freshchat.MessageReplyView</item>
@@ -2925,7 +2932,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="freshchatConversationBannerMessageStyle">@style/Widget.Freshchat.ConversationBannerMessage</item>
         <item name="freshchatProgressBarStyle">@style/Widget.Freshchat.ProgressBar</item>
 
-        
+        <!-- Message Text Styles -->
         <item name="freshchatTeamMemberNameTextStyle">@style/Widget.Freshchat.TeamMemberName</item>
         <item name="freshchatUserMessageTextStyle">@style/Widget.Freshchat.UserMessage</item>
         <item name="freshchatTeamMemberMessageTextStyle">@style/Widget.Freshchat.TeamMemberMessage</item>
@@ -2933,54 +2940,54 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="freshchatTeamMemberMessageTimeTextStyle">@style/Widget.Freshchat.TeamMemberMessageTime</item>
         <item name="freshchatVoiceMessageDurationTextStyle">@style/Widget.Freshchat.VoiceMessageDuration</item>
 
-        
+        <!-- Chat Resolution Confirmation Prompt Styles -->
         <item name="freshchatChatResolutionPositiveButtonStyle">@style/Widget.Freshchat.ChatResolutionPositiveButton</item>
         <item name="freshchatChatResolutionNegativeButtonStyle">@style/Widget.Freshchat.ChatResolutionNegativeButton</item>
         <item name="freshchatChatResolutionPromptTextStyle">@style/Widget.Freshchat.ChatResolutionPromptText</item>
         <item name="freshchatChatResolutionPromptViewStyle">@style/Widget.Freshchat.ChatResolutionPromptView</item>
 
-        
+        <!-- Customer Survey Dialog Styles -->
         <item name="freshchatCustomerSurveyDialog">@style/Widget.Freshchat.CustomerSurveyDialog.Light</item>
         <item name="freshchatCustomerSurveyQuestionTextStyle">@style/Widget.Freshchat.CustomerSurveyQuestionStyle</item>
         <item name="freshchatCustomerSurveyRatingBarStyle">@style/Widget.Freshchat.CustomerSurveyRatingBar</item>
         <item name="freshchatCustomerSurveyCommentsInputViewStyle">@style/Widget.Freshchat.CustomerSurveyCommentsEditText</item>
 
-        
+        <!--Alert Dialog Customization-->
         <item name="freshchatAlertDialog">@style/Widget.Freshchat.Dialog.Alert.Light</item>
 
-        
+        <!-- Channel Widget Styles -->
         <item name="freshchatChannelListStyle">@style/Widget.Freshchat.ChannelList</item>
         <item name="freshchatChannelListItemStyle">@style/Widget.Freshchat.ChannelListItem</item>
         <item name="freshchatChannelAltIconStyle">@style/Widget.Freshchat.ChannelAltIcon</item>
 
-        
+        <!-- Channel Text Styles -->
         <item name="freshchatChannelNameTextStyle">@style/Widget.Freshchat.ChannelName</item>
         <item name="freshchatChannelDescriptionTextStyle">@style/Widget.Freshchat.ChannelDescription</item>
         <item name="freshchatChannelLastUpdatedAtTextStyle">@style/Widget.Freshchat.ChannelLastUpdatedAt</item>
         <item name="freshchatChannelUnreadCountTextStyle">@style/Widget.Freshchat.ChannelUnreadCount</item>
         <item name="freshchatChannelListEmptyTextStyle">@style/Widget.Freshchat.ChannelListEmptyText</item>
 
-        
+        <!-- FAQ Category Widget Styles -->
         <item name="freshchatFAQCategoryListStyle">@style/Widget.Freshchat.FAQCategoryList</item>
         <item name="freshchatFAQCategoryListItemStyle">@style/Widget.Freshchat.FAQCategoryListItem</item>
         <item name="freshchatFAQCategoryAltIconStyle">@style/Widget.Freshchat.FAQCategoryAltIcon</item>
 
-        
+        <!-- FAQ Category Text Styles -->
         <item name="freshchatFAQCategoryNameTextStyle">@style/Widget.Freshchat.FAQCategoryName</item>
         <item name="freshchatFAQCategoryDescriptionTextStyle">@style/Widget.Freshchat.FAQCategoryDescription</item>
         <item name="freshchatFAQListEmptyTextStyle">@style/Widget.Freshchat.FAQListEmptyText</item>
 
-        
+        <!-- FAQ/Article List Widget Styles -->
         <item name="freshchatFAQListStyle">@style/Widget.Freshchat.FAQList</item>
         <item name="freshchatFAQListItemStyle">@style/Widget.Freshchat.FAQListItem</item>
 
-        
+        <!-- FAQ/Article Detail Widget Styles -->
         <item name="freshchatFAQUpvoteButtonStyle">@style/Widget.Freshchat.FAQUpvoteButton</item>
         <item name="freshchatFAQDownvoteButtonStyle">@style/Widget.Freshchat.FAQDownvoteButton</item>
         <item name="freshchatFAQVotingPromptTextStyle">@style/Widget.Freshchat.FAQVotingPromptText</item>
         <item name="freshchatFAQVotingPromptViewStyle">@style/Widget.Freshchat.FAQVotingPromptView</item>
 
-        
+        <!-- Misc Styles -->
         <item name="freshchatContactUsTextStyle">@style/Widget.Freshchat.ContactUs</item>
     </style>
     <style name="Theme.Freshchat.SelectedTheme" parent="@style/Theme.Freshchat.Light.DarkActionBar"/>
@@ -3005,7 +3012,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="android:background">@color/wel_transparent</item>
     </style>
     <style name="Wel_WelcomeScreenBaseTheme" parent="Theme.AppCompat.NoActionBar">
-        
+        <!-- See v19 styles -->
     </style>
     <style name="WelcomeScreenButton" parent="Widget.AppCompat.Button">
         <item name="android:singleLine">true</item>
@@ -3123,7 +3130,7 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="windowActionBarOverlay">true</item>
         <item name="actionBarStyle">@style/Wel_TransparentActionBar</item>
 
-        
+        <!-- Make the background transparent, so swipeToDismiss will fade to the activity beneath -->
         <item name="android:backgroundDimEnabled">false</item>
         <item name="android:background">@color/wel_transparent</item>
         <item name="background">@color/wel_transparent</item>
@@ -3139,16 +3146,16 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="welcomeButtonBarBackground">@color/wel_button_bar_background_light</item>
     </style>
     <style name="WelcomeScreenTheme.Light.SolidNavigation">
-        
+        <!-- See values-v19 -->
     </style>
     <style name="WelcomeScreenTheme.Light.SolidNavigation.UnderStatusBar">
-        
+        <!-- See values-v19 -->
     </style>
     <style name="WelcomeScreenTheme.SolidNavigation">
-        
+        <!-- See values-v19 -->
     </style>
     <style name="WelcomeScreenTheme.SolidNavigation.UnderStatusBar">
-        
+        <!-- See values-v19 -->
     </style>
     <style name="Widget"/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
@@ -3443,24 +3450,24 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="android:textAlignment">viewStart</item>
     </style>
     <style name="Widget.Freshchat.CustomerSurveyDialog" parent="Theme.AppCompat.Dialog.Alert">
-        
-        
-        
-        
-        
-        
-        
-        
+        <!-- Action button text color -->
+        <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
+        <!-- Dialog background-->
+        <!--<item name="android:windowBackground">@color/holo_blue_bright</item>-->
+        <!-- Dialog action button bar style -->
+        <!--<item name="android:buttonBarStyle">@style/ButtonBarStyle</item>-->
+        <!-- Dialog action button style -->
+        <!--<item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>-->
     </style>
     <style name="Widget.Freshchat.CustomerSurveyDialog.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
-        
-        
-        
-        
-        
-        
-        
-        
+        <!-- Action button text color -->
+        <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
+        <!-- Dialog background-->
+        <!--<item name="android:windowBackground">@color/holo_blue_bright</item>-->
+        <!-- Dialog action button bar style -->
+        <!--<item name="android:buttonBarStyle">@style/ButtonBarStyle</item>-->
+        <!-- Dialog action button style -->
+        <!--<item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>-->
 
     </style>
     <style name="Widget.Freshchat.CustomerSurveyQuestionStyle">
@@ -3491,24 +3498,24 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
     <style name="Widget.Freshchat.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert">
-        
-        
-        
-        
-        
-        
-        
-        
+        <!-- Action button text color -->
+        <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
+        <!-- Dialog background-->
+        <!--<item name="android:windowBackground">@color/holo_blue_bright</item>-->
+        <!-- Dialog action button bar style -->
+        <!--<item name="android:buttonBarStyle">@style/ButtonBarStyle</item>-->
+        <!-- Dialog action button style -->
+        <!--<item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>-->
     </style>
     <style name="Widget.Freshchat.Dialog.Alert.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
-        
-        
-        
-        
-        
-        
-        
-        
+        <!-- Action button text color -->
+        <!--<item name="colorAccent">@color/holo_orange_dark</item>-->
+        <!-- Dialog background-->
+        <!--<item name="android:windowBackground">@color/holo_blue_bright</item>-->
+        <!-- Dialog action button bar style -->
+        <!--<item name="android:buttonBarStyle">@style/ButtonBarStyle</item>-->
+        <!-- Dialog action button style -->
+        <!--<item name="android:borderlessButtonStyle">@style/BorderlessButtonStyle</item>-->
 
     </style>
     <style name="Widget.Freshchat.FAQCategoryAltIcon">
@@ -3661,9 +3668,9 @@ Shop no. 40, 2nd Floor, 101 Mumbadevi Chambers, Zaveri Bazar, Mumbai - 400002</s
         <item name="android:minHeight">@dimen/freshchat_message_reply_frame_min_height</item>
     </style>
     <style name="Widget.Freshchat.ProgressBar" parent="Widget.AppCompat.ProgressBar">
-        
-        
-        
+        <!--Progress bar drawable-->
+        <!--<item name="android:indeterminate">true</item>-->
+        <!--<item name="android:indeterminateDrawable">@drawable/progress_bar_drawable</item>-->
     </style>
     <style name="Widget.Freshchat.TeamMemberMessage">
         <item name="android:textAppearance">@style/TextAppearance.Freshchat.Medium</item>

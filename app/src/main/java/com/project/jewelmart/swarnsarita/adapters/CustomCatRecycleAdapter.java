@@ -90,7 +90,7 @@ public class CustomCatRecycleAdapter extends RecyclerView.Adapter<CustomCatRecyc
 
         private ArrayList<com.project.jewelmart.swarnsarita.pojo.Collection> orderList;
         protected TextView title;
-        protected SquareImageView img;
+        protected ImageView img;
         protected ImageView gif_new;
         protected CardView card;
 
@@ -98,7 +98,7 @@ public class CustomCatRecycleAdapter extends RecyclerView.Adapter<CustomCatRecyc
             super(v);
             this.orderList = orderList;
             title = (TextView) v.findViewById(R.id.cat_title);
-            img = (SquareImageView) v.findViewById(R.id.cart_image);
+            img = (ImageView) v.findViewById(R.id.cart_image);
             gif_new = (ImageView) v.findViewById(R.id.gif_new);
         }
 

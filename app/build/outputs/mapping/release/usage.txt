@@ -13469,24 +13469,24 @@ com.peekandpop.shalskar.peekandpop.model.LongHoldView:
     54:55:public void setView(android.view.View)
     58:58:public boolean isReceiveMultipleEvents()
     62:63:public void setReceiveMultipleEvents(boolean)
-com.project.jewelmart.darshan.BuildConfig
-com.project.jewelmart.darshan.CustomHistoryActivity_ViewBinding:
-    18:19:public CustomHistoryActivity_ViewBinding(com.project.jewelmart.darshan.CustomHistoryActivity)
+com.project.jewelmart.swarnsarita.BuildConfig
+com.project.jewelmart.swarnsarita.CustomHistoryActivity_ViewBinding:
+    18:19:public CustomHistoryActivity_ViewBinding(com.project.jewelmart.swarnsarita.CustomHistoryActivity)
     31:36:public void unbind()
-com.project.jewelmart.darshan.CustomeOrderActivity:
+com.project.jewelmart.swarnsarita.CustomeOrderActivity:
     private static final int MY_CAMERA_PERMISSION_CODE
-com.project.jewelmart.darshan.CustomeOrderActivity_ViewBinding:
-    22:23:public CustomeOrderActivity_ViewBinding(com.project.jewelmart.darshan.CustomeOrderActivity)
+com.project.jewelmart.swarnsarita.CustomeOrderActivity_ViewBinding:
+    22:23:public CustomeOrderActivity_ViewBinding(com.project.jewelmart.swarnsarita.CustomeOrderActivity)
     45:60:public void unbind()
-com.project.jewelmart.darshan.Manifest
-com.project.jewelmart.darshan.Manifest$permission
-com.project.jewelmart.darshan.NotificationActivity_ViewBinding:
-    18:19:public NotificationActivity_ViewBinding(com.project.jewelmart.darshan.NotificationActivity)
+com.project.jewelmart.swarnsarita.Manifest
+com.project.jewelmart.swarnsarita.Manifest$permission
+com.project.jewelmart.swarnsarita.NotificationActivity_ViewBinding:
+    18:19:public NotificationActivity_ViewBinding(com.project.jewelmart.swarnsarita.NotificationActivity)
     31:36:public void unbind()
-com.project.jewelmart.darshan.OffersActivity_ViewBinding:
-    18:19:public OffersActivity_ViewBinding(com.project.jewelmart.darshan.OffersActivity)
+com.project.jewelmart.swarnsarita.OffersActivity_ViewBinding:
+    18:19:public OffersActivity_ViewBinding(com.project.jewelmart.swarnsarita.OffersActivity)
     31:36:public void unbind()
-com.project.jewelmart.darshan.ProductDetailActivity:
+com.project.jewelmart.swarnsarita.ProductDetailActivity:
     java.lang.String newkarat
     java.lang.String oldsize
     java.lang.String newsize
@@ -13500,49 +13500,49 @@ com.project.jewelmart.darshan.ProductDetailActivity:
     java.lang.String newnt
     904:905:public int getRandomColor()
     1034:1078:public void changeKarat()
-com.project.jewelmart.darshan.ProductDetailActivity$AdapterImageSlider:
-    private com.project.jewelmart.darshan.ProductDetailActivity$AdapterImageSlider$OnItemClickListener onItemClickListener
-    829:830:public void setOnItemClickListener(com.project.jewelmart.darshan.ProductDetailActivity$AdapterImageSlider$OnItemClickListener)
-    844:844:public com.project.jewelmart.darshan.models.Image2 getItem(int)
-com.project.jewelmart.darshan.ProductDetailActivity$AdapterImageSlider$OnItemClickListener
-com.project.jewelmart.darshan.ProductDetailActivity_ViewBinding:
-    21:22:public ProductDetailActivity_ViewBinding(com.project.jewelmart.darshan.ProductDetailActivity)
+com.project.jewelmart.swarnsarita.ProductDetailActivity$AdapterImageSlider:
+    private com.project.jewelmart.swarnsarita.ProductDetailActivity$AdapterImageSlider$OnItemClickListener onItemClickListener
+    829:830:public void setOnItemClickListener(com.project.jewelmart.swarnsarita.ProductDetailActivity$AdapterImageSlider$OnItemClickListener)
+    844:844:public com.project.jewelmart.swarnsarita.models.Image2 getItem(int)
+com.project.jewelmart.swarnsarita.ProductDetailActivity$AdapterImageSlider$OnItemClickListener
+com.project.jewelmart.swarnsarita.ProductDetailActivity_ViewBinding:
+    21:22:public ProductDetailActivity_ViewBinding(com.project.jewelmart.swarnsarita.ProductDetailActivity)
     46:63:public void unbind()
-com.project.jewelmart.darshan.ProductGridActivity:
-    com.project.jewelmart.darshan.pojo.Filter filter
+com.project.jewelmart.swarnsarita.ProductGridActivity:
+    com.project.jewelmart.swarnsarita.pojo.Filter filter
     public static java.util.List items
     283:298:public static void ToggleSelection(int,android.content.Context,java.lang.String)
     796:833:public void showCustomDialogOffer(java.lang.String,java.lang.String,java.lang.String)
-com.project.jewelmart.darshan.ProductGridActivity$15
-com.project.jewelmart.darshan.ProductGridActivity$16
-com.project.jewelmart.darshan.ProductGridActivity$ItemSortAdapter:
-    1180:1181:public void setListener(com.project.jewelmart.darshan.ProductGridActivity$ItemSortAdapter$ItemListener)
-com.project.jewelmart.darshan.R:
+com.project.jewelmart.swarnsarita.ProductGridActivity$15
+com.project.jewelmart.swarnsarita.ProductGridActivity$16
+com.project.jewelmart.swarnsarita.ProductGridActivity$ItemSortAdapter:
+    1180:1181:public void setListener(com.project.jewelmart.swarnsarita.ProductGridActivity$ItemSortAdapter$ItemListener)
+com.project.jewelmart.swarnsarita.R:
     10:10:public R()
-com.project.jewelmart.darshan.R$anim
-com.project.jewelmart.darshan.R$animator
-com.project.jewelmart.darshan.R$array
-com.project.jewelmart.darshan.R$attr
-com.project.jewelmart.darshan.R$bool
-com.project.jewelmart.darshan.R$color
-com.project.jewelmart.darshan.R$dimen
-com.project.jewelmart.darshan.R$drawable
-com.project.jewelmart.darshan.R$font
-com.project.jewelmart.darshan.R$id
-com.project.jewelmart.darshan.R$integer
-com.project.jewelmart.darshan.R$layout
-com.project.jewelmart.darshan.R$menu
-com.project.jewelmart.darshan.R$mipmap
-com.project.jewelmart.darshan.R$raw
-com.project.jewelmart.darshan.R$string
-com.project.jewelmart.darshan.R$style
-com.project.jewelmart.darshan.R$styleable:
-    8506:8506:public R$styleable()
-com.project.jewelmart.darshan.R$xml
-com.project.jewelmart.darshan.RegistrationActivity:
+com.project.jewelmart.swarnsarita.R$anim
+com.project.jewelmart.swarnsarita.R$animator
+com.project.jewelmart.swarnsarita.R$array
+com.project.jewelmart.swarnsarita.R$attr
+com.project.jewelmart.swarnsarita.R$bool
+com.project.jewelmart.swarnsarita.R$color
+com.project.jewelmart.swarnsarita.R$dimen
+com.project.jewelmart.swarnsarita.R$drawable
+com.project.jewelmart.swarnsarita.R$font
+com.project.jewelmart.swarnsarita.R$id
+com.project.jewelmart.swarnsarita.R$integer
+com.project.jewelmart.swarnsarita.R$layout
+com.project.jewelmart.swarnsarita.R$menu
+com.project.jewelmart.swarnsarita.R$mipmap
+com.project.jewelmart.swarnsarita.R$raw
+com.project.jewelmart.swarnsarita.R$string
+com.project.jewelmart.swarnsarita.R$style
+com.project.jewelmart.swarnsarita.R$styleable:
+    8508:8508:public R$styleable()
+com.project.jewelmart.swarnsarita.R$xml
+com.project.jewelmart.swarnsarita.RegistrationActivity:
     private android.support.v7.widget.AppCompatTextView lblTitle
-    private com.project.jewelmart.darshan.fragments.FragmentFour fragmentFour
-com.project.jewelmart.darshan.ScreenShotService:
+    private com.project.jewelmart.swarnsarita.fragments.FragmentFour fragmentFour
+com.project.jewelmart.swarnsarita.ScreenShotService:
     public android.os.FileObserver observer
     private java.lang.String error
     private java.lang.String ack
@@ -13554,116 +13554,116 @@ com.project.jewelmart.darshan.ScreenShotService:
     241:241:public static boolean isExternalStorageDocument(android.net.Uri)
     245:245:public static boolean isDownloadsDocument(android.net.Uri)
     249:249:public static boolean isMediaDocument(android.net.Uri)
-com.project.jewelmart.darshan.ServiceAlert:
+com.project.jewelmart.swarnsarita.ServiceAlert:
     private android.content.SharedPreferences pref
     private android.content.SharedPreferences$Editor editor
     public static final java.lang.String KEY_FLAG
     private static final java.lang.String PREF_NAME
-com.project.jewelmart.darshan.SplashActivity:
+com.project.jewelmart.swarnsarita.SplashActivity:
     android.widget.ProgressBar progressBar
     171:171:public void initFreshChat()
-com.project.jewelmart.darshan.SplashActivity_ViewBinding:
-    18:19:public SplashActivity_ViewBinding(com.project.jewelmart.darshan.SplashActivity)
+com.project.jewelmart.swarnsarita.SplashActivity_ViewBinding:
+    18:19:public SplashActivity_ViewBinding(com.project.jewelmart.swarnsarita.SplashActivity)
     31:36:public void unbind()
-com.project.jewelmart.darshan.adapters.Adapter
-com.project.jewelmart.darshan.adapters.Adapter$ViewHolder
-com.project.jewelmart.darshan.adapters.AdapterCartSummary:
-    private com.project.jewelmart.darshan.adapters.AdapterCartSummary$OnItemClickListener mOnItemClickListener
-    35:36:public void setOnItemClickListener(com.project.jewelmart.darshan.adapters.AdapterCartSummary$OnItemClickListener)
+com.project.jewelmart.swarnsarita.adapters.Adapter
+com.project.jewelmart.swarnsarita.adapters.Adapter$ViewHolder
+com.project.jewelmart.swarnsarita.adapters.AdapterCartSummary:
+    private com.project.jewelmart.swarnsarita.adapters.AdapterCartSummary$OnItemClickListener mOnItemClickListener
+    35:36:public void setOnItemClickListener(com.project.jewelmart.swarnsarita.adapters.AdapterCartSummary$OnItemClickListener)
     124:128:private void setAnimation(android.view.View,int)
-com.project.jewelmart.darshan.adapters.AdapterCartSummary$OnItemClickListener
-com.project.jewelmart.darshan.adapters.AdapterCustomHistory:
-    152:152:public com.project.jewelmart.darshan.pojo.CustomHistory$Data$DataList getItem(int)
-com.project.jewelmart.darshan.adapters.AdapterGrid
-com.project.jewelmart.darshan.adapters.AdapterGrid$1
-com.project.jewelmart.darshan.adapters.AdapterGrid$2
-com.project.jewelmart.darshan.adapters.AdapterGrid$3
-com.project.jewelmart.darshan.adapters.AdapterGrid$OnItemClickListener
-com.project.jewelmart.darshan.adapters.AdapterGrid$OnLoadMoreListener
-com.project.jewelmart.darshan.adapters.AdapterGrid$OnMoreButtonClickListener
-com.project.jewelmart.darshan.adapters.AdapterGrid$OriginalViewHolder
-com.project.jewelmart.darshan.adapters.AdapterGridScrollProgress:
+com.project.jewelmart.swarnsarita.adapters.AdapterCartSummary$OnItemClickListener
+com.project.jewelmart.swarnsarita.adapters.AdapterCustomHistory:
+    152:152:public com.project.jewelmart.swarnsarita.pojo.CustomHistory$Data$DataList getItem(int)
+com.project.jewelmart.swarnsarita.adapters.AdapterGrid
+com.project.jewelmart.swarnsarita.adapters.AdapterGrid$1
+com.project.jewelmart.swarnsarita.adapters.AdapterGrid$2
+com.project.jewelmart.swarnsarita.adapters.AdapterGrid$3
+com.project.jewelmart.swarnsarita.adapters.AdapterGrid$OnItemClickListener
+com.project.jewelmart.swarnsarita.adapters.AdapterGrid$OnLoadMoreListener
+com.project.jewelmart.swarnsarita.adapters.AdapterGrid$OnMoreButtonClickListener
+com.project.jewelmart.swarnsarita.adapters.AdapterGrid$OriginalViewHolder
+com.project.jewelmart.swarnsarita.adapters.AdapterGridScrollProgress:
     android.widget.ImageView wishlist_icon
     android.widget.ImageView cart_icon
     62:66:private void setAnimation(android.view.View,int)
     426:430:public java.util.List getSelectedItems()
     434:436:public void removeData(int)
     469:471:public void resetListData()
-com.project.jewelmart.darshan.adapters.AdapterGridScrollProgress$OriginalViewHolder:
+com.project.jewelmart.swarnsarita.adapters.AdapterGridScrollProgress$OriginalViewHolder:
     public android.view.View view
-com.project.jewelmart.darshan.adapters.AdapterImageSlider:
-    private com.project.jewelmart.darshan.adapters.AdapterImageSlider$OnItemClickListener onItemClickListener
-    40:41:public void setOnItemClickListener(com.project.jewelmart.darshan.adapters.AdapterImageSlider$OnItemClickListener)
+com.project.jewelmart.swarnsarita.adapters.AdapterImageSlider:
+    private com.project.jewelmart.swarnsarita.adapters.AdapterImageSlider$OnItemClickListener onItemClickListener
+    40:41:public void setOnItemClickListener(com.project.jewelmart.swarnsarita.adapters.AdapterImageSlider$OnItemClickListener)
     56:56:public java.lang.String getItem(int)
-com.project.jewelmart.darshan.adapters.AdapterImageSlider$OnItemClickListener
-com.project.jewelmart.darshan.adapters.AdapterListSectioned:
-    105:107:public void insertItem(int,com.project.jewelmart.darshan.models.Account)
-com.project.jewelmart.darshan.adapters.AdapterPeople
-com.project.jewelmart.darshan.adapters.AdapterPeople$1
-com.project.jewelmart.darshan.adapters.AdapterPeople$OnItemClickListener
-com.project.jewelmart.darshan.adapters.AdapterPeople$ViewHolder
-com.project.jewelmart.darshan.adapters.AdapterProductCart:
-    212:228:private void toggleSection(android.view.View,android.view.View,com.project.jewelmart.darshan.adapters.AdapterProductCart$OriginalViewHolder)
+com.project.jewelmart.swarnsarita.adapters.AdapterImageSlider$OnItemClickListener
+com.project.jewelmart.swarnsarita.adapters.AdapterListSectioned:
+    105:107:public void insertItem(int,com.project.jewelmart.swarnsarita.models.Account)
+com.project.jewelmart.swarnsarita.adapters.AdapterPeople
+com.project.jewelmart.swarnsarita.adapters.AdapterPeople$1
+com.project.jewelmart.swarnsarita.adapters.AdapterPeople$OnItemClickListener
+com.project.jewelmart.swarnsarita.adapters.AdapterPeople$ViewHolder
+com.project.jewelmart.swarnsarita.adapters.AdapterProductCart:
+    212:228:private void toggleSection(android.view.View,android.view.View,com.project.jewelmart.swarnsarita.adapters.AdapterProductCart$OriginalViewHolder)
     231:236:public boolean toggleArrow(android.view.View)
-com.project.jewelmart.darshan.adapters.AdapterProductCart$6
-com.project.jewelmart.darshan.adapters.AdapterProductCart$6$1
-com.project.jewelmart.darshan.adapters.AdapterProductWishlist:
-    198:214:private void toggleSection(android.view.View,android.view.View,com.project.jewelmart.darshan.adapters.AdapterProductWishlist$OriginalViewHolder)
+com.project.jewelmart.swarnsarita.adapters.AdapterProductCart$6
+com.project.jewelmart.swarnsarita.adapters.AdapterProductCart$6$1
+com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist:
+    198:214:private void toggleSection(android.view.View,android.view.View,com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist$OriginalViewHolder)
     217:222:public boolean toggleArrow(android.view.View)
-com.project.jewelmart.darshan.adapters.AdapterProductWishlist$6
-com.project.jewelmart.darshan.adapters.AdapterProductWishlist$6$1
-com.project.jewelmart.darshan.adapters.AdapterSubCategoriesList$OriginalViewHolder:
+com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist$6
+com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist$6$1
+com.project.jewelmart.swarnsarita.adapters.AdapterSubCategoriesList$OriginalViewHolder:
     public android.widget.ImageView image_count
-    public com.project.jewelmart.darshan.widgets.FontTextView product_type
-com.project.jewelmart.darshan.adapters.AdapterWorkerList:
-    125:125:public com.project.jewelmart.darshan.models.WorkerModel$DataList getItem(int)
-com.project.jewelmart.darshan.adapters.AdapterWorkerOrderDetailsList$OnItemClickListener:
-    public abstract void onItemClick(android.view.View,com.project.jewelmart.darshan.models.OrderDetailModel$ProductDatum,int)
-com.project.jewelmart.darshan.adapters.AdapterWorkerOrderDetailsList$OriginalViewHolder:
+    public com.project.jewelmart.swarnsarita.widgets.FontTextView product_type
+com.project.jewelmart.swarnsarita.adapters.AdapterWorkerList:
+    125:125:public com.project.jewelmart.swarnsarita.models.WorkerModel$DataList getItem(int)
+com.project.jewelmart.swarnsarita.adapters.AdapterWorkerOrderDetailsList$OnItemClickListener:
+    public abstract void onItemClick(android.view.View,com.project.jewelmart.swarnsarita.models.OrderDetailModel$ProductDatum,int)
+com.project.jewelmart.swarnsarita.adapters.AdapterWorkerOrderDetailsList$OriginalViewHolder:
     public android.widget.ImageView image_count
-com.project.jewelmart.darshan.adapters.AdapterZoomImageSlider:
-    private com.project.jewelmart.darshan.adapters.AdapterZoomImageSlider$OnItemClickListener onItemClickListener
-    35:36:public void setOnItemClickListener(com.project.jewelmart.darshan.adapters.AdapterZoomImageSlider$OnItemClickListener)
+com.project.jewelmart.swarnsarita.adapters.AdapterZoomImageSlider:
+    private com.project.jewelmart.swarnsarita.adapters.AdapterZoomImageSlider$OnItemClickListener onItemClickListener
+    35:36:public void setOnItemClickListener(com.project.jewelmart.swarnsarita.adapters.AdapterZoomImageSlider$OnItemClickListener)
     51:51:public java.lang.String getItem(int)
-com.project.jewelmart.darshan.adapters.AdapterZoomImageSlider$OnItemClickListener
-com.project.jewelmart.darshan.adapters.App
-com.project.jewelmart.darshan.adapters.CustomCatRecycleAdapter$ViewHolder:
+com.project.jewelmart.swarnsarita.adapters.AdapterZoomImageSlider$OnItemClickListener
+com.project.jewelmart.swarnsarita.adapters.App
+com.project.jewelmart.swarnsarita.adapters.CustomCatRecycleAdapter$ViewHolder:
     protected android.support.v7.widget.CardView card
-com.project.jewelmart.darshan.adapters.CustomStockCatRecycleAdapter
-com.project.jewelmart.darshan.adapters.CustomStockCatRecycleAdapter$ViewHolder
-com.project.jewelmart.darshan.adapters.DemoAdapter
-com.project.jewelmart.darshan.adapters.DemoAdapter$ViewHolder
-com.project.jewelmart.darshan.adapters.DemoViewPagerAdapter
-com.project.jewelmart.darshan.adapters.LeftDrawerAdapter:
+com.project.jewelmart.swarnsarita.adapters.CustomStockCatRecycleAdapter
+com.project.jewelmart.swarnsarita.adapters.CustomStockCatRecycleAdapter$ViewHolder
+com.project.jewelmart.swarnsarita.adapters.DemoAdapter
+com.project.jewelmart.swarnsarita.adapters.DemoAdapter$ViewHolder
+com.project.jewelmart.swarnsarita.adapters.DemoViewPagerAdapter
+com.project.jewelmart.swarnsarita.adapters.LeftDrawerAdapter:
     int layoutResID
     100:102:public void refresh(java.util.List)
-com.project.jewelmart.darshan.adapters.RichProductAdapter:
+com.project.jewelmart.swarnsarita.adapters.RichProductAdapter:
     79:80:public void setLinearLayoutPosition(int)
-com.project.jewelmart.darshan.adapters.SelectableAdapter
-com.project.jewelmart.darshan.adapters.Snap
-com.project.jewelmart.darshan.adapters.SnapAdapter
-com.project.jewelmart.darshan.adapters.SnapAdapter$1
-com.project.jewelmart.darshan.adapters.SnapAdapter$ViewHolder
-com.project.jewelmart.darshan.components.CirclePageIndicator:
+com.project.jewelmart.swarnsarita.adapters.SelectableAdapter
+com.project.jewelmart.swarnsarita.adapters.Snap
+com.project.jewelmart.swarnsarita.adapters.SnapAdapter
+com.project.jewelmart.swarnsarita.adapters.SnapAdapter$1
+com.project.jewelmart.swarnsarita.adapters.SnapAdapter$ViewHolder
+com.project.jewelmart.swarnsarita.components.CirclePageIndicator:
     private static final int INVALID_POINTER
     108:108:public boolean isCentered()
     179:179:public boolean isSnap()
     383:384:public void notifyDataSetChanged()
-com.project.jewelmart.darshan.fragments.FragmentUserDetails:
+com.project.jewelmart.swarnsarita.fragments.FragmentUserDetails:
     private boolean userIsInteracting
-com.project.jewelmart.darshan.fragments.HomeFragment:
-    private com.project.jewelmart.darshan.fragments.HomeFragment$AdapterImageSlider adapterImageSlider
+com.project.jewelmart.swarnsarita.fragments.HomeFragment:
+    private com.project.jewelmart.swarnsarita.fragments.HomeFragment$AdapterImageSlider adapterImageSlider
     java.util.List producttitle
     public static final java.lang.String ORIENTATION
     private android.support.v7.widget.RecyclerView mRecyclerView
     private static final int REQUEST_LOCATION
-    695:701:public static void displayImageOriginal(android.content.Context,android.widget.ImageView,int)
-com.project.jewelmart.darshan.fragments.HomeFragment$AdapterImageSlider
-com.project.jewelmart.darshan.fragments.HomeFragment$AdapterImageSlider$1
-com.project.jewelmart.darshan.fragments.HomeFragment$AdapterImageSlider$OnItemClickListener
-com.project.jewelmart.darshan.fragments.HomeFragment$AdapterImageSlider2:
-    819:819:public com.project.jewelmart.darshan.models.Images getItem(int)
-com.project.jewelmart.darshan.fragments.SubcatFragment:
+    694:700:public static void displayImageOriginal(android.content.Context,android.widget.ImageView,int)
+com.project.jewelmart.swarnsarita.fragments.HomeFragment$AdapterImageSlider
+com.project.jewelmart.swarnsarita.fragments.HomeFragment$AdapterImageSlider$1
+com.project.jewelmart.swarnsarita.fragments.HomeFragment$AdapterImageSlider$OnItemClickListener
+com.project.jewelmart.swarnsarita.fragments.HomeFragment$AdapterImageSlider2:
+    818:818:public com.project.jewelmart.swarnsarita.models.Images getItem(int)
+com.project.jewelmart.swarnsarita.fragments.SubcatFragment:
     private java.lang.CharSequence mTitle
     private int backCount
     public android.content.Intent intent
@@ -13675,8 +13675,8 @@ com.project.jewelmart.darshan.fragments.SubcatFragment:
     private int navigationBg
     private int navigationfg
     private int[] menuSeparatorColorArr
-com.project.jewelmart.darshan.fragments.SubcatFragment$DrawerItemClickListener
-com.project.jewelmart.darshan.fragments.SubcatFragment2:
+com.project.jewelmart.swarnsarita.fragments.SubcatFragment$DrawerItemClickListener
+com.project.jewelmart.swarnsarita.fragments.SubcatFragment2:
     private java.lang.CharSequence mTitle
     private int backCount
     public android.content.Intent intent
@@ -13688,8 +13688,8 @@ com.project.jewelmart.darshan.fragments.SubcatFragment2:
     private int navigationBg
     private int navigationfg
     private int[] menuSeparatorColorArr
-com.project.jewelmart.darshan.fragments.SubcatFragment2$DrawerItemClickListener
-com.project.jewelmart.darshan.interfaces.APIInterface:
+com.project.jewelmart.swarnsarita.fragments.SubcatFragment2$DrawerItemClickListener
+com.project.jewelmart.swarnsarita.interfaces.APIInterface:
     public abstract retrofit2.Call doGetCountries()
     public abstract retrofit2.Call doGetClientId()
     public abstract retrofit2.Call doGetUserType()
@@ -13697,44 +13697,44 @@ com.project.jewelmart.darshan.interfaces.APIInterface:
     public abstract retrofit2.Call doGetProductGrid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
     public abstract retrofit2.Call doGetProductDetails2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
     public abstract retrofit2.Call getFilter(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-com.project.jewelmart.darshan.listner.PageIndicator:
+com.project.jewelmart.swarnsarita.listner.PageIndicator:
     public abstract void setViewPager(android.support.v4.view.ViewPager)
     public abstract void setViewPager(android.support.v4.view.ViewPager,int)
     public abstract void setCurrentItem(int)
     public abstract void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
     public abstract void notifyDataSetChanged()
-com.project.jewelmart.darshan.listner.PayuConstants
-com.project.jewelmart.darshan.listner.SendNotification
-com.project.jewelmart.darshan.models.CartSummary:
+com.project.jewelmart.swarnsarita.listner.PayuConstants
+com.project.jewelmart.swarnsarita.listner.SendNotification
+com.project.jewelmart.swarnsarita.models.CartSummary:
     private java.lang.String ack
     21:21:public java.lang.String getAck()
     25:26:public void setAck(java.lang.String)
-    33:34:public void setCartSummary(com.project.jewelmart.darshan.models.CartSummary$CartSummary_)
-com.project.jewelmart.darshan.models.CartSummary$CartSummary_:
-    final synthetic com.project.jewelmart.darshan.models.CartSummary this$0
-    36:36:public CartSummary$CartSummary_(com.project.jewelmart.darshan.models.CartSummary)
-    50:51:public void setProductMaster(com.project.jewelmart.darshan.models.CartSummary$CartSummary_$ProductMaster)
-    58:59:public void setInventoryMaster(com.project.jewelmart.darshan.models.CartSummary$CartSummary_$InventoryMaster)
-com.project.jewelmart.darshan.models.CartSummary$CartSummary_$InventoryMaster:
-    final synthetic com.project.jewelmart.darshan.models.CartSummary$CartSummary_ this$1
-    61:61:public CartSummary$CartSummary_$InventoryMaster(com.project.jewelmart.darshan.models.CartSummary$CartSummary_)
+    33:34:public void setCartSummary(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_)
+com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_:
+    final synthetic com.project.jewelmart.swarnsarita.models.CartSummary this$0
+    36:36:public CartSummary$CartSummary_(com.project.jewelmart.swarnsarita.models.CartSummary)
+    50:51:public void setProductMaster(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$ProductMaster)
+    58:59:public void setInventoryMaster(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$InventoryMaster)
+com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$InventoryMaster:
+    final synthetic com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_ this$1
+    61:61:public CartSummary$CartSummary_$InventoryMaster(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_)
     75:76:public void setGrossWt(java.lang.String)
     83:84:public void setQuantity(java.lang.Integer)
-com.project.jewelmart.darshan.models.CartSummary$CartSummary_$ProductMaster:
-    final synthetic com.project.jewelmart.darshan.models.CartSummary$CartSummary_ this$1
-    88:88:public CartSummary$CartSummary_$ProductMaster(com.project.jewelmart.darshan.models.CartSummary$CartSummary_)
+com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$ProductMaster:
+    final synthetic com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_ this$1
+    88:88:public CartSummary$CartSummary_$ProductMaster(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_)
     102:103:public void setGrossWt(java.lang.String)
     110:111:public void setQuantity(java.lang.Integer)
-com.project.jewelmart.darshan.models.Collection
-com.project.jewelmart.darshan.models.Collection$1
-com.project.jewelmart.darshan.models.CustomImage
-com.project.jewelmart.darshan.models.Demo
-com.project.jewelmart.darshan.models.Image
-com.project.jewelmart.darshan.models.Image2:
+com.project.jewelmart.swarnsarita.models.Collection
+com.project.jewelmart.swarnsarita.models.Collection$1
+com.project.jewelmart.swarnsarita.models.CustomImage
+com.project.jewelmart.swarnsarita.models.Demo
+com.project.jewelmart.swarnsarita.models.Image
+com.project.jewelmart.swarnsarita.models.Image2:
     public android.graphics.drawable.Drawable imageDrw
     public java.lang.String name
     public java.lang.String brief
-com.project.jewelmart.darshan.models.LeftDrawer:
+com.project.jewelmart.swarnsarita.models.LeftDrawer:
     int imgResID
     public java.lang.String catId
     public java.lang.String catName
@@ -13743,39 +13743,39 @@ com.project.jewelmart.darshan.models.LeftDrawer:
     31:32:public void setName(java.lang.String)
     35:35:public java.lang.String getCount()
     39:40:public void setCount(java.lang.String)
-com.project.jewelmart.darshan.models.MarketModel:
+com.project.jewelmart.swarnsarita.models.MarketModel:
     23:24:public void setAck(java.lang.String)
     31:32:public void setMsg(java.lang.String)
-    39:40:public void setData(com.project.jewelmart.darshan.models.MarketModel$Data)
-com.project.jewelmart.darshan.models.MarketModel$Data:
-    final synthetic com.project.jewelmart.darshan.models.MarketModel this$0
-    42:42:public MarketModel$Data(com.project.jewelmart.darshan.models.MarketModel)
+    39:40:public void setData(com.project.jewelmart.swarnsarita.models.MarketModel$Data)
+com.project.jewelmart.swarnsarita.models.MarketModel$Data:
+    final synthetic com.project.jewelmart.swarnsarita.models.MarketModel this$0
+    42:42:public MarketModel$Data(com.project.jewelmart.swarnsarita.models.MarketModel)
     62:63:public void setPurpose(java.lang.String)
     70:71:public void setDescription(java.lang.String)
     78:79:public void setImageName(java.lang.String)
     86:87:public void setPath(java.lang.String)
-com.project.jewelmart.darshan.models.OrderDetailModel:
+com.project.jewelmart.swarnsarita.models.OrderDetailModel:
     22:23:public void setProductData(java.util.List)
-com.project.jewelmart.darshan.models.OrderDetailModel$ProductDatum:
-    final synthetic com.project.jewelmart.darshan.models.OrderDetailModel this$0
-    26:34:public OrderDetailModel$ProductDatum(com.project.jewelmart.darshan.models.OrderDetailModel)
+com.project.jewelmart.swarnsarita.models.OrderDetailModel$ProductDatum:
+    final synthetic com.project.jewelmart.swarnsarita.models.OrderDetailModel this$0
+    26:34:public OrderDetailModel$ProductDatum(com.project.jewelmart.swarnsarita.models.OrderDetailModel)
     43:44:public void setDataKey(java.util.List)
     51:52:public void setDataValue(java.util.List)
     59:60:public void setImageName(java.util.List)
-com.project.jewelmart.darshan.models.OrderDetailModel$ProductDatum$ImageName:
+com.project.jewelmart.swarnsarita.models.OrderDetailModel$ProductDatum$ImageName:
     private java.lang.String featuredImage
-    final synthetic com.project.jewelmart.darshan.models.OrderDetailModel$ProductDatum this$1
-    62:62:public OrderDetailModel$ProductDatum$ImageName(com.project.jewelmart.darshan.models.OrderDetailModel$ProductDatum)
+    final synthetic com.project.jewelmart.swarnsarita.models.OrderDetailModel$ProductDatum this$1
+    62:62:public OrderDetailModel$ProductDatum$ImageName(com.project.jewelmart.swarnsarita.models.OrderDetailModel$ProductDatum)
     76:77:public void setImageName(java.lang.String)
     80:80:public java.lang.String getFeaturedImage()
     84:85:public void setFeaturedImage(java.lang.String)
-com.project.jewelmart.darshan.models.OrderHistory:
+com.project.jewelmart.swarnsarita.models.OrderHistory:
     private java.lang.String orderDate
     private java.lang.String collectionId
     private java.lang.String color
     private java.lang.String tone
     private java.lang.String polish
-    66:67:public void setGiftData(com.project.jewelmart.darshan.models.OrderHistory$GiftData)
+    66:67:public void setGiftData(com.project.jewelmart.swarnsarita.models.OrderHistory$GiftData)
     74:75:public void setOrderId(java.lang.String)
     78:78:public java.lang.String getOrderDate()
     82:83:public void setOrderDate(java.lang.String)
@@ -13795,46 +13795,46 @@ com.project.jewelmart.darshan.models.OrderHistory:
     166:166:public java.lang.String getPolish()
     170:171:public void setPolish(java.lang.String)
     178:179:public void setProduct_inventory_type(java.lang.String)
-com.project.jewelmart.darshan.models.OrderHistory$GiftData:
-    final synthetic com.project.jewelmart.darshan.models.OrderHistory this$0
-    181:181:public OrderHistory$GiftData(com.project.jewelmart.darshan.models.OrderHistory)
+com.project.jewelmart.swarnsarita.models.OrderHistory$GiftData:
+    final synthetic com.project.jewelmart.swarnsarita.models.OrderHistory this$0
+    181:181:public OrderHistory$GiftData(com.project.jewelmart.swarnsarita.models.OrderHistory)
     195:196:public void setCoupanName(java.lang.String)
     203:204:public void setDescription(java.lang.String)
-com.project.jewelmart.darshan.models.OrderHistory$ImageName:
-    final synthetic com.project.jewelmart.darshan.models.OrderHistory this$0
-    208:208:public OrderHistory$ImageName(com.project.jewelmart.darshan.models.OrderHistory)
+com.project.jewelmart.swarnsarita.models.OrderHistory$ImageName:
+    final synthetic com.project.jewelmart.swarnsarita.models.OrderHistory this$0
+    208:208:public OrderHistory$ImageName(com.project.jewelmart.swarnsarita.models.OrderHistory)
     219:220:public void setImageName(java.lang.String)
-com.project.jewelmart.darshan.models.People
-com.project.jewelmart.darshan.models.ProgressImage
-com.project.jewelmart.darshan.models.Result:
+com.project.jewelmart.swarnsarita.models.People
+com.project.jewelmart.swarnsarita.models.ProgressImage
+com.project.jewelmart.swarnsarita.models.Result:
     26:27:public void setMsg(java.lang.String)
     42:43:public void setAck(int)
-com.project.jewelmart.darshan.models.WorkerModel:
+com.project.jewelmart.swarnsarita.models.WorkerModel:
     22:23:public void setDataList(java.util.List)
-com.project.jewelmart.darshan.models.WorkerModel$DataList:
-    final synthetic com.project.jewelmart.darshan.models.WorkerModel this$0
-    26:40:public WorkerModel$DataList(com.project.jewelmart.darshan.models.WorkerModel)
+com.project.jewelmart.swarnsarita.models.WorkerModel$DataList:
+    final synthetic com.project.jewelmart.swarnsarita.models.WorkerModel this$0
+    26:40:public WorkerModel$DataList(com.project.jewelmart.swarnsarita.models.WorkerModel)
     49:50:public void setDataKey(java.util.List)
     57:58:public void setProduct_id(java.lang.String)
     65:66:public void setDataValue(java.util.List)
     73:74:public void setImageName(java.util.List)
-com.project.jewelmart.darshan.models.WorkerModel$DataList$ImageName:
-    final synthetic com.project.jewelmart.darshan.models.WorkerModel$DataList this$1
-    76:76:public WorkerModel$DataList$ImageName(com.project.jewelmart.darshan.models.WorkerModel$DataList)
+com.project.jewelmart.swarnsarita.models.WorkerModel$DataList$ImageName:
+    final synthetic com.project.jewelmart.swarnsarita.models.WorkerModel$DataList this$1
+    76:76:public WorkerModel$DataList$ImageName(com.project.jewelmart.swarnsarita.models.WorkerModel$DataList)
     87:88:public void setImageName(java.lang.String)
-com.project.jewelmart.darshan.networkutils.APIClient:
+com.project.jewelmart.swarnsarita.networkutils.APIClient:
     16:16:public APIClient()
-com.project.jewelmart.darshan.networkutils.CheckNetwork:
+com.project.jewelmart.swarnsarita.networkutils.CheckNetwork:
     private android.content.Context _context
     15:17:public CheckNetwork(android.content.Context)
-com.project.jewelmart.darshan.pojo.AccountDetails:
+com.project.jewelmart.swarnsarita.pojo.AccountDetails:
     27:28:public void setAck(java.lang.Integer)
     35:36:public void setMsg(java.lang.String)
     43:44:public void setData(java.util.List)
-com.project.jewelmart.darshan.pojo.AccountDetails$Datum:
+com.project.jewelmart.swarnsarita.pojo.AccountDetails$Datum:
     private java.lang.String id
-    final synthetic com.project.jewelmart.darshan.pojo.AccountDetails this$0
-    46:46:public AccountDetails$Datum(com.project.jewelmart.darshan.pojo.AccountDetails)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.AccountDetails this$0
+    46:46:public AccountDetails$Datum(com.project.jewelmart.swarnsarita.pojo.AccountDetails)
     75:75:public java.lang.String getId()
     79:80:public void setId(java.lang.String)
     87:88:public void setAccount_number(java.lang.String)
@@ -13844,10 +13844,10 @@ com.project.jewelmart.darshan.pojo.AccountDetails$Datum:
     119:120:public void setMicr(java.lang.String)
     127:128:public void setBranchName(java.lang.String)
     135:136:public void setCity(java.lang.String)
-com.project.jewelmart.darshan.pojo.Acknowledge:
+com.project.jewelmart.swarnsarita.pojo.Acknowledge:
     24:25:public void setAck(java.lang.String)
     32:33:public void setMsg(java.lang.String)
-com.project.jewelmart.darshan.pojo.Appdata:
+com.project.jewelmart.swarnsarita.pojo.Appdata:
     42:42:public java.util.List getCompanyTypeData()
     46:47:public void setCompanyTypeData(java.util.List)
     50:50:public java.util.List getCompanyNameData()
@@ -13855,41 +13855,41 @@ com.project.jewelmart.darshan.pojo.Appdata:
     62:63:public void setMelting(java.util.List)
     70:71:public void setCountryData(java.util.List)
     74:75:public void setTone(java.util.List)
-com.project.jewelmart.darshan.pojo.Appdata$Color:
-    final synthetic com.project.jewelmart.darshan.pojo.Appdata this$0
-    224:224:public Appdata$Color(com.project.jewelmart.darshan.pojo.Appdata)
+com.project.jewelmart.swarnsarita.pojo.Appdata$Color:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Appdata this$0
+    224:224:public Appdata$Color(com.project.jewelmart.swarnsarita.pojo.Appdata)
     238:239:public void setId(java.lang.String)
     246:247:public void setcColorType(java.lang.String)
-com.project.jewelmart.darshan.pojo.Appdata$CompanyNameDatum
-com.project.jewelmart.darshan.pojo.Appdata$CompanyTypeDatum
-com.project.jewelmart.darshan.pojo.Appdata$CountryDatum:
-    final synthetic com.project.jewelmart.darshan.pojo.Appdata this$0
-    143:143:public Appdata$CountryDatum(com.project.jewelmart.darshan.pojo.Appdata)
+com.project.jewelmart.swarnsarita.pojo.Appdata$CompanyNameDatum
+com.project.jewelmart.swarnsarita.pojo.Appdata$CompanyTypeDatum
+com.project.jewelmart.swarnsarita.pojo.Appdata$CountryDatum:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Appdata this$0
+    143:143:public Appdata$CountryDatum(com.project.jewelmart.swarnsarita.pojo.Appdata)
     157:158:public void setId(java.lang.String)
     165:166:public void setName(java.lang.String)
-com.project.jewelmart.darshan.pojo.Appdata$Melting:
-    final synthetic com.project.jewelmart.darshan.pojo.Appdata this$0
-    252:252:public Appdata$Melting(com.project.jewelmart.darshan.pojo.Appdata)
+com.project.jewelmart.swarnsarita.pojo.Appdata$Melting:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Appdata this$0
+    252:252:public Appdata$Melting(com.project.jewelmart.swarnsarita.pojo.Appdata)
     266:267:public void setId(java.lang.String)
     274:275:public void setMeltingName(java.lang.String)
-com.project.jewelmart.darshan.pojo.Appdata$Polish:
-    final synthetic com.project.jewelmart.darshan.pojo.Appdata this$0
-    197:197:public Appdata$Polish(com.project.jewelmart.darshan.pojo.Appdata)
+com.project.jewelmart.swarnsarita.pojo.Appdata$Polish:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Appdata this$0
+    197:197:public Appdata$Polish(com.project.jewelmart.swarnsarita.pojo.Appdata)
     211:212:public void setId(java.lang.String)
     219:220:public void setPolishType(java.lang.String)
-com.project.jewelmart.darshan.pojo.Appdata$Tone:
-    final synthetic com.project.jewelmart.darshan.pojo.Appdata this$0
-    170:170:public Appdata$Tone(com.project.jewelmart.darshan.pojo.Appdata)
+com.project.jewelmart.swarnsarita.pojo.Appdata$Tone:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Appdata this$0
+    170:170:public Appdata$Tone(com.project.jewelmart.swarnsarita.pojo.Appdata)
     184:185:public void setId(java.lang.String)
     192:193:public void setToneTypee(java.lang.String)
-com.project.jewelmart.darshan.pojo.CallEmail:
+com.project.jewelmart.swarnsarita.pojo.CallEmail:
     private java.lang.String id
     26:26:public java.lang.String getId()
     30:31:public void setId(java.lang.String)
     38:39:public void setLocation(java.lang.String)
     46:47:public void setContactNumber(java.lang.String)
     54:55:public void setEmailId(java.lang.String)
-com.project.jewelmart.darshan.pojo.Cart:
+com.project.jewelmart.swarnsarita.pojo.Cart:
     private java.lang.String ack
     private java.lang.String msg
     21:21:public java.lang.String getAck()
@@ -13897,7 +13897,7 @@ com.project.jewelmart.darshan.pojo.Cart:
     29:29:public java.lang.String getMsg()
     33:34:public void setMsg(java.lang.String)
     41:42:public void setData(java.util.List)
-com.project.jewelmart.darshan.pojo.Cart$Datum:
+com.project.jewelmart.swarnsarita.pojo.Cart$Datum:
     private java.lang.String productInventoryId
     private java.lang.Double netWt
     private java.lang.String length
@@ -13906,8 +13906,8 @@ com.project.jewelmart.darshan.pojo.Cart$Datum:
     private java.lang.String thumbImage
     private java.lang.String totalGrossWt
     private java.lang.String totalNetWt
-    final synthetic com.project.jewelmart.darshan.pojo.Cart this$0
-    44:44:public Cart$Datum(com.project.jewelmart.darshan.pojo.Cart)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Cart this$0
+    44:44:public Cart$Datum(com.project.jewelmart.swarnsarita.pojo.Cart)
     114:115:public void setCartWishId(java.lang.String)
     122:123:public void setProductInventoryType(java.lang.String)
     126:126:public java.lang.String getProductInventoryId()
@@ -13936,22 +13936,22 @@ com.project.jewelmart.darshan.pojo.Cart$Datum:
     250:251:public void setColor(java.lang.String)
     258:259:public void setPolish(java.lang.String)
     266:267:public void setTone(java.lang.String)
-com.project.jewelmart.darshan.pojo.CartAcknowledge:
+com.project.jewelmart.swarnsarita.pojo.CartAcknowledge:
     28:29:public void setAck(java.lang.String)
     36:37:public void setMsg(java.lang.String)
-    44:45:public void setData(com.project.jewelmart.darshan.pojo.CartAcknowledge$Data)
-com.project.jewelmart.darshan.pojo.CartAcknowledge$Data:
+    44:45:public void setData(com.project.jewelmart.swarnsarita.pojo.CartAcknowledge$Data)
+com.project.jewelmart.swarnsarita.pojo.CartAcknowledge$Data:
     private java.lang.String totalWeight
-    private com.project.jewelmart.darshan.pojo.CartAcknowledge$Data$NextOffer nextOffer
-    final synthetic com.project.jewelmart.darshan.pojo.CartAcknowledge this$0
-    47:47:public CartAcknowledge$Data(com.project.jewelmart.darshan.pojo.CartAcknowledge)
+    private com.project.jewelmart.swarnsarita.pojo.CartAcknowledge$Data$NextOffer nextOffer
+    final synthetic com.project.jewelmart.swarnsarita.pojo.CartAcknowledge this$0
+    47:47:public CartAcknowledge$Data(com.project.jewelmart.swarnsarita.pojo.CartAcknowledge)
     62:62:public java.lang.String getTotalWeight()
     66:67:public void setTotalWeight(java.lang.String)
-    70:70:public com.project.jewelmart.darshan.pojo.CartAcknowledge$Data$NextOffer getNextOffer()
-    74:75:public void setNextOffer(com.project.jewelmart.darshan.pojo.CartAcknowledge$Data$NextOffer)
+    70:70:public com.project.jewelmart.swarnsarita.pojo.CartAcknowledge$Data$NextOffer getNextOffer()
+    74:75:public void setNextOffer(com.project.jewelmart.swarnsarita.pojo.CartAcknowledge$Data$NextOffer)
     82:83:public void setQuantity(java.lang.String)
-com.project.jewelmart.darshan.pojo.CartAcknowledge$Data$NextOffer
-com.project.jewelmart.darshan.pojo.CartCount:
+com.project.jewelmart.swarnsarita.pojo.CartAcknowledge$Data$NextOffer
+com.project.jewelmart.swarnsarita.pojo.CartCount:
     private java.lang.Double totalWeight
     private java.lang.Integer ack
     private java.lang.String msg
@@ -13962,7 +13962,7 @@ com.project.jewelmart.darshan.pojo.CartCount:
     48:49:public void setCount(java.lang.Integer)
     52:52:public java.lang.Double getTotalWeight()
     56:57:public void setTotalWeight(java.lang.Double)
-com.project.jewelmart.darshan.pojo.CartSummaryModel:
+com.project.jewelmart.swarnsarita.pojo.CartSummaryModel:
     private java.lang.String grossWt
     private java.lang.String length
     34:35:public void setProductId(java.lang.String)
@@ -13974,20 +13974,20 @@ com.project.jewelmart.darshan.pojo.CartSummaryModel:
     66:67:public void setColor(java.lang.String)
     74:75:public void setCusWeight(java.lang.String)
     82:83:public void setQuantity(java.lang.String)
-com.project.jewelmart.darshan.pojo.CatalogueModel:
+com.project.jewelmart.swarnsarita.pojo.CatalogueModel:
     private java.lang.Integer ack
     23:23:public java.lang.Integer getAck()
     27:28:public void setAck(java.lang.Integer)
     35:36:public void setCatalogueSlider(java.util.List)
     43:44:public void setImagePath(java.lang.String)
-com.project.jewelmart.darshan.pojo.CatalogueModel$CatalogueSlider:
+com.project.jewelmart.swarnsarita.pojo.CatalogueModel$CatalogueSlider:
     private java.lang.String id
-    final synthetic com.project.jewelmart.darshan.pojo.CatalogueModel this$0
-    45:45:public CatalogueModel$CatalogueSlider(com.project.jewelmart.darshan.pojo.CatalogueModel)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.CatalogueModel this$0
+    45:45:public CatalogueModel$CatalogueSlider(com.project.jewelmart.swarnsarita.pojo.CatalogueModel)
     55:55:public java.lang.String getId()
     59:60:public void setId(java.lang.String)
     67:68:public void setImageName(java.lang.String)
-com.project.jewelmart.darshan.pojo.CheckOut:
+com.project.jewelmart.swarnsarita.pojo.CheckOut:
     private java.lang.String visible
     29:30:public void setFieldName(java.lang.String)
     37:38:public void setFieldCode(java.lang.String)
@@ -13995,7 +13995,7 @@ com.project.jewelmart.darshan.pojo.CheckOut:
     53:54:public void setFieldType(java.lang.String)
     57:57:public java.lang.String getVisible()
     61:62:public void setVisible(java.lang.String)
-com.project.jewelmart.darshan.pojo.Cities:
+com.project.jewelmart.swarnsarita.pojo.Cities:
     private java.lang.String error
     private java.lang.Integer ack
     29:30:public void setCities(java.util.List)
@@ -14003,14 +14003,14 @@ com.project.jewelmart.darshan.pojo.Cities:
     37:38:public void setError(java.lang.String)
     41:41:public java.lang.Integer getAck()
     45:46:public void setAck(java.lang.Integer)
-com.project.jewelmart.darshan.pojo.Cities$City:
-    final synthetic com.project.jewelmart.darshan.pojo.Cities this$0
-    48:48:public Cities$City(com.project.jewelmart.darshan.pojo.Cities)
+com.project.jewelmart.swarnsarita.pojo.Cities$City:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Cities this$0
+    48:48:public Cities$City(com.project.jewelmart.swarnsarita.pojo.Cities)
     62:63:public void setId(java.lang.String)
     70:71:public void setName(java.lang.String)
-com.project.jewelmart.darshan.pojo.ClientId
-com.project.jewelmart.darshan.pojo.ClientId$Client
-com.project.jewelmart.darshan.pojo.Collection:
+com.project.jewelmart.swarnsarita.pojo.ClientId
+com.project.jewelmart.swarnsarita.pojo.ClientId$Client
+com.project.jewelmart.swarnsarita.pojo.Collection:
     private java.lang.String shortCode
     private java.lang.String position
     44:45:public void setLatest(java.lang.String)
@@ -14023,18 +14023,18 @@ com.project.jewelmart.darshan.pojo.Collection:
     89:90:public void setPosition(java.lang.String)
     98:99:public void setImage_name(java.lang.String)
     106:107:public void setSubcategory(java.util.List)
-com.project.jewelmart.darshan.pojo.Collection$Subcategory:
+com.project.jewelmart.swarnsarita.pojo.Collection$Subcategory:
     private java.lang.String shortCode
-    final synthetic com.project.jewelmart.darshan.pojo.Collection this$0
-    109:123:public Collection$Subcategory(com.project.jewelmart.darshan.pojo.Collection)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Collection this$0
+    109:123:public Collection$Subcategory(com.project.jewelmart.swarnsarita.pojo.Collection)
     132:133:public void setId(java.lang.String)
     140:141:public void setColName(java.lang.String)
     144:144:public java.lang.String getShortCode()
     148:149:public void setShortCode(java.lang.String)
     156:157:public void setPosition(java.lang.String)
     164:165:public void setSubcategory(java.util.List)
-com.project.jewelmart.darshan.pojo.Collection$Subcategory$Subcategory_
-com.project.jewelmart.darshan.pojo.Company:
+com.project.jewelmart.swarnsarita.pojo.Collection$Subcategory$Subcategory_
+com.project.jewelmart.swarnsarita.pojo.Company:
     private java.lang.String error
     private java.lang.Integer ack
     28:29:public void setCompany(java.util.List)
@@ -14042,60 +14042,60 @@ com.project.jewelmart.darshan.pojo.Company:
     36:37:public void setError(java.lang.String)
     40:40:public java.lang.Integer getAck()
     44:45:public void setAck(java.lang.Integer)
-com.project.jewelmart.darshan.pojo.Company$Company_:
-    final synthetic com.project.jewelmart.darshan.pojo.Company this$0
-    48:48:public Company$Company_(com.project.jewelmart.darshan.pojo.Company)
+com.project.jewelmart.swarnsarita.pojo.Company$Company_:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Company this$0
+    48:48:public Company$Company_(com.project.jewelmart.swarnsarita.pojo.Company)
     62:63:public void setId(java.lang.String)
     70:71:public void setName(java.lang.String)
-com.project.jewelmart.darshan.pojo.Count:
+com.project.jewelmart.swarnsarita.pojo.Count:
     21:22:public void setCount(java.lang.Integer)
-com.project.jewelmart.darshan.pojo.CountryPojo
-com.project.jewelmart.darshan.pojo.CountryPojo$Country
-com.project.jewelmart.darshan.pojo.CustomHistory:
+com.project.jewelmart.swarnsarita.pojo.CountryPojo
+com.project.jewelmart.swarnsarita.pojo.CountryPojo$Country
+com.project.jewelmart.swarnsarita.pojo.CustomHistory:
     33:34:public void setMsg(java.lang.String)
-    41:42:public void setData(com.project.jewelmart.darshan.pojo.CustomHistory$Data)
+    41:42:public void setData(com.project.jewelmart.swarnsarita.pojo.CustomHistory$Data)
     49:50:public void setAck(java.lang.String)
     57:58:public void setPath(java.lang.String)
-com.project.jewelmart.darshan.pojo.CustomHistory$Data:
-    final synthetic com.project.jewelmart.darshan.pojo.CustomHistory this$0
-    60:62:public CustomHistory$Data(com.project.jewelmart.darshan.pojo.CustomHistory)
+com.project.jewelmart.swarnsarita.pojo.CustomHistory$Data:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.CustomHistory this$0
+    60:62:public CustomHistory$Data(com.project.jewelmart.swarnsarita.pojo.CustomHistory)
     71:72:public void setDataList(java.util.List)
-com.project.jewelmart.darshan.pojo.CustomHistory$Data$DataList:
-    final synthetic com.project.jewelmart.darshan.pojo.CustomHistory$Data this$1
-    74:79:public CustomHistory$Data$DataList(com.project.jewelmart.darshan.pojo.CustomHistory$Data)
+com.project.jewelmart.swarnsarita.pojo.CustomHistory$Data$DataList:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.CustomHistory$Data this$1
+    74:79:public CustomHistory$Data$DataList(com.project.jewelmart.swarnsarita.pojo.CustomHistory$Data)
     91:92:public void setLabel(java.util.List)
     99:100:public void setValue(java.util.List)
     107:108:public void setImageName(java.lang.String)
-com.project.jewelmart.darshan.pojo.Filter
-com.project.jewelmart.darshan.pojo.Filter$GrossWt
-com.project.jewelmart.darshan.pojo.Filter$NetWt
-com.project.jewelmart.darshan.pojo.Filter$ProductStatus
-com.project.jewelmart.darshan.pojo.FilterObject:
+com.project.jewelmart.swarnsarita.pojo.Filter
+com.project.jewelmart.swarnsarita.pojo.Filter$GrossWt
+com.project.jewelmart.swarnsarita.pojo.Filter$NetWt
+com.project.jewelmart.swarnsarita.pojo.Filter$ProductStatus
+com.project.jewelmart.swarnsarita.pojo.FilterObject:
     public java.lang.String mat_calc_type
-com.project.jewelmart.darshan.pojo.Home:
-    private com.project.jewelmart.darshan.pojo.Home$ImagePath imagePath
+com.project.jewelmart.swarnsarita.pojo.Home:
+    private com.project.jewelmart.swarnsarita.pojo.Home$ImagePath imagePath
     32:33:public void setBasePath(java.lang.String)
     40:41:public void setBrandBanner(java.util.List)
     48:49:public void setFinalCollection(java.util.List)
-    52:52:public com.project.jewelmart.darshan.pojo.Home$ImagePath getImagePath()
-    56:57:public void setImagePath(com.project.jewelmart.darshan.pojo.Home$ImagePath)
-com.project.jewelmart.darshan.pojo.Home$BrandBanner:
+    52:52:public com.project.jewelmart.swarnsarita.pojo.Home$ImagePath getImagePath()
+    56:57:public void setImagePath(com.project.jewelmart.swarnsarita.pojo.Home$ImagePath)
+com.project.jewelmart.swarnsarita.pojo.Home$BrandBanner:
     private java.lang.String position
-    final synthetic com.project.jewelmart.darshan.pojo.Home this$0
-    59:59:public Home$BrandBanner(com.project.jewelmart.darshan.pojo.Home)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Home this$0
+    59:59:public Home$BrandBanner(com.project.jewelmart.swarnsarita.pojo.Home)
     76:77:public void setBrandImage(java.lang.String)
     80:80:public java.lang.String getPosition()
     84:85:public void setPosition(java.lang.String)
     92:93:public void setDescription(java.lang.String)
-com.project.jewelmart.darshan.pojo.Home$FinalCollection:
-    final synthetic com.project.jewelmart.darshan.pojo.Home this$0
-    96:100:public Home$FinalCollection(com.project.jewelmart.darshan.pojo.Home)
+com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Home this$0
+    96:100:public Home$FinalCollection(com.project.jewelmart.swarnsarita.pojo.Home)
     109:110:public void setKey(java.lang.String)
     117:118:public void setProductAssign(java.util.List)
-com.project.jewelmart.darshan.pojo.Home$FinalCollection$ProductAssign:
+com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection$ProductAssign:
     private java.lang.String grossWt
-    final synthetic com.project.jewelmart.darshan.pojo.Home$FinalCollection this$1
-    120:147:public Home$FinalCollection$ProductAssign(com.project.jewelmart.darshan.pojo.Home$FinalCollection)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection this$1
+    120:147:public Home$FinalCollection$ProductAssign(com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection)
     156:157:public void setCollectionSkuCode(java.lang.String)
     160:160:public java.lang.String getGrossWt()
     164:165:public void setGrossWt(java.lang.String)
@@ -14103,25 +14103,25 @@ com.project.jewelmart.darshan.pojo.Home$FinalCollection$ProductAssign:
     180:181:public void setImages(java.util.List)
     192:192:public java.lang.String getInwishlist()
     204:205:public void setProduct_id(java.lang.String)
-com.project.jewelmart.darshan.pojo.Home$FinalCollection$ProductAssign$Image:
-    final synthetic com.project.jewelmart.darshan.pojo.Home$FinalCollection$ProductAssign this$2
-    215:215:public Home$FinalCollection$ProductAssign$Image(com.project.jewelmart.darshan.pojo.Home$FinalCollection$ProductAssign)
+com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection$ProductAssign$Image:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection$ProductAssign this$2
+    215:215:public Home$FinalCollection$ProductAssign$Image(com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection$ProductAssign)
     226:227:public void setImageName(java.lang.String)
-com.project.jewelmart.darshan.pojo.Home$ImagePath
-com.project.jewelmart.darshan.pojo.Loginstatus:
+com.project.jewelmart.swarnsarita.pojo.Home$ImagePath
+com.project.jewelmart.swarnsarita.pojo.Loginstatus:
     27:28:public void setMsg(java.lang.String)
     35:36:public void setAck(java.lang.Integer)
-    43:44:public void setUserData(com.project.jewelmart.darshan.pojo.Loginstatus$UserData)
-com.project.jewelmart.darshan.pojo.Loginstatus$UserData:
-    final synthetic com.project.jewelmart.darshan.pojo.Loginstatus this$0
-    47:47:public Loginstatus$UserData(com.project.jewelmart.darshan.pojo.Loginstatus)
+    43:44:public void setUserData(com.project.jewelmart.swarnsarita.pojo.Loginstatus$UserData)
+com.project.jewelmart.swarnsarita.pojo.Loginstatus$UserData:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.Loginstatus this$0
+    47:47:public Loginstatus$UserData(com.project.jewelmart.swarnsarita.pojo.Loginstatus)
     74:75:public void setDefault_melting(java.lang.String)
     82:83:public void setUserId(java.lang.String)
     90:91:public void setMobileNumber(java.lang.String)
     98:99:public void setEmailId(java.lang.String)
     106:107:public void setFullName(java.lang.String)
     114:115:public void setUserStatus(java.lang.String)
-com.project.jewelmart.darshan.pojo.MyCollection:
+com.project.jewelmart.swarnsarita.pojo.MyCollection:
     private java.lang.String sendTo
     33:34:public void setId(java.lang.String)
     41:42:public void setCollectionName(java.lang.String)
@@ -14129,13 +14129,13 @@ com.project.jewelmart.darshan.pojo.MyCollection:
     49:50:public void setSendTo(java.lang.String)
     57:58:public void setProductInventoryType(java.lang.String)
     65:66:public void setProductCount(java.lang.String)
-com.project.jewelmart.darshan.pojo.NotificationModel:
+com.project.jewelmart.swarnsarita.pojo.NotificationModel:
     27:28:public void setAck(java.lang.String)
     35:36:public void setMsg(java.lang.String)
     43:44:public void setData(java.util.List)
-com.project.jewelmart.darshan.pojo.NotificationModel$Datum:
-    final synthetic com.project.jewelmart.darshan.pojo.NotificationModel this$0
-    46:46:public NotificationModel$Datum(com.project.jewelmart.darshan.pojo.NotificationModel)
+com.project.jewelmart.swarnsarita.pojo.NotificationModel$Datum:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.NotificationModel this$0
+    46:46:public NotificationModel$Datum(com.project.jewelmart.swarnsarita.pojo.NotificationModel)
     76:77:public void setOrderId(java.lang.String)
     84:85:public void setProductId(java.lang.String)
     92:93:public void setTitle(java.lang.String)
@@ -14143,19 +14143,19 @@ com.project.jewelmart.darshan.pojo.NotificationModel$Datum:
     108:109:public void setCreated(java.lang.String)
     116:117:public void setImageName(java.lang.String)
     124:125:public void setFrom_push(java.lang.String)
-com.project.jewelmart.darshan.pojo.OfferModel:
+com.project.jewelmart.swarnsarita.pojo.OfferModel:
     28:29:public void setAck(java.lang.Integer)
     36:37:public void setMsg(java.lang.String)
-    44:45:public void setData(com.project.jewelmart.darshan.pojo.OfferModel$Data)
-com.project.jewelmart.darshan.pojo.OfferModel$Data:
-    final synthetic com.project.jewelmart.darshan.pojo.OfferModel this$0
-    119:121:public OfferModel$Data(com.project.jewelmart.darshan.pojo.OfferModel)
+    44:45:public void setData(com.project.jewelmart.swarnsarita.pojo.OfferModel$Data)
+com.project.jewelmart.swarnsarita.pojo.OfferModel$Data:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.OfferModel this$0
+    119:121:public OfferModel$Data(com.project.jewelmart.swarnsarita.pojo.OfferModel)
     133:134:public void setGiftCoupans(java.util.List)
     141:142:public void setPath(java.lang.String)
-com.project.jewelmart.darshan.pojo.OfferModel$GiftCoupan:
+com.project.jewelmart.swarnsarita.pojo.OfferModel$GiftCoupan:
     private java.lang.String id
-    final synthetic com.project.jewelmart.darshan.pojo.OfferModel this$0
-    47:47:public OfferModel$GiftCoupan(com.project.jewelmart.darshan.pojo.OfferModel)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.OfferModel this$0
+    47:47:public OfferModel$GiftCoupan(com.project.jewelmart.swarnsarita.pojo.OfferModel)
     69:69:public java.lang.String getId()
     73:74:public void setId(java.lang.String)
     81:82:public void setCoupanName(java.lang.String)
@@ -14163,25 +14163,25 @@ com.project.jewelmart.darshan.pojo.OfferModel$GiftCoupan:
     97:98:public void setWeightTo(java.lang.String)
     105:106:public void setDescription(java.lang.String)
     113:114:public void setImage(java.lang.String)
-com.project.jewelmart.darshan.pojo.OtpResponse:
+com.project.jewelmart.swarnsarita.pojo.OtpResponse:
     27:28:public void setAck(java.lang.String)
     35:36:public void setMsg(java.lang.String)
-    43:44:public void setData(com.project.jewelmart.darshan.pojo.OtpResponse$Data)
-com.project.jewelmart.darshan.pojo.OtpResponse$Data:
+    43:44:public void setData(com.project.jewelmart.swarnsarita.pojo.OtpResponse$Data)
+com.project.jewelmart.swarnsarita.pojo.OtpResponse$Data:
     private java.lang.String mobileNumber
-    final synthetic com.project.jewelmart.darshan.pojo.OtpResponse this$0
-    47:47:public OtpResponse$Data(com.project.jewelmart.darshan.pojo.OtpResponse)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.OtpResponse this$0
+    47:47:public OtpResponse$Data(com.project.jewelmart.swarnsarita.pojo.OtpResponse)
     57:57:public java.lang.String getMobileNumber()
     61:62:public void setMobileNumber(java.lang.String)
     69:70:public void setOtp(java.lang.Integer)
-com.project.jewelmart.darshan.pojo.ProductDetail
-com.project.jewelmart.darshan.pojo.ProductDetail2:
+com.project.jewelmart.swarnsarita.pojo.ProductDetail
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2:
     private java.lang.String collectionName
     private java.lang.String collectionSkuCode
     private java.lang.String tone
     private java.lang.String polish
     private java.lang.String color
-    private com.project.jewelmart.darshan.pojo.ProductDetail2$ProductDefaultData productDefaultData
+    private com.project.jewelmart.swarnsarita.pojo.ProductDetail2$ProductDefaultData productDefaultData
     private java.lang.String workerName
     private java.lang.String vendorName
     private java.lang.String largeImage
@@ -14209,8 +14209,8 @@ com.project.jewelmart.darshan.pojo.ProductDetail2:
     220:221:public void setKaratRates(java.util.List)
     224:224:public java.util.List getKaratChangeRate()
     228:229:public void setKaratChangeRate(java.util.List)
-    232:232:public com.project.jewelmart.darshan.pojo.ProductDetail2$ProductDefaultData getProductDefaultData()
-    236:237:public void setProductDefaultData(com.project.jewelmart.darshan.pojo.ProductDetail2$ProductDefaultData)
+    232:232:public com.project.jewelmart.swarnsarita.pojo.ProductDetail2$ProductDefaultData getProductDefaultData()
+    236:237:public void setProductDefaultData(com.project.jewelmart.swarnsarita.pojo.ProductDetail2$ProductDefaultData)
     240:240:public java.lang.String getWorkerName()
     244:245:public void setWorkerName(java.lang.String)
     248:248:public java.lang.String getVendorName()
@@ -14234,27 +14234,27 @@ com.project.jewelmart.darshan.pojo.ProductDetail2:
     332:333:public void setPolish(java.lang.String)
     336:337:public void setColor(java.lang.String)
     340:340:public java.lang.String getColor()
-com.project.jewelmart.darshan.pojo.ProductDetail2$CertificationRate:
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2$CertificationRate:
     private java.lang.String name
-    final synthetic com.project.jewelmart.darshan.pojo.ProductDetail2 this$0
-    438:438:public ProductDetail2$CertificationRate(com.project.jewelmart.darshan.pojo.ProductDetail2)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.ProductDetail2 this$0
+    438:438:public ProductDetail2$CertificationRate(com.project.jewelmart.swarnsarita.pojo.ProductDetail2)
     448:448:public java.lang.String getName()
     452:453:public void setName(java.lang.String)
     460:461:public void setRate(java.lang.String)
-com.project.jewelmart.darshan.pojo.ProductDetail2$HallmarkingRate:
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2$HallmarkingRate:
     private java.lang.String name
-    final synthetic com.project.jewelmart.darshan.pojo.ProductDetail2 this$0
-    466:466:public ProductDetail2$HallmarkingRate(com.project.jewelmart.darshan.pojo.ProductDetail2)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.ProductDetail2 this$0
+    466:466:public ProductDetail2$HallmarkingRate(com.project.jewelmart.swarnsarita.pojo.ProductDetail2)
     476:476:public java.lang.String getName()
     480:481:public void setName(java.lang.String)
     488:489:public void setRate(java.lang.String)
-com.project.jewelmart.darshan.pojo.ProductDetail2$KaratChangeRate
-com.project.jewelmart.darshan.pojo.ProductDetail2$KaratRate
-com.project.jewelmart.darshan.pojo.ProductDetail2$LabourDetail:
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2$KaratChangeRate
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2$KaratRate
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2$LabourDetail:
     private java.lang.String karatTypeRate
     private java.lang.String type
-    final synthetic com.project.jewelmart.darshan.pojo.ProductDetail2 this$0
-    639:639:public ProductDetail2$LabourDetail(com.project.jewelmart.darshan.pojo.ProductDetail2)
+    final synthetic com.project.jewelmart.swarnsarita.pojo.ProductDetail2 this$0
+    639:639:public ProductDetail2$LabourDetail(com.project.jewelmart.swarnsarita.pojo.ProductDetail2)
     658:658:public java.lang.String getKaratTypeRate()
     662:663:public void setKaratTypeRate(java.lang.String)
     670:671:public void setLabourName(java.lang.String)
@@ -14262,13 +14262,13 @@ com.project.jewelmart.darshan.pojo.ProductDetail2$LabourDetail:
     682:682:public java.lang.String getType()
     686:687:public void setType(java.lang.String)
     694:695:public void setAmount(java.lang.Integer)
-com.project.jewelmart.darshan.pojo.ProductDetail2$ProductDefaultData
-com.project.jewelmart.darshan.pojo.ProductDetail2$_18
-com.project.jewelmart.darshan.pojo.ProductDetail2$_22
-com.project.jewelmart.darshan.pojo.ProductDetail2$_24
-com.project.jewelmart.darshan.pojo.Productgridpojo:
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2$ProductDefaultData
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2$_18
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2$_22
+com.project.jewelmart.swarnsarita.pojo.ProductDetail2$_24
+com.project.jewelmart.swarnsarita.pojo.Productgridpojo:
     22:23:public void setResult(java.util.List)
-com.project.jewelmart.darshan.pojo.Productgridpojo$Result:
+com.project.jewelmart.swarnsarita.pojo.Productgridpojo$Result:
     private java.lang.String product_inventory_type
     private java.lang.String netWt
     95:96:public void setCollectionSkuCode(java.lang.String)
@@ -14278,7 +14278,7 @@ com.project.jewelmart.darshan.pojo.Productgridpojo$Result:
     145:145:public java.lang.String getNetWt()
     149:150:public void setNetWt(java.lang.String)
     157:158:public void setImageName(java.lang.String)
-com.project.jewelmart.darshan.pojo.SortList:
+com.project.jewelmart.swarnsarita.pojo.SortList:
     private java.lang.Integer sort
     private java.lang.String sortCode
     33:34:public void setValue(java.lang.String)
@@ -14288,7 +14288,7 @@ com.project.jewelmart.darshan.pojo.SortList:
     49:50:public void setSortCode(java.lang.String)
     57:58:public void setLabel(java.lang.String)
     65:66:public void setType(java.lang.String)
-com.project.jewelmart.darshan.pojo.States:
+com.project.jewelmart.swarnsarita.pojo.States:
     private java.lang.String error
     private java.lang.Integer ack
     26:27:public void setStates(java.util.List)
@@ -14296,89 +14296,89 @@ com.project.jewelmart.darshan.pojo.States:
     34:35:public void setError(java.lang.String)
     38:38:public java.lang.Integer getAck()
     42:43:public void setAck(java.lang.Integer)
-com.project.jewelmart.darshan.pojo.States$State:
-    final synthetic com.project.jewelmart.darshan.pojo.States this$0
-    45:45:public States$State(com.project.jewelmart.darshan.pojo.States)
+com.project.jewelmart.swarnsarita.pojo.States$State:
+    final synthetic com.project.jewelmart.swarnsarita.pojo.States this$0
+    45:45:public States$State(com.project.jewelmart.swarnsarita.pojo.States)
     59:60:public void setId(java.lang.String)
     67:68:public void setName(java.lang.String)
-com.project.jewelmart.darshan.pojo.Status:
+com.project.jewelmart.swarnsarita.pojo.Status:
     24:25:public void setError(java.lang.String)
     32:33:public void setAck(java.lang.Integer)
-com.project.jewelmart.darshan.pojo.Usertype
-com.project.jewelmart.darshan.pojo.Usertype$Usertype_
-com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar:
+com.project.jewelmart.swarnsarita.pojo.Usertype
+com.project.jewelmart.swarnsarita.pojo.Usertype$Usertype_
+com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar:
     private static final int INVALID_POINTER_ID
-    214:215:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setCornerRadius(float)
-    219:221:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setMinValue(float)
-    225:227:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setMaxValue(float)
-    231:233:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setMinStartValue(float)
-    237:239:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setMaxStartValue(float)
-    243:244:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setSteps(float)
-    248:249:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setGap(float)
-    253:254:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setFixGap(float)
-    258:259:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setBarColor(int)
-    263:264:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setBarHighlightColor(int)
-    268:269:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setLeftThumbColor(int)
-    273:274:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setLeftThumbHighlightColor(int)
-    278:279:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setLeftThumbDrawable(int)
-    283:284:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setLeftThumbDrawable(android.graphics.drawable.Drawable)
-    288:289:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setLeftThumbBitmap(android.graphics.Bitmap)
-    293:294:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setLeftThumbHighlightDrawable(int)
-    298:299:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setLeftThumbHighlightDrawable(android.graphics.drawable.Drawable)
-    303:304:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setLeftThumbHighlightBitmap(android.graphics.Bitmap)
-    308:309:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setRightThumbColor(int)
-    313:314:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setRightThumbHighlightColor(int)
-    318:319:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setRightThumbDrawable(int)
-    323:324:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setRightThumbDrawable(android.graphics.drawable.Drawable)
-    328:329:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setRightThumbBitmap(android.graphics.Bitmap)
-    333:334:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setRightThumbHighlightDrawable(int)
-    338:339:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setRightThumbHighlightDrawable(android.graphics.drawable.Drawable)
-    343:344:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setRightThumbHighlightBitmap(android.graphics.Bitmap)
-    348:349:public com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar setDataType(int)
+    214:215:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setCornerRadius(float)
+    219:221:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setMinValue(float)
+    225:227:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setMaxValue(float)
+    231:233:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setMinStartValue(float)
+    237:239:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setMaxStartValue(float)
+    243:244:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setSteps(float)
+    248:249:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setGap(float)
+    253:254:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setFixGap(float)
+    258:259:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setBarColor(int)
+    263:264:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setBarHighlightColor(int)
+    268:269:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setLeftThumbColor(int)
+    273:274:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setLeftThumbHighlightColor(int)
+    278:279:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setLeftThumbDrawable(int)
+    283:284:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setLeftThumbDrawable(android.graphics.drawable.Drawable)
+    288:289:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setLeftThumbBitmap(android.graphics.Bitmap)
+    293:294:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setLeftThumbHighlightDrawable(int)
+    298:299:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setLeftThumbHighlightDrawable(android.graphics.drawable.Drawable)
+    303:304:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setLeftThumbHighlightBitmap(android.graphics.Bitmap)
+    308:309:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setRightThumbColor(int)
+    313:314:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setRightThumbHighlightColor(int)
+    318:319:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setRightThumbDrawable(int)
+    323:324:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setRightThumbDrawable(android.graphics.drawable.Drawable)
+    328:329:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setRightThumbBitmap(android.graphics.Bitmap)
+    333:334:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setRightThumbHighlightDrawable(int)
+    338:339:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setRightThumbHighlightDrawable(android.graphics.drawable.Drawable)
+    343:344:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setRightThumbHighlightBitmap(android.graphics.Bitmap)
+    348:349:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar setDataType(int)
     411:461:public void apply()
     709:710:protected final void log(java.lang.Object)
-com.project.jewelmart.darshan.seekbar.widgets.CrystalRangeSeekbar$DataType
-com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar:
+com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalRangeSeekbar$DataType
+com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar:
     private static final int INVALID_POINTER_ID
-    185:186:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setCornerRadius(float)
-    190:192:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setMinValue(float)
-    196:198:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setMaxValue(float)
-    202:203:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setMinStartValue(float)
-    207:208:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setSteps(float)
-    212:213:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setBarColor(int)
-    217:218:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setBarHighlightColor(int)
-    222:223:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setLeftThumbColor(int)
-    227:228:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setLeftThumbHighlightColor(int)
-    232:233:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setLeftThumbDrawable(int)
-    237:238:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setLeftThumbDrawable(android.graphics.drawable.Drawable)
-    242:243:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setLeftThumbBitmap(android.graphics.Bitmap)
-    247:248:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setLeftThumbHighlightDrawable(int)
-    252:253:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setLeftThumbHighlightDrawable(android.graphics.drawable.Drawable)
-    257:258:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setLeftThumbHighlightBitmap(android.graphics.Bitmap)
-    262:263:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setDataType(int)
-    267:268:public com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar setPosition(int)
+    185:186:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setCornerRadius(float)
+    190:192:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setMinValue(float)
+    196:198:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setMaxValue(float)
+    202:203:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setMinStartValue(float)
+    207:208:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setSteps(float)
+    212:213:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setBarColor(int)
+    217:218:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setBarHighlightColor(int)
+    222:223:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setLeftThumbColor(int)
+    227:228:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setLeftThumbHighlightColor(int)
+    232:233:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setLeftThumbDrawable(int)
+    237:238:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setLeftThumbDrawable(android.graphics.drawable.Drawable)
+    242:243:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setLeftThumbBitmap(android.graphics.Bitmap)
+    247:248:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setLeftThumbHighlightDrawable(int)
+    252:253:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setLeftThumbHighlightDrawable(android.graphics.drawable.Drawable)
+    257:258:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setLeftThumbHighlightBitmap(android.graphics.Bitmap)
+    262:263:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setDataType(int)
+    267:268:public com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar setPosition(int)
     418:453:public void apply()
     621:622:protected final void log(java.lang.Object)
-com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar$DataType
-com.project.jewelmart.darshan.seekbar.widgets.CrystalSeekbar$Position
-com.project.jewelmart.darshan.service.MyFirebaseMessagingService:
+com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar$DataType
+com.project.jewelmart.swarnsarita.seekbar.widgets.CrystalSeekbar$Position
+com.project.jewelmart.swarnsarita.service.MyFirebaseMessagingService:
     java.lang.String userType
     120:123:private void showNotificationMessageWithBigImage(android.content.Context,java.lang.String,java.lang.String,java.lang.String,android.content.Intent,java.lang.String)
-com.project.jewelmart.darshan.utils.AmazonS3Helper:
+com.project.jewelmart.swarnsarita.utils.AmazonS3Helper:
     private static final java.lang.String TAG
     94:104:public static java.lang.String getBytesString(long)
     143:154:public static void fillMap(java.util.Map,com.amazonaws.mobileconnectors.s3.transferutility.TransferObserver,boolean)
-com.project.jewelmart.darshan.utils.AppUtils
-com.project.jewelmart.darshan.utils.AppUtils$1
-com.project.jewelmart.darshan.utils.AppUtils$2
-com.project.jewelmart.darshan.utils.AppUtils$2$1
-com.project.jewelmart.darshan.utils.ApplicationClass:
+com.project.jewelmart.swarnsarita.utils.AppUtils
+com.project.jewelmart.swarnsarita.utils.AppUtils$1
+com.project.jewelmart.swarnsarita.utils.AppUtils$2
+com.project.jewelmart.swarnsarita.utils.AppUtils$2$1
+com.project.jewelmart.swarnsarita.utils.ApplicationClass:
     49:70:public void getCountriesList()
     110:127:public void getUserTypeList()
-com.project.jewelmart.darshan.utils.ApplicationClass$1
-com.project.jewelmart.darshan.utils.ApplicationClass$3
-com.project.jewelmart.darshan.utils.BadgeDrawable
-com.project.jewelmart.darshan.utils.Constant:
+com.project.jewelmart.swarnsarita.utils.ApplicationClass$1
+com.project.jewelmart.swarnsarita.utils.ApplicationClass$3
+com.project.jewelmart.swarnsarita.utils.BadgeDrawable
+com.project.jewelmart.swarnsarita.utils.Constant:
     public static final int VAR_ONE
     public static final int VAR_TWO
     public static final int VAR_three
@@ -14399,7 +14399,7 @@ com.project.jewelmart.darshan.utils.Constant:
     public static final java.lang.String FRESHCHAT_APP_ID
     public static final java.lang.String FRESHCHAT_APP_KEY
     3:3:public Constant()
-com.project.jewelmart.darshan.utils.DateUtils:
+com.project.jewelmart.swarnsarita.utils.DateUtils:
     16:16:public DateUtils()
     26:30:public static java.util.Date addMonth(java.util.Date,int)
     34:37:public static java.util.Date addYear(java.util.Date,int)
@@ -14420,7 +14420,7 @@ com.project.jewelmart.darshan.utils.DateUtils:
     307:314:public static int getDiffYears(java.util.Date,java.util.Date)
     318:320:public static java.util.Calendar getCalendar(java.util.Date)
     325:357:public static boolean getDateMaximumValidation(java.lang.String,java.lang.String,int)
-com.project.jewelmart.darshan.utils.ItemAnimation:
+com.project.jewelmart.swarnsarita.utils.ItemAnimation:
     public static final int BOTTOM_UP
     public static final int FADE_IN
     public static final int LEFT_RIGHT
@@ -14431,7 +14431,7 @@ com.project.jewelmart.darshan.utils.ItemAnimation:
     private static final long DURATION_IN_LEFT_RIGHT
     private static final long DURATION_IN_RIGHT_LEFT
     7:7:public ItemAnimation()
-com.project.jewelmart.darshan.utils.MaterialBadgeTextView:
+com.project.jewelmart.swarnsarita.utils.MaterialBadgeTextView:
     private static final int DEFAULT_FILL_TYPE
     private static final float SHADOW_RADIUS
     private static final int FILL_SHADOW_COLOR
@@ -14439,16 +14439,16 @@ com.project.jewelmart.darshan.utils.MaterialBadgeTextView:
     private static final float X_OFFSET
     private static final float Y_OFFSET
     195:197:public void clearHighLightMode()
-com.project.jewelmart.darshan.utils.MenuItemBadge:
+com.project.jewelmart.swarnsarita.utils.MenuItemBadge:
     25:25:public MenuItemBadge()
     149:150:public static void hide(android.view.MenuItem)
     162:167:public static void setBackgroundCompat(android.view.View,android.graphics.drawable.Drawable)
     170:175:public static java.lang.String formatNumber(int,boolean)
-com.project.jewelmart.darshan.utils.PayuUtils
-com.project.jewelmart.darshan.utils.ProgressIndicator:
+com.project.jewelmart.swarnsarita.utils.PayuUtils
+com.project.jewelmart.swarnsarita.utils.ProgressIndicator:
     18:18:public ProgressIndicator()
-com.project.jewelmart.darshan.utils.RootUtil
-com.project.jewelmart.darshan.utils.Tools:
+com.project.jewelmart.swarnsarita.utils.RootUtil
+com.project.jewelmart.swarnsarita.utils.Tools:
     45:45:public Tools()
     48:54:public static void setSystemBarColor(android.app.Activity)
     171:176:public static void setSystemBarTransparent(android.app.Activity)
@@ -14469,9 +14469,9 @@ com.project.jewelmart.darshan.utils.Tools:
     330:330:public static int getScreenWidth()
     334:334:public static int getScreenHeight()
     338:353:public static java.lang.String toCamelCase(java.lang.String)
-com.project.jewelmart.darshan.utils.Tools$5
-com.project.jewelmart.darshan.utils.Tools$7
-com.project.jewelmart.darshan.utils.UserSessionManager:
+com.project.jewelmart.swarnsarita.utils.Tools$5
+com.project.jewelmart.swarnsarita.utils.Tools$7
+com.project.jewelmart.swarnsarita.utils.UserSessionManager:
     private static final java.lang.String PREFER_NAME
     public static final java.lang.String KEY_USER_ACTIVE
     public static final java.lang.String USER_EMAIL
@@ -14484,34 +14484,34 @@ com.project.jewelmart.darshan.utils.UserSessionManager:
     private static final java.lang.String PREF_Notifiacation
     private static final java.lang.String PREF_IS_Notifiacation
     75:75:public java.lang.String getUSERPASS()
-com.project.jewelmart.darshan.utils.Utils:
+com.project.jewelmart.swarnsarita.utils.Utils:
     13:13:public Utils()
-com.project.jewelmart.darshan.utils.ViewAnimation:
+com.project.jewelmart.swarnsarita.utils.ViewAnimation:
     12:12:public ViewAnimation()
     35:37:public static void expand(android.view.View)
-    90:107:public static void flyInDown(android.view.View,com.project.jewelmart.darshan.utils.ViewAnimation$AnimListener)
-    110:126:public static void flyOutDown(android.view.View,com.project.jewelmart.darshan.utils.ViewAnimation$AnimListener)
+    90:107:public static void flyInDown(android.view.View,com.project.jewelmart.swarnsarita.utils.ViewAnimation$AnimListener)
+    110:126:public static void flyOutDown(android.view.View,com.project.jewelmart.swarnsarita.utils.ViewAnimation$AnimListener)
     129:130:public static void fadeIn(android.view.View)
-    133:147:public static void fadeIn(android.view.View,com.project.jewelmart.darshan.utils.ViewAnimation$AnimListener)
+    133:147:public static void fadeIn(android.view.View,com.project.jewelmart.swarnsarita.utils.ViewAnimation$AnimListener)
     150:151:public static void fadeOut(android.view.View)
-    154:166:public static void fadeOut(android.view.View,com.project.jewelmart.darshan.utils.ViewAnimation$AnimListener)
+    154:166:public static void fadeOut(android.view.View,com.project.jewelmart.swarnsarita.utils.ViewAnimation$AnimListener)
     226:233:public static void fadeOutIn(android.view.View)
     237:238:public static void showScale(android.view.View)
-    241:253:public static void showScale(android.view.View,com.project.jewelmart.darshan.utils.ViewAnimation$AnimListener)
+    241:253:public static void showScale(android.view.View,com.project.jewelmart.swarnsarita.utils.ViewAnimation$AnimListener)
     256:257:public static void hideScale(android.view.View)
-    260:272:public static void hideScale(android.view.View,com.project.jewelmart.darshan.utils.ViewAnimation$AnimListener)
-com.project.jewelmart.darshan.utils.ViewAnimation$11
-com.project.jewelmart.darshan.utils.ViewAnimation$12
-com.project.jewelmart.darshan.utils.ViewAnimation$4
-com.project.jewelmart.darshan.utils.ViewAnimation$5
-com.project.jewelmart.darshan.utils.ViewAnimation$6
-com.project.jewelmart.darshan.utils.ViewAnimation$7
-com.project.jewelmart.darshan.widgets.FontCache
-com.project.jewelmart.darshan.widgets.LineItemDecoration
-com.project.jewelmart.darshan.widgets.SpacesItemDecoration
-com.project.jewelmart.darshan.widgets.TypefaceUtil
-com.project.jewelmart.darshan.worker.OrderDetailsActivity$3:
-    126:126:public void onItemClick(android.view.View,com.project.jewelmart.darshan.models.OrderDetailModel$ProductDatum,int)
+    260:272:public static void hideScale(android.view.View,com.project.jewelmart.swarnsarita.utils.ViewAnimation$AnimListener)
+com.project.jewelmart.swarnsarita.utils.ViewAnimation$11
+com.project.jewelmart.swarnsarita.utils.ViewAnimation$12
+com.project.jewelmart.swarnsarita.utils.ViewAnimation$4
+com.project.jewelmart.swarnsarita.utils.ViewAnimation$5
+com.project.jewelmart.swarnsarita.utils.ViewAnimation$6
+com.project.jewelmart.swarnsarita.utils.ViewAnimation$7
+com.project.jewelmart.swarnsarita.widgets.FontCache
+com.project.jewelmart.swarnsarita.widgets.LineItemDecoration
+com.project.jewelmart.swarnsarita.widgets.SpacesItemDecoration
+com.project.jewelmart.swarnsarita.widgets.TypefaceUtil
+com.project.jewelmart.swarnsarita.worker.OrderDetailsActivity$3:
+    126:126:public void onItemClick(android.view.View,com.project.jewelmart.swarnsarita.models.OrderDetailModel$ProductDatum,int)
 com.rengwuxian.materialedittext.BuildConfig
 com.rengwuxian.materialedittext.Colors:
     8:8:public Colors()

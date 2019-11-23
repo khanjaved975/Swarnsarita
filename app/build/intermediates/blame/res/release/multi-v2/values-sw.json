@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/values-sw/values-sw.xml",

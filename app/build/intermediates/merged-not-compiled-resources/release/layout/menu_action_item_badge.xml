@@ -22,7 +22,7 @@
         android:scaleType="center"
         />
 
-    <com.project.jewelmart.darshan.utils.MaterialBadgeTextView
+    <com.project.jewelmart.swarnsarita.utils.MaterialBadgeTextView
         android:id="@+id/menu_badge2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

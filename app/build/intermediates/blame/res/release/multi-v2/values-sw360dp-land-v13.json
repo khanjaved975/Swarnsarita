@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/javedkhan/Desktop/Client/Darshan/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw360dp-land-v13/values-sw360dp-land-v13.xml",
+            "outputFile": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw360dp-land-v13/values-sw360dp-land-v13.xml",
             "map": [
                 {
                     "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/values-sw360dp-land-v13/values-sw360dp-land-v13.xml",

@@ -427,14 +427,14 @@ public class HomeFragment extends Fragment {
                 if (parentlist.size() > 0) {
                     RecyclerView featuredList = new RecyclerView(getActivity());
                     GridLayoutManager llm = new GridLayoutManager(getActivity(), 2);
-                    llm.setOrientation(LinearLayoutManager.HORIZONTAL);
+                    llm.setOrientation(LinearLayoutManager.VERTICAL);
                     featuredList.setLayoutManager(llm);
                     FontBoldTextView titletext = new FontBoldTextView(getActivity());
                     titletext.setTextSize(15f);
 //                                LinearLayout.LayoutParams layoutParams = badgenew LinearLayout.LayoutParams(
 //                                        LinearLayout.LayoutParams.MATCH_PARENT, height / 2 - (height / 10));
                     GridLayoutManager.LayoutParams layoutParams = new GridLayoutManager.LayoutParams(
-                            GridLayoutManager.LayoutParams.WRAP_CONTENT, 540);
+                            GridLayoutManager.LayoutParams.MATCH_PARENT, GridLayoutManager.LayoutParams.WRAP_CONTENT);
                     featuredList.setLayoutParams(layoutParams);
                     // featuredList.setHasFixedSize(true);
                     LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(new LinearLayout.LayoutParams
@@ -449,7 +449,6 @@ public class HomeFragment extends Fragment {
                     titletext.setTextColor(getResources().getColor(R.color.colorAccent));
                     titletext.setTextSize(18f);
                     titletext.setGravity(Gravity.CENTER);
-
                     titletext.setText("Categories");
                     CustomCatRecycleAdapter customRecycleAdapter = new CustomCatRecycleAdapter(getActivity(), (ArrayList<Collection>) parentlist);
                     featuredList.setAdapter(customRecycleAdapter);
@@ -457,7 +456,6 @@ public class HomeFragment extends Fragment {
                     featuredList.setId(widgetID++);*/
                     rich_Product.addView(titletext);
                     rich_Product.addView(featuredList);
-
 
                     //  }
                 }

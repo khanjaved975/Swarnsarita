@@ -44,7 +44,7 @@
         android:paddingBottom="@dimen/spacing_small"
         android:paddingTop="@dimen/spacing_small">
 
-        <com.project.jewelmart.darshan.widgets.FontTextView
+        <com.project.jewelmart.swarnsarita.widgets.FontTextView
             android:id="@+id/coupan_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/grey_60" />
 
-        <com.project.jewelmart.darshan.widgets.FontTextView
+        <com.project.jewelmart.swarnsarita.widgets.FontTextView
             android:id="@+id/weight_from"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/grey_60" />
 
-        <com.project.jewelmart.darshan.widgets.FontTextView
+        <com.project.jewelmart.swarnsarita.widgets.FontTextView
             android:id="@+id/weight_to"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/grey_60" />
 
-        <com.project.jewelmart.darshan.widgets.FontTextView
+        <com.project.jewelmart.swarnsarita.widgets.FontTextView
             android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -22,7 +22,7 @@
             android:orientation="vertical"
             android:padding="@dimen/spacing_medium">
 
-            <com.project.jewelmart.darshan.widgets.FontBoldTextView
+            <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
                 android:id="@+id/cancel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

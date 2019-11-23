@@ -3810,12 +3810,11 @@ Referenced Strings:
   http://acs.amazonaws.com/groups/globa...
   http://acs.amazonaws.com/groups/globa...
   http://acs.amazonaws.com/groups/s3/Lo...
-  http://darshan.jewelmart.biz/
-  http://darshan.jewelmart.biz/public/b...
-  http://darshan.jewelmart.biz/public/b...
-  http://darshan.jewelmart.biz/webservi...
-  http://mjsons.jewelmart.biz/about
   http://schemas.android.com/apk/res/an...
+  http://swarnsarita.jewelmart.biz/
+  http://swarnsarita.jewelmart.biz/publ...
+  http://swarnsarita.jewelmart.biz/publ...
+  http://swarnsarita.jewelmart.biz/webs...
   http_expires_date
   httponly
   https
@@ -3826,6 +3825,7 @@ Referenced Strings:
   https://settings.crashlytics.com/spi/...
   https://www.google.com
   https://www.googleapis.com/auth/games
+  https://www.swarnsarita.com/journey.php
   hu
   ice
   ico
@@ -11199,6 +11199,8 @@ menu:menu_details:2131558410 => [drawable:ic_action_cart:2131231122]
 menu:menu_grid:2131558411 => [drawable:ic_action_cart:2131231122, layout:menu_action_item_badge:2131493012]
 menu:menu_main:2131558412 => [drawable:refresh:2131231196, drawable:ic_notification:2131231157, layout:menu_action_item_badge:2131493012, drawable:ic_action_filter:2131231125, string:action_settings:2131755044]
 menu:menu_worker_home:2131558415 => [drawable:refresh:2131231196, drawable:notification:2131231181, drawable:logout:2131231171, drawable:ic_add:2131231132]
+mipmap:ic_launcher:2131623936 => [color:ic_launcher_background:2131099903, mipmap:ic_launcher_foreground:2131623937]
+mipmap:ic_launcher_round:2131623938 => [color:ic_launcher_background:2131099903, mipmap:ic_launcher_foreground:2131623937]
 string:freshchat_chat_resolution_confirmation_prompt_negative:2131755093 => [string:freshchat_no:2131755136]
 string:freshchat_chat_resolution_confirmation_prompt_positive:2131755094 => [string:freshchat_yes:2131755155]
 string:freshchat_faq_downvote:2131755120 => [string:freshchat_no:2131755136]
@@ -15300,5 +15302,11 @@ Skipped unused resource res/drawable-anydpi-v21/ic_find_in_page.xml: -1 bytes (r
 Skipped unused resource res/drawable-anydpi-v21/ic_launcher_background.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/drawable-anydpi-v21/ic_rate.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/drawable-anydpi-v21/ic_verified_user.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/mipmap-mdpi-v4/ic_launcher_round.png: 2249 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-hdpi-v4/ic_launcher_round.png: 3892 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xhdpi-v4/ic_launcher_round.png: 5721 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xxhdpi-v4/ic_launcher_round.png: 9341 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-xxxhdpi-v4/ic_launcher_round.png: 13513 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/mipmap-anydpi-v26/ic_launcher_round.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/raw/hebrew.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/raw/portuguese.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
