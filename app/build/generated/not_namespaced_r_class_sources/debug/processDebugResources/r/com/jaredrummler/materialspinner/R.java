@@ -52,7 +52,7 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int ms__list_item = 0x7f0c0096;
+        public static final int ms__list_item = 0x7f0c0097;
     }
     public static final class styleable {
         private styleable() {}

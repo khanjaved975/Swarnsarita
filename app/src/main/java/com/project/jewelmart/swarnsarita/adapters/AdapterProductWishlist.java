@@ -27,6 +27,8 @@ import com.project.jewelmart.swarnsarita.utils.ProgressIndicator;
 import com.project.jewelmart.swarnsarita.utils.Tools;
 import com.project.jewelmart.swarnsarita.utils.ViewAnimation;
 import com.project.jewelmart.swarnsarita.R;
+import com.project.jewelmart.swarnsarita.widgets.FontBoldTextView;
+import com.project.jewelmart.swarnsarita.widgets.FontTextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +62,8 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
 
     public class OriginalViewHolder extends RecyclerView.ViewHolder {
         public ImageView image;
-        public TextView title, gross, net, quantity, code, remark, price;
+        public FontTextView title, gross, net, quantity, code, remark, type, polish, tone, color;
+        public FontBoldTextView price;
         public ImageButton more;
         public View cart_expand_items;
         public LinearLayout Lin_item_detail;
@@ -71,18 +74,21 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
         public OriginalViewHolder(View v) {
             super(v);
             image = (ImageView) v.findViewById(R.id.cart_image);
-            title = (TextView) v.findViewById(R.id.cart_prod_name);
-            code = (TextView) v.findViewById(R.id.cart_prod_code);
-            gross = (TextView) v.findViewById(R.id.cart_gross_wt);
-            net = (TextView) v.findViewById(R.id.cart_net_wt);
-            quantity = (TextView) v.findViewById(R.id.cart_product_quantity);
-            remark = (TextView) v.findViewById(R.id.cart_remark);
-            price = (TextView) v.findViewById(R.id.cart_total_price);
+            title = (FontTextView) v.findViewById(R.id.cart_prod_name);
+            type = (FontTextView) v.findViewById(R.id.cart_prod_type);
+            code = (FontTextView) v.findViewById(R.id.prod_value);
+            gross = (FontTextView) v.findViewById(R.id.cart_gross_wt);
+            color = (FontTextView) v.findViewById(R.id.cart_color);
+            polish = (FontTextView) v.findViewById(R.id.cart_polish);
+            tone = (FontTextView) v.findViewById(R.id.cart_tone);
+            quantity = (FontTextView) v.findViewById(R.id.cart_product_quantity);
+            remark = (FontTextView) v.findViewById(R.id.cart_remark);
+            price = (FontBoldTextView) v.findViewById(R.id.cart_total_price);
             Lin_item_detail = (LinearLayout) v.findViewById(R.id.item_detail);
             more = (ImageButton) v.findViewById(R.id.more);
             bt_toggle_items = (ImageButton) v.findViewById(R.id.bt_toggle_items);
             cart_expand_items = (View) v.findViewById(R.id.cart_expand_items);
-            card_view=(CardView)v.findViewById(R.id.card_view);
+            card_view = (CardView) v.findViewById(R.id.card_view);
             lyt_parent = (View) v.findViewById(R.id.lyt_parent);
         }
     }
@@ -104,7 +110,10 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
             view2.title.setText(p.getCollectionName());
             view2.code.setText(p.getCollectionSkuCode());
             view2.gross.setText(p.getGrossWt().toString());
-//            view2.net.setText(p.getNetWt().toString());
+            view2.color.setText(p.getColor());
+            view2.polish.setText(p.getPolish());
+            view2.tone.setText(p.getTone());
+            view2.type.setText(p.getProductInventoryType());
             view2.quantity.setText(p.getQuantity());
             view2.price.setText(p.getTotalPrice());
             view2.remark.setText(p.getRemarks());
@@ -122,7 +131,7 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
                 @Override
                 public void onClick(View view) {
                     if (onMoreButtonClickListener == null) return;
-                    onMoreButtonClick(view, p,position);
+                    onMoreButtonClick(view, p, position);
                 }
             });
 
@@ -134,9 +143,9 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
                     } else {
                         view2.bt_toggle_items.animate().setDuration(200).rotation(0);
                     }
-                    if (view2.cart_expand_items.getVisibility()==View.VISIBLE){
+                    if (view2.cart_expand_items.getVisibility() == View.VISIBLE) {
                         view2.cart_expand_items.setVisibility(View.GONE);
-                    }else{
+                    } else {
                         view2.cart_expand_items.setVisibility(View.VISIBLE);
                     }
                 }
@@ -146,9 +155,9 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
             view2.bt_toggle_items.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    if (view2.cart_expand_items.getVisibility()==View.VISIBLE){
+                    if (view2.cart_expand_items.getVisibility() == View.VISIBLE) {
                         view2.cart_expand_items.setVisibility(View.GONE);
-                    }else{
+                    } else {
                         view2.cart_expand_items.setVisibility(View.VISIBLE);
                     }
                 }
@@ -172,12 +181,12 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
         }
     }
 
-    private void onMoreButtonClick(final View view, final Cart.Datum p,final int position) {
+    private void onMoreButtonClick(final View view, final Cart.Datum p, final int position) {
         PopupMenu popupMenu = new PopupMenu(ctx, view);
         popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
-                onMoreButtonClickListener.onItemClick(view, p, item,position);
+                onMoreButtonClickListener.onItemClick(view, p, item, position);
                 return true;
             }
         });
@@ -194,7 +203,7 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
         void onItemClick(View view, Cart.Datum obj, int pos);
     }
 
-    private void toggleSection(View bt, final View lyt,final OriginalViewHolder holder) {
+    private void toggleSection(View bt, final View lyt, final OriginalViewHolder holder) {
         boolean show = toggleArrow(bt);
         if (!show) {
             ViewAnimation.collapse(lyt);
@@ -236,21 +245,21 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
         }
     }
 
-    public void Delete(String user_id, final String table,final String id,final int position) {
+    public void Delete(String user_id, final String table, final String id, final int position) {
 
         final ProgressDialog pdg = ProgressIndicator.ShowLoading(ctx);
-        Call<Acknowledge> countriesCall = apiInterface.deleteFormCart(user_id,table,id);
+        Call<Acknowledge> countriesCall = apiInterface.deleteFormCart(user_id, table, id);
         countriesCall.enqueue(new Callback<Acknowledge>() {
             @Override
             public void onResponse(Call<Acknowledge> call, Response<Acknowledge> response) {
                 pdg.dismiss();
                 Log.d("Delete Cart", response.code() + "");
                 final Acknowledge resource = response.body();
-                if (resource.getAck().equals("1")){
-                    Toast.makeText(ctx,resource.getMsg(),Toast.LENGTH_SHORT).show();
+                if (resource.getAck().equals("1")) {
+                    Toast.makeText(ctx, resource.getMsg(), Toast.LENGTH_SHORT).show();
                     removeAt(position);
-                }else{
-                    Toast.makeText(ctx,resource.getMsg(),Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(ctx, resource.getMsg(), Toast.LENGTH_SHORT).show();
                 }
             }
 
@@ -265,22 +274,22 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
     }
 
 
-    public void Move(String user_id, final String from_table,final String to_table
-            ,final String id,final int position) {
+    public void Move(String user_id, final String from_table, final String to_table
+            , final String id, final int position) {
 
         final ProgressDialog pdg = ProgressIndicator.ShowLoading(ctx);
-        Call<Acknowledge> countriesCall = apiInterface.moveProduct(user_id,from_table,to_table,id);
+        Call<Acknowledge> countriesCall = apiInterface.moveProduct(user_id, from_table, to_table, id);
         countriesCall.enqueue(new Callback<Acknowledge>() {
             @Override
             public void onResponse(Call<Acknowledge> call, Response<Acknowledge> response) {
                 pdg.dismiss();
                 Log.d("Move Cart", response.code() + "");
                 final Acknowledge resource = response.body();
-                if (resource.getAck().equals("1")){
-                    Toast.makeText(ctx,resource.getMsg(),Toast.LENGTH_SHORT).show();
+                if (resource.getAck().equals("1")) {
+                    Toast.makeText(ctx, resource.getMsg(), Toast.LENGTH_SHORT).show();
                     removeAt(position);
-                }else{
-                    Toast.makeText(ctx,resource.getMsg(),Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(ctx, resource.getMsg(), Toast.LENGTH_SHORT).show();
                 }
             }
 

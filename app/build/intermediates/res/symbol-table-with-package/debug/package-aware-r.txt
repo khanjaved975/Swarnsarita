@@ -2890,6 +2890,7 @@ layout item_collection
 layout item_layout
 layout item_layout_cart
 layout item_layout_category
+layout item_layout_category2
 layout item_layout_worker
 layout item_notification
 layout item_offers_layout

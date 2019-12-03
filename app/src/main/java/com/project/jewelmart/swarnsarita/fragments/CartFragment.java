@@ -251,7 +251,7 @@ public class CartFragment extends Fragment implements OnLoadMoreListener {
         for (int i = 0; i < menu.size(); i++) {
             menu.getItem(i).getIcon().setColorFilter(color, PorterDuff.Mode.SRC_ATOP);
         }
-        menu.findItem(R.id.action_move).setVisible(false);
+        menu.findItem(R.id.action_move).setVisible(true);
         menu.findItem(R.id.action_summary).setVisible(false);
         item.setVisible(true);
         super.onPrepareOptionsMenu(menu);

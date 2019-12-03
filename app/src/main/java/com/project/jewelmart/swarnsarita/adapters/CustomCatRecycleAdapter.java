@@ -113,7 +113,6 @@ public class CustomCatRecycleAdapter extends RecyclerView.Adapter<CustomCatRecyc
             //catProductCount = "" + orderList.get(getAdapterPosition()).count;
             //imagetype = "" + orderList.get(getAdapterPosition()).image_type;
             //sortPosition = "" + orderList.get(getAdapterPosition()).default_sort;
-
             if (subCatList != null) {
                 subcat = subCatList.size();
             }

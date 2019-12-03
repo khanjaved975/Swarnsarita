@@ -58,7 +58,7 @@ public class CustomStockCatRecycleAdapter extends RecyclerView.Adapter<CustomSto
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View itemView = null;
-        itemView = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_layout_category, viewGroup, false);
+        itemView = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_layout_category2, viewGroup, false);
         ViewHolder viewholder = new ViewHolder(itemView, (ArrayList<Collection>) orderList);
         itemView.setOnClickListener(viewholder);
 
@@ -89,7 +89,7 @@ public class CustomStockCatRecycleAdapter extends RecyclerView.Adapter<CustomSto
 
         private ArrayList<Collection> orderList;
         protected TextView title;
-        protected SquareImageView img;
+        protected ImageView img;
         protected ImageView gif_new;
         protected CardView card;
 
@@ -97,7 +97,7 @@ public class CustomStockCatRecycleAdapter extends RecyclerView.Adapter<CustomSto
             super(v);
             this.orderList = orderList;
             title = (TextView) v.findViewById(R.id.cat_title);
-            img = (SquareImageView) v.findViewById(R.id.cart_image);
+            img = (ImageView) v.findViewById(R.id.cart_image);
             gif_new = (ImageView) v.findViewById(R.id.gif_new);
         }
 

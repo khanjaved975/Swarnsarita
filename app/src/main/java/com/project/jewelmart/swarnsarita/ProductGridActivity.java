@@ -1265,7 +1265,7 @@ public class ProductGridActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_grid, menu);
        // int color = Color.parseColor(getResources().getString(R.string.color));
-        int color = getResources().getColor(R.color.grey_60);
+        int color = getResources().getColor(R.color.white);
         for (int i = 0; i < menu.size(); i++) {
             menu.getItem(i).getIcon().setColorFilter(color, PorterDuff.Mode.SRC_ATOP);
         }
@@ -1273,7 +1273,7 @@ public class ProductGridActivity extends AppCompatActivity {
         menuItemNotification = menu.findItem(R.id.action_cart2);
         MenuItemBadge.update(this, menuItemNotification, new MenuItemBadge.Builder()
                 .iconDrawable(ContextCompat.getDrawable(this, R.drawable.ic_action_cart))
-                .iconTintColor(Color.BLACK)
+                .iconTintColor(Color.WHITE)
                 .textBackgroundColor(getResources().getColor(R.color.colorAccent))
                 .textColor(Color.WHITE));
         if (SingletonSupport.getInstance().isLogin && SingletonSupport.getInstance().cartCount != 0) {

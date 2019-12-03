@@ -23,7 +23,7 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int searchable_list_dialog = 0x7f0c00b7;
+        public static final int searchable_list_dialog = 0x7f0c00b8;
     }
     public static final class string {
         private string() {}

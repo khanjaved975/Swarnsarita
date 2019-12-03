@@ -42,6 +42,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.project.jewelmart.swarnsarita.BannerDetialActivity;
 import com.project.jewelmart.swarnsarita.ProductDetailActivity;
 import com.project.jewelmart.swarnsarita.adapters.CustomCatRecycleAdapter;
+import com.project.jewelmart.swarnsarita.adapters.CustomStockCatRecycleAdapter;
 import com.project.jewelmart.swarnsarita.adapters.RichProductAdapter;
 import com.project.jewelmart.swarnsarita.interfaces.APIInterface;
 import com.project.jewelmart.swarnsarita.models.Image;
@@ -460,7 +461,7 @@ public class HomeFragment extends Fragment {
                     //  }
                 }
 
-              /*  if (parentlist.size() > 0) {
+                if (parentlist.size() > 0) {
                     RecyclerView featuredList = new RecyclerView(getActivity());
                     GridLayoutManager llm = new GridLayoutManager(getActivity(), 2);
                     llm.setOrientation(LinearLayoutManager.HORIZONTAL);
@@ -489,13 +490,13 @@ public class HomeFragment extends Fragment {
                     titletext.setText("Stock Product Category");
                     CustomStockCatRecycleAdapter customRecycleAdapter = new CustomStockCatRecycleAdapter(getActivity(), (ArrayList<Collection>) parentlist);
                     featuredList.setAdapter(customRecycleAdapter);
-                   *//* titletext.setId(widgetID++);
-                    featuredList.setId(widgetID++);*//*
+                    titletext.setId(widgetID++);
+                    featuredList.setId(widgetID++);
                     rich_Product.addView(titletext);
                     rich_Product.addView(featuredList);
 
                     //  }
-                }*/
+                }
             } else {
                 Toast.makeText(getActivity(), "No data found ,Please try again", Toast.LENGTH_LONG).show();
             }
@@ -556,8 +557,6 @@ public class HomeFragment extends Fragment {
             }
         });
     }
-
-
 
 
     @Override
