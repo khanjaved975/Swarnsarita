@@ -147,6 +147,12 @@ public class ProductDetailActivity extends AppCompatActivity {
     @BindView(R.id.card_cart)
     CardView card_cart;
 
+    @BindView(R.id.desingno)
+    FontTextView desingno;
+
+    @BindView(R.id.product_status)
+    FontBoldTextView product_status;
+
     Boolean cart = false;
 
     @Override
@@ -219,7 +225,13 @@ public class ProductDetailActivity extends AppCompatActivity {
             strMelting = list.get(0).getDefaulMeltingId();
             label_list = list.get(0).getKeyLabel();
             value_list = list.get(0).getKeyValue();
-            product_name.setText(list.get(0).getProductName());
+            product_name.setText("Name : "+list.get(0).getCollectionName());
+            desingno.setText("Design No : "+list.get(0).getDesign_number());
+            if (list.get(0).getProduct_status().equalsIgnoreCase("1")){
+                product_status.setText("In Stock");
+            }else{
+                product_status.setText("On Order");
+            }
             toolbar.setTitle(list.get(0).getProductName());
             List<Image2> items = new ArrayList<>();
             for (int i = 0; list.get(0).getImageName().size() > i; i++) {
@@ -523,7 +535,6 @@ public class ProductDetailActivity extends AppCompatActivity {
         });
 
     }
-
 
     private void toggleFabMode(View v) {
         rotate = ViewAnimation.rotateFab(v, !rotate);
@@ -1000,11 +1011,11 @@ public class ProductDetailActivity extends AppCompatActivity {
         });
     }
 
-    private JSONObject createJSON(String table) {
+    private JSONObject createJSON(String table2) {
         JSONObject obj = new JSONObject();
         try {
             obj.put("user_id", userSessionManager.getUserID());
-            obj.put("table", table);
+            obj.put("table", table2);
             obj.put("product_id", list.get(0).getProductMasterId());
             obj.put("product_inventory_table", table);
             obj.put("gross_wt", value_list.get(0));

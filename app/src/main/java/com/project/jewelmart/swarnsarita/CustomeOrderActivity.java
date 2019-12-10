@@ -439,7 +439,7 @@ public class CustomeOrderActivity extends AppCompatActivity implements DatePicke
 
     public void ResetForm() {
         et_netwt.setText("");
-       // et_grosswt.setText("");
+        et_grosswt.setText("");
        // et_length.setText("");
         et_size.setText("");
         et_color.setText("");

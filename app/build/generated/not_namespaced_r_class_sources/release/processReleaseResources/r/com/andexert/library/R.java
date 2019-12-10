@@ -31,9 +31,9 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int doubleRipple = 0x7f0a00c1;
-        public static final int rectangle = 0x7f0a01f3;
-        public static final int simpleRipple = 0x7f0a0223;
+        public static final int doubleRipple = 0x7f0a00c3;
+        public static final int rectangle = 0x7f0a01f6;
+        public static final int simpleRipple = 0x7f0a0226;
     }
     public static final class style {
         private style() {}

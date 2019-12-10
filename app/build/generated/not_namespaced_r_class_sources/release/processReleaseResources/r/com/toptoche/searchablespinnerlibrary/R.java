@@ -17,13 +17,13 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int listItems = 0x7f0a018c;
-        public static final int search = 0x7f0a020c;
+        public static final int listItems = 0x7f0a018e;
+        public static final int search = 0x7f0a020f;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int searchable_list_dialog = 0x7f0c00b7;
+        public static final int searchable_list_dialog = 0x7f0c00b8;
     }
     public static final class string {
         private string() {}

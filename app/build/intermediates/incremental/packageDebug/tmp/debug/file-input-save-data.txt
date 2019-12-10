@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Nov 17 23:40:59 IST 2019
+#Sun Dec 08 12:01:12 IST 2019
 5.base=/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
 22.path=lib/x86/libbitmaps.so
 32.set=DEX

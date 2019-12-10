@@ -174,7 +174,7 @@
 -keep class android.support.design.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
 
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/content_custome_order.xml:198
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_product_detail.xml:187
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_product_detail.xml:219
 -keep class android.support.design.widget.FloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
 
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_main.xml:16
@@ -306,7 +306,7 @@
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/peek_view.xml:7
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/order_layout.xml:48
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/layout_item_demo.xml:9
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_product_card.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_shop_product_card.xml:2
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_layout_cart.xml:9
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_call_email.xml:2
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/fragment_two.xml:26
@@ -329,6 +329,7 @@
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_product_card.xml:2
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_offers_layout.xml:2
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_worker.xml:2
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_category2.xml:9
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_category.xml:9
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_cart.xml:2
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_call_email.xml:2
@@ -391,7 +392,7 @@
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/cart_layout.xml:14
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_worker.xml:18
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_sub_catagory.xml:26
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_product_detail.xml:583
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_product_detail.xml:609
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_order_details.xml:59
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_offers.xml:18
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_notification.xml:19
@@ -427,9 +428,9 @@
 -keep class com.aurelhubert.ahbottomnavigation.AHBottomNavigation { <init>(android.content.Context, android.util.AttributeSet); }
 
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/left_drawer_item.xml:3
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_slider_image.xml:7
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_shop_product_card.xml:10
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_product_card.xml:13
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_people.xml:2
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_layout_cart.xml:18
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_layout.xml:2
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_collection.xml:2
@@ -447,6 +448,7 @@
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_order_details.xml:2
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_notification.xml:2
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_worker.xml:17
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_category2.xml:3
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_category.xml:3
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_cart.xml:16
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout.xml:2
@@ -472,7 +474,7 @@
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/fragment_one.xml:58
 -keep class com.hbb20.CountryCodePicker { <init>(android.content.Context, android.util.AttributeSet); }
 
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_product_detail.xml:363
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_product_detail.xml:395
 -keep class com.jaredrummler.materialspinner.MaterialSpinner { <init>(android.content.Context, android.util.AttributeSet); }
 
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_zom_image.xml:9
@@ -495,9 +497,10 @@
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_splash.xml:38
 -keep class com.project.jewelmart.swarnsarita.widgets.FontBoldItalicTextView { <init>(android.content.Context, android.util.AttributeSet); }
 
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/sheet_list.xml:28
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/subcat_frag.xml:32
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/peek_view.xml:24
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/left_drawer_item.xml:18
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_product_card.xml:28
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_layout_cart.xml:130
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_collection.xml:40
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/item_call_email.xml:48
@@ -520,9 +523,10 @@
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/left_drawer_item.xml:18
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_summary_cart.xml:25
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_sub_cat.xml:29
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_product_card.xml:230
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_product_card.xml:29
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_order_history.xml:42
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_notification.xml:41
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_category2.xml:39
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_category.xml:39
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_cart.xml:171
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_collection.xml:40
@@ -560,7 +564,7 @@
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/activity_splash.xml:94
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/activity_product_detail.xml:121
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_summary_cart.xml:36
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_product_card.xml:47
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_product_card.xml:67
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_order_history.xml:54
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_order_details.xml:20
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_offers_layout.xml:47
@@ -579,10 +583,10 @@
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/dialog_cart_summary.xml:63
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/adapter2.xml:31
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_splash.xml:50
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_product_detail.xml:174
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/activity_product_detail.xml:179
 -keep class com.project.jewelmart.swarnsarita.widgets.FontTextView { <init>(android.content.Context, android.util.AttributeSet); }
 
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_category.xml:24
+# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/item_layout_category2.xml:24
 -keep class com.project.jewelmart.swarnsarita.widgets.SquareImageView { <init>(android.content.Context, android.util.AttributeSet); }
 
 # Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout/content_custome_order.xml:46

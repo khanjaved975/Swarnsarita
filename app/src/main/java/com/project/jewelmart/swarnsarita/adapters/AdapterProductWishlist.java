@@ -151,7 +151,6 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
                 }
             });
 
-
             view2.bt_toggle_items.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

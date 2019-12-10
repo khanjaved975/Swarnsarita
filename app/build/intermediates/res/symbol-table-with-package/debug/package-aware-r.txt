@@ -2051,6 +2051,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pp
 drawable refresh
+drawable round_button
 drawable select_icon
 drawable shape_circle
 drawable shape_circle_outline
@@ -2142,6 +2143,7 @@ id action_refresh
 id action_share
 id action_summary
 id action_text
+id action_wishlist
 id actions
 id activity_chooser_view_content
 id add
@@ -2263,6 +2265,7 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id desing
+id desingno
 id disableHome
 id doubleRipple
 id drawer_itemName
@@ -2557,6 +2560,7 @@ id prod_code
 id prod_id
 id prod_value
 id product_name
+id product_status
 id product_type
 id progress_bar
 id progress_circular

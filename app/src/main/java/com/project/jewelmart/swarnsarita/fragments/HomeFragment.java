@@ -41,6 +41,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.project.jewelmart.swarnsarita.BannerDetialActivity;
 import com.project.jewelmart.swarnsarita.ProductDetailActivity;
+import com.project.jewelmart.swarnsarita.ProductGridActivity;
 import com.project.jewelmart.swarnsarita.adapters.CustomCatRecycleAdapter;
 import com.project.jewelmart.swarnsarita.adapters.CustomStockCatRecycleAdapter;
 import com.project.jewelmart.swarnsarita.adapters.RichProductAdapter;
@@ -53,6 +54,7 @@ import com.project.jewelmart.swarnsarita.pojo.CartAcknowledge;
 import com.project.jewelmart.swarnsarita.pojo.CartCount;
 import com.project.jewelmart.swarnsarita.pojo.Collection;
 import com.project.jewelmart.swarnsarita.pojo.Home;
+import com.project.jewelmart.swarnsarita.pojo.Productgridpojo;
 import com.project.jewelmart.swarnsarita.utils.ProgressIndicator;
 import com.project.jewelmart.swarnsarita.utils.SingletonSupport;
 import com.project.jewelmart.swarnsarita.utils.Tools;
@@ -94,8 +96,8 @@ public class HomeFragment extends Fragment {
     CardView banner;
     List<com.project.jewelmart.swarnsarita.pojo.Collection> parentlist;
     Home.FinalCollection.ProductAssign cartProduct;
-    private int cartPossition = 0,listposition=0;
-     RichProductAdapter richProductAdapter;
+    private int cartPossition = 0, listposition = 0;
+    RichProductAdapter richProductAdapter;
     RecyclerView richproductlist;
     // private LocationManager mLocationManager;
     List<Home.FinalCollection> pList;
@@ -103,7 +105,7 @@ public class HomeFragment extends Fragment {
             android.Manifest.permission.READ_EXTERNAL_STORAGE};
 
     private static final int REQUEST_LOCATION = 10;
-    public int widgetID=100;
+    public int widgetID = 100;
 
 
     @Nullable
@@ -167,14 +169,15 @@ public class HomeFragment extends Fragment {
     }
 
     int selectedItem = 0;
+
     private void setupAdapter(final List<Home.FinalCollection> productList, int hometype) {
         try {
             DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
             int height = displayMetrics.heightPixels;
             int width = displayMetrics.widthPixels;
             pList = productList;
-            int linearItemCount=rich_Product.getChildCount();
-            for ( int i = 0; i < productList.size(); i++) {
+            int linearItemCount = rich_Product.getChildCount();
+            for (int i = 0; i < productList.size(); i++) {
                 List<Home.FinalCollection.ProductAssign> list = new ArrayList<>();
                 list = productList.get(i).getProductAssign();
                 FontBoldTextView titletext = new FontBoldTextView(getActivity());
@@ -236,13 +239,13 @@ public class HomeFragment extends Fragment {
                 LinearLayout.LayoutParams.MATCH_PARENT, height / 2 - (height / 10));*/
                 LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
                 richproductlist.setLayoutParams(layoutParams);
-                richProductAdapter = new RichProductAdapter(getActivity(), list, hometype,(linearItemCount+1)+i);
+                richProductAdapter = new RichProductAdapter(getActivity(), list, hometype, (linearItemCount + 1) + i);
                 richproductlist.setAdapter(richProductAdapter);
                 OverScrollDecoratorHelper.setUpOverScroll(richproductlist, OverScrollDecoratorHelper.ORIENTATION_HORIZONTAL);
                 richProductAdapter.setOnItemClickListener(new RichProductAdapter.OnItemClickListener() {
                     @Override
-                    public void onItemClick(View view, Home.FinalCollection.ProductAssign obj, int position,int linearLayoutPosition) {
-                        listposition=linearLayoutPosition;
+                    public void onItemClick(View view, Home.FinalCollection.ProductAssign obj, int position, int linearLayoutPosition) {
+                        listposition = linearLayoutPosition;
                         Intent intent = new Intent(getActivity(), ProductDetailActivity.class);
                         intent.putExtra("mode_type", "home_products");
                         intent.putExtra("table", "product_master");
@@ -256,8 +259,8 @@ public class HomeFragment extends Fragment {
 
                 richProductAdapter.setImageClickListener(new RichProductAdapter.OnImageClickListener() {
                     @Override
-                    public void onItemClick(View view, Home.FinalCollection.ProductAssign obj, String type, int pos,int linearLayoutPosition) {
-                        listposition=linearLayoutPosition;
+                    public void onItemClick(View view, Home.FinalCollection.ProductAssign obj, String type, int pos, int linearLayoutPosition) {
+                        listposition = linearLayoutPosition;
                         if (type.toString().toLowerCase().equals("cart")) {
                             if (SingletonSupport.getInstance().isLogin) {
                                 CartGrid(obj.getProduct_id(), "1",
@@ -274,6 +277,18 @@ public class HomeFragment extends Fragment {
                                 Tools.showCustomDialog(getActivity(), "Alert !", "Please Login");
                             }
                         } else if (type.toString().toLowerCase().equals("wishlist")) {
+                            if (SingletonSupport.getInstance().isLogin) {
+                                CartGrid(obj.getProduct_id(), "1",
+                                        "product_master", userSessionManager.getUserID(), "wishlist");
+                                cartProduct = obj;
+                                cartPossition = pos;
+                       /* p.setIn_wishlist("1");
+                        adapterGrid.updatelist(pos, p);
+                        adapterGrid.notifyItemRangeChanged(0, List.size() - 1);
+                        recyclerView.getLayoutManager().onRestoreInstanceState(recyclerViewState);*/
+                            } else {
+                                Tools.showCustomDialog(getActivity(), "Alert !", "Please Login");
+                            }
                    /* if (SingletonSupport.getInstance().isLogin) {
                         CartGrid(obj.getProduct_inventory_id(), "1", "product_master", userSessionManager.getUserID(), "wishlist");
                         Productgridpojo.Result p = obj;
@@ -373,13 +388,13 @@ public class HomeFragment extends Fragment {
                 });
               /*  titletext.setId(widgetID++);
                 richproductlist.setId(widgetID++);*/
-                richproductlist.setTag("recycle"+"_"+widgetID++);
+                richproductlist.setTag("recycle" + "_" + widgetID++);
                 linearItemCount++;
                 rich_Product.addView(titletext);
-               // linearItemCount= linearItemCount+1;
+                // linearItemCount= linearItemCount+1;
                 rich_Product.addView(richproductlist);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -395,18 +410,18 @@ public class HomeFragment extends Fragment {
             }
         }
         enableSelection = false;
-        int linearcount=0;
-        if (listposition%2==0){
-            linearcount=listposition+1;
-        }else{
-            linearcount=listposition;
+        int linearcount = 0;
+        if (listposition % 2 == 0) {
+            linearcount = listposition + 1;
+        } else {
+            linearcount = listposition;
         }
        /* richProductAdapter = (RichProductAdapter) ((RecyclerView)rich_Product.getChildAt(richProductAdapter.getLinearLayoutPosition()))
                 .getAdapter();*/
-        if(rich_Product.getChildAt(linearcount) instanceof  RecyclerView){
-            if(((RecyclerView)rich_Product.getChildAt(linearcount))
-                    .getAdapter() instanceof  RichProductAdapter){
-                richProductAdapter = (RichProductAdapter) ((RecyclerView)rich_Product.getChildAt(linearcount))
+        if (rich_Product.getChildAt(linearcount) instanceof RecyclerView) {
+            if (((RecyclerView) rich_Product.getChildAt(linearcount))
+                    .getAdapter() instanceof RichProductAdapter) {
+                richProductAdapter = (RichProductAdapter) ((RecyclerView) rich_Product.getChildAt(linearcount))
                         .getAdapter();
                 richProductAdapter.updatelist(cartPossition, cartProduct);
 
@@ -414,7 +429,6 @@ public class HomeFragment extends Fragment {
                 richproductlist.getLayoutManager().onRestoreInstanceState(recyclerViewState);
             }
         }
-
 
 
     }
@@ -461,7 +475,7 @@ public class HomeFragment extends Fragment {
                     //  }
                 }
 
-                if (parentlist.size() > 0) {
+                /*if (parentlist.size() > 0) {
                     RecyclerView featuredList = new RecyclerView(getActivity());
                     GridLayoutManager llm = new GridLayoutManager(getActivity(), 2);
                     llm.setOrientation(LinearLayoutManager.HORIZONTAL);
@@ -496,14 +510,14 @@ public class HomeFragment extends Fragment {
                     rich_Product.addView(featuredList);
 
                     //  }
-                }
+                }*/
             } else {
                 Toast.makeText(getActivity(), "No data found ,Please try again", Toast.LENGTH_LONG).show();
             }
 
             setupAdapter(productList, themetype);
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -739,10 +753,10 @@ public class HomeFragment extends Fragment {
                     adapterImageSlider2.setOnItemClickListener(new AdapterImageSlider2.OnItemClickListener() {
                         @Override
                         public void onItemClick(View view, Images obj) {
-                            Intent intent=new Intent(getActivity(), BannerDetialActivity.class);
-                            intent.putExtra("title","Banner Details");
-                            intent.putExtra("desc",obj.desc);
-                            intent.putExtra("img",obj.path+obj.name);
+                            Intent intent = new Intent(getActivity(), BannerDetialActivity.class);
+                            intent.putExtra("title", "Banner Details");
+                            intent.putExtra("desc", obj.desc);
+                            intent.putExtra("img", obj.path + obj.name);
                             startActivity(intent);
                         }
                     });
@@ -864,7 +878,7 @@ public class HomeFragment extends Fragment {
                 pdg.dismiss();
                 Log.d("doGetProductGrid", response.code() + "");
                 final CartCount resource = response.body();
-                if (resource!=null) {
+                if (resource != null) {
                     if (resource.getCount() != null) {
                         SingletonSupport.getInstance().cartCount = resource.getCount();
                     } else {
@@ -922,7 +936,7 @@ public class HomeFragment extends Fragment {
 
 
     public void CartGrid(String product_id, String quantity, String product_inventory_table, String user_id,
-                         String cart_wish_table) {
+                         final String cart_wish_table) {
         final ProgressDialog pdg = ProgressIndicator.ShowLoading(getActivity());
         Call<CartAcknowledge> countriesCall = apiInterface.doAddToCartGrid(product_id, user_id, cart_wish_table, quantity, product_inventory_table);
         countriesCall.enqueue(new Callback<CartAcknowledge>() {
@@ -935,7 +949,12 @@ public class HomeFragment extends Fragment {
                     if (resource.getAck().toString().equals("1")) {
                         Toast.makeText(getActivity(), resource.getMsg(), Toast.LENGTH_LONG).show();
                         getCartCount(userSessionManager.getUserID(), "cart");
-                        updateListItem("1",null);
+                        if (!cart_wish_table.equals("wishlist")) {
+                            updateListItem("1", null);
+                        } else {
+                            enableSelection = false;
+                        }
+                        //  updateListItem("1",null);
                     } else {
                         Toast.makeText(getActivity(), resource.getMsg(), Toast.LENGTH_LONG).show();
                     }

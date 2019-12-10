@@ -110,13 +110,13 @@ public class AdapterGridScrollProgress extends RecyclerView.Adapter<RecyclerView
         public View lyt_parent;
         public View view;
         public TextView prod_code, gw_wt, nt_wt;
-        FontBoldTextView qty;
+        FontBoldTextView qty, product_status;
         public TextView prod_value;
         public ImageButton more;
         public LinearLayout linearValue;
         public CardView cardView;
         public RelativeLayout layout_quantity;
-        public Button minus,plus;
+        public Button minus, plus;
 
         public OriginalViewHolder(View v) {
             super(v);
@@ -131,10 +131,11 @@ public class AdapterGridScrollProgress extends RecyclerView.Adapter<RecyclerView
             gw_wt = (TextView) v.findViewById(R.id.gw_value);
             nt_wt = (TextView) v.findViewById(R.id.nt_value);
             qty = (FontBoldTextView) v.findViewById(R.id.qty);
+            product_status = (FontBoldTextView) v.findViewById(R.id.product_status);
             more = (ImageButton) v.findViewById(R.id.more);
             minus = (Button) v.findViewById(R.id.minus);
             plus = (Button) v.findViewById(R.id.plus);
-            layout_quantity = (RelativeLayout) v.findViewById(R.id.layout_quantity);
+            // layout_quantity = (RelativeLayout) v.findViewById(R.id.layout_quantity);
             linearValue = (LinearLayout) v.findViewById(R.id.layout_cart);
         }
 
@@ -235,20 +236,26 @@ public class AdapterGridScrollProgress extends RecyclerView.Adapter<RecyclerView
             view.gw_wt.setText(items.get(position).getGrossWt());
             view.nt_wt.setText(items.get(position).getGrossWt());
             view.gw_wt.setVisibility(View.GONE);
+
+            if (items.get(position).getProduct_status().equalsIgnoreCase("1")) {
+                view.product_status.setText("In Stock");
+            } else {
+                view.product_status.setText("On Order");
+            }
             if (items.get(position).getIn_cart().equals("1")) {
                 Glide.with(ctx).load(R.drawable.ic_shopping_cart_black_48dp)
                         .into(view.cart_icon);
                 view.cart_icon.setColorFilter(ContextCompat.getColor(ctx, R.color.colorAccent),
                         android.graphics.PorterDuff.Mode.SRC_IN);
-                view.layout_quantity.setVisibility(View.VISIBLE);
-                view.linearValue.setVisibility(View.GONE);
-                view.qty.setText(items.get(position).getQuantity());
+                // view.layout_quantity.setVisibility(View.VISIBLE);
+                // view.linearValue.setVisibility(View.GONE);
+                // view.qty.setText(items.get(position).getQuantity());
             } else {
                 Glide.with(ctx).load(R.drawable.cart)
                         .into(view.cart_icon);
                 view.cart_icon.setColorFilter(ContextCompat.getColor(ctx, R.color.colorAccent),
                         android.graphics.PorterDuff.Mode.SRC_IN);
-                view.layout_quantity.setVisibility(View.GONE);
+                //  view.layout_quantity.setVisibility(View.GONE);
                 view.linearValue.setVisibility(View.VISIBLE);
             }
             if (items.get(position).getIn_wishlist().equals("1")) {

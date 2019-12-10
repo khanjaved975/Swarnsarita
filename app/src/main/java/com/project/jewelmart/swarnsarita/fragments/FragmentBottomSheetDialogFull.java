@@ -18,6 +18,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -104,7 +106,6 @@ public class FragmentBottomSheetDialogFull extends BottomSheetDialogFragment {
         return dialog;
     }
 
-
     public void init(View view) {
         recyclview = (RecyclerView) view.findViewById(R.id.filt_cat);
         filter_multiselect_view = (LinearLayout) view.findViewById(R.id.filter_multiselect_view);
@@ -151,18 +152,18 @@ public class FragmentBottomSheetDialogFull extends BottomSheetDialogFragment {
                                 key = "max_" + filter.key;
                                 filterSendMap.put(key, filter.changedMax);
                             }
-                        }/* else {
-                                Log.wtf("Filter Click", "CheckBox ids = " + filter.changedId);
-                                if (filter.changedId != null && !filter.changedId.isEmpty()) {
-                                    key = filter.key;
-                                    String changeIds = "";
-                                    for (int j = 0; j < filter.changedId.size(); j++) {
-                                        changeIds = changeIds + filter.changedId.get(j) + ",";
-                                    }
-                                    String changedIdString = changeIds.substring(0, changeIds.length() - 1);
-                                    filterSendMap.put(key, changedIdString);
+                        } else {
+                            Log.wtf("Filter Click", "CheckBox ids = " + filter.changedId);
+                            if (filter.changedId != null && !filter.changedId.isEmpty()) {
+                                key = filter.key;
+                                String changeIds = "";
+                                for (int j = 0; j < filter.changedId.size(); j++) {
+                                    changeIds = changeIds + filter.changedId.get(j) + ",";
                                 }
-                            }*/
+                                String changedIdString = changeIds.substring(0, changeIds.length() - 1);
+                                filterSendMap.put(key, changedIdString);
+                            }
+                        }
                     }
                 }
                 getActivity().finish();
@@ -173,7 +174,6 @@ public class FragmentBottomSheetDialogFull extends BottomSheetDialogFragment {
             }
         });
     }
-
 
     private void setData() {
         if (filterlist != null && !filterlist.isEmpty()) {
@@ -515,11 +515,64 @@ public class FragmentBottomSheetDialogFull extends BottomSheetDialogFragment {
                         adapter.notifyDataSetChanged();
                     }
                 });
+            }else{
+                filter_multiselect_view.setVisibility(View.VISIBLE);
+                filter_range_view.setVisibility(View.GONE);
+
+                filter_multiselect_view.removeAllViews();
+                for (int i = 0; i < filter.id.size(); i++) {
+                    CheckBox cb = new CheckBox(getActivity());
+                    if (filter.value.size()!=0) {
+                        cb.setText("" + filter.value.get(i));
+                    }else{
+                        cb.setText("-");
+                    }
+                    cb.setTag(position + "," + filter.id.get(i));
+                    cb.setId(i);
+                    Log.d("Checked Id", "" + filterlist.get(position).checked);
+                    if(filter.valueSelected.size()!=0){
+                        if (filterlist.get(position).checked.get(i) != null && filterlist.get(position).checked.get(i) == true)
+                            cb.setChecked(true);
+                        else
+                            cb.setChecked(filter.valueSelected.get(i).equals("1") ? true : false);
+                        filter_multiselect_view.addView(cb);
+                    }
+
+                    cb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                        @Override
+                        public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                            int selectedPosition = ((CheckBox) buttonView).getId();
+                            int position = Integer.parseInt(((CheckBox) buttonView).getTag().toString().split(",")[0]);
+                            if (isChecked) {
+                                filterlist.get(position).changedId.add(filterlist.get(position).id.get(selectedPosition));
+                                filterlist.get(position).checked.set(selectedPosition, true);
+                                if (filterlist.get(position).key.equalsIgnoreCase("design_status"))
+                                    SingletonSupport.getInstance().settings.put("selected_design_status_master", SingletonSupport.getInstance().settings.get("selected_design_status_master"));
+
+                                // SingletonClass.getinstance().settings.put("selected_design_status_master", "1");
+                            } else {
+                                if (filterlist.get(position).key.equalsIgnoreCase("design_status"))
+                                    // SingletonClass.getinstance().isSoldOut=true;
+                                    if (filterlist.get(position).changedId.contains(filterlist.get(position).id.get(selectedPosition))) {
+                                        filterlist.get(position).changedId.remove(filterlist.get(position).id.get(selectedPosition));
+                                        filterlist.get(position).checked.set(selectedPosition, false);
+                                    }
+                            }
+                            if (filterlist.get(position).changedId != null && filterlist.get(position).changedId.size() > 0) {
+                                filterlist.get(position).changed = true;
+                            } else {
+                                filterlist.get(position).changed = false;
+                            }
+//                            Log.d("Change Id", "" + filterParams.get(position).changedId);
+                        }
+                    });
+                    adapter.notifyDataSetChanged();
+
+                }
             }
 
         }
     }
-
 
     @Override
     public void onStart() {
@@ -552,4 +605,5 @@ public class FragmentBottomSheetDialogFull extends BottomSheetDialogFragment {
             filterlist.clear();
         }
     }
+
 }

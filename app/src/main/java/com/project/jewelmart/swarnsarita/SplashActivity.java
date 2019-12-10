@@ -152,7 +152,7 @@ public class SplashActivity extends AppCompatActivity {
         SingletonSupport.getInstance().user_id = userSessionManager.getUserID();
         if (!SingletonSupport.getInstance().user_id.isEmpty()) {
             RegisterToken(userSessionManager.getUserID(), regId);
-            sendEmail(userSessionManager.getUserID());
+          //sendEmail(userSessionManager.getUserID());
         }
 
     }

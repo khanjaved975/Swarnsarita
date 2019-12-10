@@ -21,10 +21,31 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/image"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="170dp" />
+                android:layout_height="wrap_content">
+
+                <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_margin="4dp"
+                    android:id="@+id/product_status"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:elevation="3dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/round_button"/>
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_height="170dp" />
+
+            </RelativeLayout>
 
             <View
                 android:layout_width="match_parent"

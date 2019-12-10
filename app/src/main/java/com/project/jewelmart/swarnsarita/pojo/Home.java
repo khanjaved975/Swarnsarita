@@ -143,6 +143,9 @@ public class Home {
             @SerializedName("quantity")
             @Expose
             private String quantity;
+            @SerializedName("product_status")
+            @Expose
+            private String product_status;
 
             @SerializedName("images")
             @Expose
@@ -210,6 +213,14 @@ public class Home {
 
             public void setQuantity(String quantity) {
                 this.quantity = quantity;
+            }
+
+            public void setProduct_status(String product_status) {
+                this.product_status = product_status;
+            }
+
+            public String getProduct_status() {
+                return product_status;
             }
 
             public class Image {

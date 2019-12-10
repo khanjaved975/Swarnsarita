@@ -349,7 +349,7 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#DFA94E</color>
+    <color name="colorAccent">#9c644b</color>
     <color name="colorBottomNavigationAccent">#FF4081</color>
     <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
     <color name="colorBottomNavigationDisable">#3A000000</color>
@@ -359,8 +359,8 @@
     <color name="colorBottomNavigationPrimary">#3F51B5</color>
     <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
     <color name="colorBottomNavigationSelectedBackground">#17000000</color>
-    <color name="colorPrimary">#2F348F</color>
-    <color name="colorPrimaryDark">#292C7E</color>
+    <color name="colorPrimary">#DFA94E</color>
+    <color name="colorPrimaryDark">#BD8F41</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -1104,7 +1104,7 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="color">#ffffff</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">fd42c03c-30bf-4e3e-98bf-27a5458bc28d</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">804ab3e0-1a81-429e-bce9-887139a1ba43</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>

@@ -22,6 +22,15 @@ public class ProductDetail2 {
     @SerializedName("product_name")
     @Expose
     private String productName;
+
+    @SerializedName("design_number")
+    @Expose
+    private String design_number;
+
+    @SerializedName("product_status")
+    @Expose
+    private String product_status;
+
     @SerializedName("collection_name")
     @Expose
     private String collectionName;
@@ -338,6 +347,22 @@ public class ProductDetail2 {
 
     public String getColor() {
         return color;
+    }
+
+    public String getDesign_number() {
+        return design_number;
+    }
+
+    public void setDesign_number(String design_number) {
+        this.design_number = design_number;
+    }
+
+    public String getProduct_status() {
+        return product_status;
+    }
+
+    public void setProduct_status(String product_status) {
+        this.product_status = product_status;
     }
 
 

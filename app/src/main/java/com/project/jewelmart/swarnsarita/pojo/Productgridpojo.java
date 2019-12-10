@@ -83,6 +83,10 @@ public class Productgridpojo {
         @Expose
         private String quantity;
 
+        @SerializedName("product_status")
+        @Expose
+        private String product_status;
+
         public String getCollectionSkuCode() {
             return collectionSkuCode;
         }
@@ -157,6 +161,13 @@ public class Productgridpojo {
             this.imageName = imageName;
         }
 
+        public void setProduct_status(String product_status) {
+            this.product_status = product_status;
+        }
+
+        public String getProduct_status() {
+            return product_status;
+        }
     }
 
 }

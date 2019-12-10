@@ -10,6 +10,8 @@ import android.widget.LinearLayout;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.jaredrummler.materialspinner.MaterialSpinner;
+import com.project.jewelmart.swarnsarita.widgets.FontBoldTextView;
+import com.project.jewelmart.swarnsarita.widgets.FontTextView;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
@@ -38,6 +40,8 @@ public class ProductDetailActivity_ViewBinding implements Unbinder {
     target.polish_spinner = Utils.findRequiredViewAsType(source, R.id.polish_spinner, "field 'polish_spinner'", MaterialSpinner.class);
     target.card_wishlist = Utils.findRequiredViewAsType(source, R.id.card_wishlist, "field 'card_wishlist'", CardView.class);
     target.card_cart = Utils.findRequiredViewAsType(source, R.id.card_cart, "field 'card_cart'", CardView.class);
+    target.desingno = Utils.findRequiredViewAsType(source, R.id.desingno, "field 'desingno'", FontTextView.class);
+    target.product_status = Utils.findRequiredViewAsType(source, R.id.product_status, "field 'product_status'", FontBoldTextView.class);
   }
 
   @Override
@@ -60,5 +64,7 @@ public class ProductDetailActivity_ViewBinding implements Unbinder {
     target.polish_spinner = null;
     target.card_wishlist = null;
     target.card_cart = null;
+    target.desingno = null;
+    target.product_status = null;
   }
 }

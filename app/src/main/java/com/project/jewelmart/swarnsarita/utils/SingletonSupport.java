@@ -6,6 +6,7 @@ import com.project.jewelmart.swarnsarita.pojo.Company;
 import com.project.jewelmart.swarnsarita.pojo.SortList;
 import com.project.jewelmart.swarnsarita.pojo.States;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -32,6 +33,7 @@ public class SingletonSupport {
     public String user_id="",usertype="",sort="2";
     public static int cartCount=0;
     public String screenshotfilename;
+    public HashMap<String, String> settings = new HashMap();
 
     private static SingletonSupport ourInstance = new SingletonSupport();
 

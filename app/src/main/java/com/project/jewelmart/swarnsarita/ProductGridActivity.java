@@ -73,6 +73,7 @@ import org.json.JSONObject;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -81,6 +82,10 @@ import java.util.Map;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+
+import static com.project.jewelmart.swarnsarita.fragments.FragmentBottomSheetDialogFull.filterSendMap;
+
+
 
 public class ProductGridActivity extends AppCompatActivity {
 
@@ -114,6 +119,7 @@ public class ProductGridActivity extends AppCompatActivity {
     private Parcelable recyclerViewState;
     CoordinatorLayout coordinatorLayout;
     Productgridpojo.Result cartProduct;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -181,9 +187,11 @@ public class ProductGridActivity extends AppCompatActivity {
                                 FragmentBottomSheetDialogFull.filterlist.clear();
                             }
                         }
-                        if (FragmentBottomSheetDialogFull.filterSendMap != null) {
-                            if (!FragmentBottomSheetDialogFull.filterSendMap.isEmpty()) {
-                                FragmentBottomSheetDialogFull.filterSendMap.clear();
+
+
+                        if (filterSendMap != null) {
+                            if (!filterSendMap.isEmpty()) {
+                                filterSendMap.clear();
                             }
                         }
                         getFilter(userSessionManager.getUserID(), collection_id, "all_filter", table);
@@ -311,8 +319,8 @@ public class ProductGridActivity extends AppCompatActivity {
         params.put("product_status", "1");
         if (SingletonSupport.getInstance().isfilter) {
             params.put("mode_type", "filter_data");
-            if (FragmentBottomSheetDialogFull.filterSendMap != null) {
-                for (Map.Entry e : FragmentBottomSheetDialogFull.filterSendMap.entrySet()) {
+            if (filterSendMap != null) {
+                for (Map.Entry e : filterSendMap.entrySet()) {
                     if (!params.containsKey(e.getKey()))
                         params.put(e.getKey().toString(), e.getValue().toString());
                 }
@@ -391,8 +399,8 @@ public class ProductGridActivity extends AppCompatActivity {
         params.put("product_status", "1");
         if (SingletonSupport.getInstance().isfilter) {
             params.put("mode_type", "filter_data");
-            if (FragmentBottomSheetDialogFull.filterSendMap != null) {
-                for (Map.Entry e : FragmentBottomSheetDialogFull.filterSendMap.entrySet()) {
+            if (filterSendMap != null) {
+                for (Map.Entry e : filterSendMap.entrySet()) {
                     if (!params.containsKey(e.getKey()))
                         params.put(e.getKey().toString(), e.getValue().toString());
                 }
@@ -481,8 +489,8 @@ public class ProductGridActivity extends AppCompatActivity {
             params.put("product_status", "1");
             if (SingletonSupport.getInstance().isfilter) {
                 params.put("mode_type", "filter_data");
-                if (FragmentBottomSheetDialogFull.filterSendMap != null) {
-                    for (Map.Entry e : FragmentBottomSheetDialogFull.filterSendMap.entrySet()) {
+                if (filterSendMap != null) {
+                    for (Map.Entry e : filterSendMap.entrySet()) {
                         if (!params.containsKey(e.getKey()))
                             params.put(e.getKey().toString(), e.getValue().toString());
                     }
@@ -900,6 +908,32 @@ public class ProductGridActivity extends AppCompatActivity {
                 mode.finish();
                 btn_select.setBackgroundColor(btn_select.getContext().getResources().getColor(R.color.white));
                 return true;
+            }else if (id == R.id.action_wishlist) {
+                String ids = null;
+                String idquantity = null;
+                for (int i = 0; i < SingletonSupport.getInstance().multiSelectedIds.size(); i++) {
+                    if (i == 0) {
+                        ids = SingletonSupport.getInstance().multiSelectedIds.get(i);
+                        idquantity = "1";
+                    } else {
+                        ids += "," + SingletonSupport.getInstance().multiSelectedIds.get(i);
+                        idquantity += "," + idquantity;
+                    }
+                }
+                for (int i = 0; i < SingletonSupport.getInstance().multiSelectedPos.size(); i++) {
+                    Productgridpojo.Result p = List.get(SingletonSupport.getInstance().
+                            multiSelectedPos.get(i));
+                    p.setIn_wishlist("1");
+                    adapterGrid.updatelist(SingletonSupport.getInstance().
+                            multiSelectedPos.get(i), p);
+                    adapterGrid.notifyItemRangeChanged(0, List.size() - 1);
+                    recyclerView.getLayoutManager().onRestoreInstanceState(recyclerViewState);
+                }
+                CartGrid(ids, idquantity, "product_master", userSessionManager.getUserID(), "wishlist");
+                mode.finish();
+                enableSelection = false;
+                btn_select.setBackgroundColor(btn_select.getContext().getResources().getColor(R.color.white));
+                return true;
             } else {
                 enableSelection = false;
                 btn_select.setBackgroundColor(btn_select.getContext().getResources().getColor(R.color.white));
@@ -953,7 +987,6 @@ public class ProductGridActivity extends AppCompatActivity {
             }
         });
     }
-
 
     public void CartGridPlusMinus(String product_id, String quantity, String product_inventory_table, String user_id,
                                   String cart_wish_table, String plus) {
@@ -1047,6 +1080,10 @@ public class ProductGridActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
+                            filterOptionsKeys=new ArrayList<String>();
+                            if (!filterOptionsKeys.isEmpty()) {
+                                filterOptionsKeys.clear();
+                            }
                             JSONObject jsonResponse = response;
                             if (jsonResponse != null && jsonResponse.length() > 0) {
                                 Iterator<String> iter = jsonResponse.keys();
@@ -1056,9 +1093,11 @@ public class ProductGridActivity extends AppCompatActivity {
                                 }
                             }
                             filterParams = new ArrayList<FilterObject>();
+
                             if (!filterParams.isEmpty()) {
                                 filterParams.clear();
                             }
+
                             for (int i = 0; i < filterOptionsKeys.size(); i++) {
                                 FilterObject filter = new FilterObject();
                                 JSONArray jarr = jsonResponse.getJSONArray(filterOptionsKeys.get(i));
@@ -1091,6 +1130,29 @@ public class ProductGridActivity extends AppCompatActivity {
 //                                                    filter.checked.add(false);
 //                                                }
 //                                        }
+
+                                        if (jobj.has("id")) {
+                                            filter.id.add(jobj.getString("id"));
+                                            if (filterSendMap != null && filterSendMap.containsKey(filterOptionsKeys.get(i))) {
+                                                String ids[] = filterSendMap.get(filterOptionsKeys.get(i)).split(",");
+                                                ArrayList<String> idList = new ArrayList<String>(Arrays.asList(ids));
+                                                if (idList.contains(jobj.getString("id"))) {
+                                                    filter.checked.add(true);
+                                                    filter.changedId.add(jobj.getString("id"));
+                                                } else {
+                                                    filter.checked.add(false);
+                                                }
+                                            } else
+                                                filter.checked.add(false);
+                                        }
+
+                                        if (jobj.has(filterOptionsKeys.get(i) + "_value")) {
+                                            filter.value.add(jobj.getString(filterOptionsKeys.get(i) + "_value"));
+                                            if (jobj.has("selected"))
+                                                filter.valueSelected.add(jobj.getString("selected"));
+                                            else
+                                                filter.valueSelected.add("0");
+                                        }
                                     }
                                     filterParams.add(filter);
                                 }

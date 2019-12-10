@@ -368,12 +368,12 @@
         "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/e60b09e64d5b9b4dd3fe181c9cf976e8/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/color_abc_tint_default.xml.flat",
-        "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/color/abc_tint_default.xml"
-    },
-    {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/color_abc_tint_default.xml.flat",
+        "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/color/abc_tint_default.xml"
     },
     {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_freshchat_ic_send_normal.png.flat",
@@ -444,12 +444,12 @@
         "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/raw_portuguese.xml.flat",
-        "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/res/raw/portuguese.xml"
-    },
-    {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/raw_portuguese.xml.flat",
+        "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/res/raw/portuguese.xml"
     },
     {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -516,12 +516,12 @@
         "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/layout-land_cart_layout.xml.flat",
-        "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/cart_layout.xml"
-    },
-    {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/layout-land_cart_layout.xml.flat",
+        "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/cart_layout.xml"
     },
     {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/drawable_select_icon.png.flat",
@@ -1452,6 +1452,10 @@
         "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/layout-land_activity_splash.xml.flat",
         "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/layout-land/activity_splash.xml"
     },
@@ -1462,10 +1466,6 @@
     {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/cc48a3100ce1e6129ed1d60f04879c2a/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_gallery.png.flat",
@@ -1978,6 +1978,10 @@
     {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_freshchat_ic_stop.png.flat",
         "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/freshchat-android-1.3.1.aar/650dddb46b6a97022fc5360e31d98d78/res/drawable-xhdpi-v4/freshchat_ic_stop.png"
+    },
+    {
+        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/drawable_round_button.xml.flat",
+        "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/drawable/round_button.xml"
     },
     {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ms__shadow_background.9.png.flat",
@@ -4864,16 +4868,16 @@
         "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/res/drawable-ldpi-v4/ic_clear_black_24dp.png"
     },
     {
+        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/drawable-nodpi-v4_flag_hong_kong.png.flat",
         "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/res/drawable-nodpi-v4/flag_hong_kong.png"
     },
     {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
         "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.0.aar/49dc6771a1e718de7b369720c4c44e6b/res/color/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/res/merged/debug/layout_fragment_bottom_sheet_dialog_full.xml.flat",

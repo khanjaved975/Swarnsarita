@@ -8,12 +8,12 @@
         android:title="cart"
         app:showAsAction="always" />
 
-   <!-- <item
+    <item
         android:id="@+id/action_wishlist"
         android:icon="@drawable/add_wishlist"
         android:orderInCategory="2"
         android:title="cart"
-        app:showAsAction="always" />-->
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/action_cancel"

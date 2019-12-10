@@ -85,6 +85,7 @@ public class RichProductAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         public View view;
         public FontTextView prod_code, gw_wt, nt_wt;
         public FontTextView prod_value;
+        public FontBoldTextView product_status;
         public ImageButton more;
         public LinearLayout linearValue;
         public View lyt_parent;
@@ -105,6 +106,7 @@ public class RichProductAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             gw_wt = (FontTextView) v.findViewById(R.id.gw_value);
             nt_wt = (FontTextView) v.findViewById(R.id.nt_value);
             qty = (FontBoldTextView) v.findViewById(R.id.qty);
+            product_status = (FontBoldTextView) v.findViewById(R.id.product_status);
             more = (ImageButton) v.findViewById(R.id.more);
             lyt_parent = (View) v.findViewById(R.id.lyt_parent);
             cardView = (CardView) v.findViewById(R.id.card_view);
@@ -168,23 +170,25 @@ public class RichProductAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                         .into(view.cart_icon);
                 view.cart_icon.setColorFilter(ContextCompat.getColor(activity, R.color.colorAccent),
                         android.graphics.PorterDuff.Mode.SRC_IN);
-                view.layout_quantity.setVisibility(View.VISIBLE);
+               /* view.layout_quantity.setVisibility(View.VISIBLE);
                 view.linearValue.setVisibility(View.GONE);
-                view.qty.setText(items.get(position).getQuantity());
+                view.qty.setText(items.get(position).getQuantity());*/
             } else {
                 Glide.with(activity).load(R.drawable.cart)
                         .into(view.cart_icon);
                 view.cart_icon.setColorFilter(ContextCompat.getColor(activity, R.color.colorAccent),
                         android.graphics.PorterDuff.Mode.SRC_IN);
-                view.layout_quantity.setVisibility(View.GONE);
-                view.linearValue.setVisibility(View.VISIBLE);
+               /* view.layout_quantity.setVisibility(View.GONE);
+                view.linearValue.setVisibility(View.VISIBLE);*/
             }
-            if (items.get(position).getImages().equals("1")) {
+            if (items.get(position).getInwishlist().equals("1")) {
                 Glide.with(activity).load(R.drawable.fill_wishlist)
                         .into(view.wishlist_icon);
                 view.wishlist_icon.setColorFilter(ContextCompat.getColor(activity, R.color.colorAccent),
                         android.graphics.PorterDuff.Mode.SRC_IN);
             }
+
+
             layoutParams.setMargins(2, 2, 2, 2);
             view.cardView.setLayoutParams(layoutParams);
             // final ShopProduct p = items.get(position);
@@ -194,6 +198,12 @@ public class RichProductAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             if (items.get(position).getIn_wishlist().equals("1")){
                 view.wishlist_icon.setVisibility(View.VISIBLE);
             }*/
+
+            if (items.get(position).getProduct_status().equalsIgnoreCase("1")){
+                view.product_status.setText("In Stock");
+            }else{
+                view.product_status.setText("On Order");
+            }
             view.prod_code.setText("Code : ");
             view.prod_value.setText(items.get(position).getCollectionSkuCode());
             view.gw_wt.setText(items.get(position).getNetWt());
@@ -236,6 +246,14 @@ public class RichProductAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                 public void onClick(View view) {
                     if (onImageClickListener == null) return;
                     onImageClickListener.onItemClick(view, items.get(position), "cart", position,getLinearLayoutPosition());
+                }
+            });
+
+            view.wishlist_icon.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (onImageClickListener == null) return;
+                    onImageClickListener.onItemClick(view, items.get(position), "wishlist", position,getLinearLayoutPosition());
                 }
             });
 

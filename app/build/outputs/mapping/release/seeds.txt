@@ -33726,6 +33726,8 @@ com.project.jewelmart.swarnsarita.ProductDetailActivity: com.jaredrummler.materi
 com.project.jewelmart.swarnsarita.ProductDetailActivity: com.jaredrummler.materialspinner.MaterialSpinner polish_spinner
 com.project.jewelmart.swarnsarita.ProductDetailActivity: android.support.v7.widget.CardView card_wishlist
 com.project.jewelmart.swarnsarita.ProductDetailActivity: android.support.v7.widget.CardView card_cart
+com.project.jewelmart.swarnsarita.ProductDetailActivity: com.project.jewelmart.swarnsarita.widgets.FontTextView desingno
+com.project.jewelmart.swarnsarita.ProductDetailActivity: com.project.jewelmart.swarnsarita.widgets.FontBoldTextView product_status
 com.project.jewelmart.swarnsarita.ProductDetailActivity: ProductDetailActivity()
 com.project.jewelmart.swarnsarita.ProductDetailActivity_ViewBinding
 com.project.jewelmart.swarnsarita.ProductDetailActivity_ViewBinding: ProductDetailActivity_ViewBinding(com.project.jewelmart.swarnsarita.ProductDetailActivity,android.view.View)
@@ -35783,6 +35785,7 @@ com.project.jewelmart.swarnsarita.R$drawable: int notification_tile_bg
 com.project.jewelmart.swarnsarita.R$drawable: int notify_panel_notification_icon_bg
 com.project.jewelmart.swarnsarita.R$drawable: int pp
 com.project.jewelmart.swarnsarita.R$drawable: int refresh
+com.project.jewelmart.swarnsarita.R$drawable: int round_button
 com.project.jewelmart.swarnsarita.R$drawable: int select_icon
 com.project.jewelmart.swarnsarita.R$drawable: int shape_circle
 com.project.jewelmart.swarnsarita.R$drawable: int shape_circle_outline
@@ -35874,6 +35877,7 @@ com.project.jewelmart.swarnsarita.R$id: int action_refresh
 com.project.jewelmart.swarnsarita.R$id: int action_share
 com.project.jewelmart.swarnsarita.R$id: int action_summary
 com.project.jewelmart.swarnsarita.R$id: int action_text
+com.project.jewelmart.swarnsarita.R$id: int action_wishlist
 com.project.jewelmart.swarnsarita.R$id: int actions
 com.project.jewelmart.swarnsarita.R$id: int activity_chooser_view_content
 com.project.jewelmart.swarnsarita.R$id: int add
@@ -35995,6 +35999,7 @@ com.project.jewelmart.swarnsarita.R$id: int design_menu_item_action_area_stub
 com.project.jewelmart.swarnsarita.R$id: int design_menu_item_text
 com.project.jewelmart.swarnsarita.R$id: int design_navigation_view
 com.project.jewelmart.swarnsarita.R$id: int desing
+com.project.jewelmart.swarnsarita.R$id: int desingno
 com.project.jewelmart.swarnsarita.R$id: int disableHome
 com.project.jewelmart.swarnsarita.R$id: int doubleRipple
 com.project.jewelmart.swarnsarita.R$id: int drawer_itemName
@@ -36289,6 +36294,7 @@ com.project.jewelmart.swarnsarita.R$id: int prod_code
 com.project.jewelmart.swarnsarita.R$id: int prod_id
 com.project.jewelmart.swarnsarita.R$id: int prod_value
 com.project.jewelmart.swarnsarita.R$id: int product_name
+com.project.jewelmart.swarnsarita.R$id: int product_status
 com.project.jewelmart.swarnsarita.R$id: int product_type
 com.project.jewelmart.swarnsarita.R$id: int progress_bar
 com.project.jewelmart.swarnsarita.R$id: int progress_circular
@@ -36622,6 +36628,7 @@ com.project.jewelmart.swarnsarita.R$layout: int item_collection
 com.project.jewelmart.swarnsarita.R$layout: int item_layout
 com.project.jewelmart.swarnsarita.R$layout: int item_layout_cart
 com.project.jewelmart.swarnsarita.R$layout: int item_layout_category
+com.project.jewelmart.swarnsarita.R$layout: int item_layout_category2
 com.project.jewelmart.swarnsarita.R$layout: int item_layout_worker
 com.project.jewelmart.swarnsarita.R$layout: int item_notification
 com.project.jewelmart.swarnsarita.R$layout: int item_offers_layout
