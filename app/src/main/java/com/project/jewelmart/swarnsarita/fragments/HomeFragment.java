@@ -949,11 +949,11 @@ public class HomeFragment extends Fragment {
                     if (resource.getAck().toString().equals("1")) {
                         Toast.makeText(getActivity(), resource.getMsg(), Toast.LENGTH_LONG).show();
                         getCartCount(userSessionManager.getUserID(), "cart");
-                        if (!cart_wish_table.equals("wishlist")) {
-                            updateListItem("1", null);
-                        } else {
+                       // if (!cart_wish_table.equals("wishlist")) {
+                            updateListItem("1", cart_wish_table);
+                       /* } else {
                             enableSelection = false;
-                        }
+                        }*/
                         //  updateListItem("1",null);
                     } else {
                         Toast.makeText(getActivity(), resource.getMsg(), Toast.LENGTH_LONG).show();

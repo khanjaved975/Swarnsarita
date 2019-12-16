@@ -307,8 +307,8 @@ public class CartFragment extends Fragment implements OnLoadMoreListener {
 //                                resource.getCartSummary().getGiftCoupanMsg());
                     } else {
                         checkoutCustomDialog("\n Product Master : \n" + "Gross Weight : " + resource.getCartSummary().getProductMaster().getGrossWt() +
-                                        "\n" + "Quantity : " + resource.getCartSummary().getProductMaster().getQuantity() + "\n\n Inventory Master : \n" + "Gross Weight : "
-                                        + resource.getCartSummary().getInventoryMaster().getGrossWt()+"\n"+"Quantity : "+resource.getCartSummary().getInventoryMaster().getQuantity()
+                                        "\n" + "Quantity : " + resource.getCartSummary().getProductMaster().getQuantity() + "\n\n" + "On Order : "
+                                        + resource.getCartSummary().getInventoryMaster().getGrossWt()+"\n"+"In Stock : "+resource.getCartSummary().getInventoryMaster().getQuantity()
                                 );
                     }
                 }
@@ -476,7 +476,8 @@ public class CartFragment extends Fragment implements OnLoadMoreListener {
         ll_offers.setVisibility(View.VISIBLE);
         content2.setVisibility(View.VISIBLE);
         content.setText("Cart Summary \n " + data);
-        content2.setText("\n Are you sure ? You want to check out, Click continue to proceed further ");
+        content2.setText("\nNotes : On Order Product delivers after 15 days" +
+                "\n Are you sure ? You want to check out, Click continue to proceed further ");
         TextView txtcoupanName = (TextView) dialog.findViewById(R.id.gift_coupan_name);
 
         TextView txtcoupanMsg = (TextView) dialog.findViewById(R.id.gift_coupan_msg);

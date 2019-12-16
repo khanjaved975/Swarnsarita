@@ -215,7 +215,6 @@ public class SplashActivity extends AppCompatActivity {
 
     }
 
-
     public void sendEmail(String user_id) {
         APIInterface apiInterface;
         apiInterface = APIClient.getClient().create(APIInterface.class);
@@ -235,7 +234,6 @@ public class SplashActivity extends AppCompatActivity {
         });
 
     }
-
 
     @Override
     protected void onResume() {
