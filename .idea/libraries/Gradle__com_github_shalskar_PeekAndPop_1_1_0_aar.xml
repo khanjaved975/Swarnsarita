@@ -1,13 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.shalskar:PeekAndPop:1.1.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/52480f17ac228a99140cd2f4591eefb7/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/5b96ff5edcb6bec42d4e09532632d1e4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/52480f17ac228a99140cd2f4591eefb7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/52480f17ac228a99140cd2f4591eefb7/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/5b96ff5edcb6bec42d4e09532632d1e4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-1/files-1.1/PeekAndPop-1.1.0.aar/5b96ff5edcb6bec42d4e09532632d1e4/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.shalskar/PeekAndPop/1.1.0/c985c14b130f65769c7c24030f7c3cbc7bb43bf/PeekAndPop-1.1.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

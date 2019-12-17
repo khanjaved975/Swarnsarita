@@ -2203,6 +2203,8 @@ id cart_expand_items
 id cart_gross_wt
 id cart_icon
 id cart_image
+id cart_kundan_pcs
+id cart_less
 id cart_net_wt
 id cart_polish
 id cart_prod_code
@@ -2989,8 +2991,6 @@ menu menu_product_more
 menu menu_wishlist_more
 menu menu_worker_home
 mipmap ic_launcher
-mipmap ic_launcher_foreground
-mipmap ic_launcher_round
 raw a_new_lang_template
 raw arabic
 raw badgenew

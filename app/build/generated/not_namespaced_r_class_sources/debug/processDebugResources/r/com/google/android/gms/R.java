@@ -88,26 +88,26 @@ public final class R {
         public static final int adjust_height = 0x7f0a004b;
         public static final int adjust_width = 0x7f0a004c;
         public static final int auto = 0x7f0a0055;
-        public static final int center = 0x7f0a0090;
-        public static final int dark = 0x7f0a00b5;
-        public static final int date = 0x7f0a00b6;
-        public static final int email = 0x7f0a00c8;
-        public static final int hybrid = 0x7f0a0150;
-        public static final int icon_only = 0x7f0a0157;
-        public static final int light = 0x7f0a0185;
-        public static final int match_parent = 0x7f0a01a2;
-        public static final int none = 0x7f0a01c6;
-        public static final int normal = 0x7f0a01c7;
-        public static final int radio = 0x7f0a01f0;
-        public static final int satellite = 0x7f0a0205;
-        public static final int slide = 0x7f0a0228;
-        public static final int standard = 0x7f0a023b;
-        public static final int terrain = 0x7f0a0247;
-        public static final int text = 0x7f0a0248;
-        public static final int text2 = 0x7f0a0249;
-        public static final int toolbar = 0x7f0a026e;
-        public static final int wide = 0x7f0a02a4;
-        public static final int wrap_content = 0x7f0a02a8;
+        public static final int center = 0x7f0a0092;
+        public static final int dark = 0x7f0a00b7;
+        public static final int date = 0x7f0a00b8;
+        public static final int email = 0x7f0a00ca;
+        public static final int hybrid = 0x7f0a0152;
+        public static final int icon_only = 0x7f0a0159;
+        public static final int light = 0x7f0a0187;
+        public static final int match_parent = 0x7f0a01a4;
+        public static final int none = 0x7f0a01c8;
+        public static final int normal = 0x7f0a01c9;
+        public static final int radio = 0x7f0a01f2;
+        public static final int satellite = 0x7f0a0207;
+        public static final int slide = 0x7f0a022a;
+        public static final int standard = 0x7f0a023d;
+        public static final int terrain = 0x7f0a0249;
+        public static final int text = 0x7f0a024a;
+        public static final int text2 = 0x7f0a024b;
+        public static final int toolbar = 0x7f0a0270;
+        public static final int wide = 0x7f0a02a6;
+        public static final int wrap_content = 0x7f0a02aa;
     }
     public static final class integer {
         private integer() {}

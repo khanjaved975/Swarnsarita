@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "C:\\Users\\50004932\\Swarnsarita\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/Users/javedkhan/.gradle/caches/transforms-1/files-1.1/welcome-1.4.1.aar/bdd4a9c25eeb09b63873702ba10c5b9b/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\50004932\\.gradle\\caches\\transforms-1\\files-1.1\\welcome-1.4.1.aar\\c107aecbe238e4dcfda1405a4ebacaea\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3,7",
                         "startColumns": "4,4,4",

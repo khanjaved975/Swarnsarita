@@ -62,7 +62,7 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
 
     public class OriginalViewHolder extends RecyclerView.ViewHolder {
         public ImageView image;
-        public FontTextView title, gross, net, quantity, code, remark, type, polish, tone, color;
+        public FontTextView title, gross, net, quantity, code, remark, type, polish, tone, color,cart_kundan_pcs,cart_less;;
         public FontBoldTextView price;
         public ImageButton more;
         public View cart_expand_items;
@@ -85,6 +85,8 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
             remark = (FontTextView) v.findViewById(R.id.cart_remark);
             price = (FontBoldTextView) v.findViewById(R.id.cart_total_price);
             Lin_item_detail = (LinearLayout) v.findViewById(R.id.item_detail);
+            cart_kundan_pcs = (FontTextView) v.findViewById(R.id.cart_kundan_pcs);
+            cart_less = (FontTextView) v.findViewById(R.id.cart_less);
             more = (ImageButton) v.findViewById(R.id.more);
             bt_toggle_items = (ImageButton) v.findViewById(R.id.bt_toggle_items);
             cart_expand_items = (View) v.findViewById(R.id.cart_expand_items);
@@ -109,11 +111,13 @@ public class AdapterProductWishlist extends RecyclerView.Adapter<RecyclerView.Vi
             final Cart.Datum p = items.get(position);
             view2.title.setText(p.getCollectionName());
             view2.code.setText(p.getCollectionSkuCode());
-            view2.gross.setText(p.getGrossWt().toString());
-            view2.color.setText(p.getColor());
-            view2.polish.setText(p.getPolish());
-            view2.tone.setText(p.getTone());
-            view2.type.setText(p.getProductInventoryType());
+            view2.gross.setText(p.getNetWt().toString());
+            view2.color.setText(p.getKundanWeight());
+            view2.polish.setText(p.getStoneWeight());
+            view2.tone.setText(p.getBlackBeadsWeight());
+            view2.cart_less.setText(p.getExtraLess());
+            view2.cart_kundan_pcs.setText(p.getKundanPcs());
+            view2.type.setText(p.getGrossWt().toString());
             view2.quantity.setText(p.getQuantity());
             view2.price.setText(p.getTotalPrice());
             view2.remark.setText(p.getRemarks());

@@ -65,7 +65,7 @@ public class AdapterProductCart extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     public class OriginalViewHolder extends RecyclerView.ViewHolder {
         public ImageView image;
-        public FontTextView title,type, gross, quantity, code, remark, color, polish, tone;
+        public FontTextView title,type, gross, quantity, code, remark, color, polish, tone,cart_kundan_pcs,cart_less;
         public FontBoldTextView price;
         public ImageButton more;
         public View cart_expand_items;
@@ -84,6 +84,8 @@ public class AdapterProductCart extends RecyclerView.Adapter<RecyclerView.ViewHo
             color = (FontTextView) v.findViewById(R.id.cart_color);
             polish = (FontTextView) v.findViewById(R.id.cart_polish);
             tone = (FontTextView) v.findViewById(R.id.cart_tone);
+            cart_kundan_pcs = (FontTextView) v.findViewById(R.id.cart_kundan_pcs);
+            cart_less = (FontTextView) v.findViewById(R.id.cart_less);
             quantity = (FontTextView) v.findViewById(R.id.cart_product_quantity);
             remark = (FontTextView) v.findViewById(R.id.cart_remark);
             price = (FontBoldTextView) v.findViewById(R.id.cart_total_price);
@@ -114,10 +116,12 @@ public class AdapterProductCart extends RecyclerView.Adapter<RecyclerView.ViewHo
             view2.title.setText(p.getCollectionName());
             view2.code.setText(p.getCollectionSkuCode());
             view2.gross.setText(p.getGrossWt().toString());
-            view2.color.setText(p.getColor());
-            view2.polish.setText(p.getPolish());
-            view2.tone.setText(p.getTone());
-            view2.type.setText(p.getProductInventoryType());
+            view2.color.setText(p.getKundanWeight());
+            view2.polish.setText(p.getStoneWeight());
+            view2.tone.setText(p.getBlackBeadsWeight());
+            view2.cart_less.setText(p.getExtraLess());
+            view2.cart_kundan_pcs.setText(p.getKundanPcs());
+            view2.type.setText(p.getGrossWt().toString());
             view2.quantity.setText(p.getQuantity());
             view2.price.setText(p.getTotalPrice());
             view2.remark.setText(p.getRemarks());

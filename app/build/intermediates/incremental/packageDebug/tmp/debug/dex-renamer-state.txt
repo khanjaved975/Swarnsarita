@@ -1,7 +1,7 @@
-#Sun Dec 15 00:45:32 IST 2019
-base.0=/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/dex/debug/mergeDexDebug/out
+#Tue Dec 17 13:16:41 IST 2019
+base.0=C\:\\Users\\50004932\\Swarnsarita\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/dex/debug/mergeDexDebug/out
+base.1=C\:\\Users\\50004932\\Swarnsarita\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out

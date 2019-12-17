@@ -43,6 +43,7 @@ public class Cart {
 
     public class Datum {
 
+
         @SerializedName("cart_wish_id")
         @Expose
         private String cartWishId;
@@ -58,21 +59,36 @@ public class Cart {
         @SerializedName("collection_sku_code")
         @Expose
         private String collectionSkuCode;
+        @SerializedName("manufacturing_code")
+        @Expose
+        private String manufacturingCode;
         @SerializedName("gross_wt")
         @Expose
-        private Double grossWt;
+        private String grossWt;
         @SerializedName("net_wt")
         @Expose
-        private Double netWt;
+        private String netWt;
         @SerializedName("quantity")
         @Expose
         private String quantity;
         @SerializedName("remarks")
         @Expose
         private String remarks;
-        @SerializedName("length")
+        @SerializedName("kundan_weight")
         @Expose
-        private String length;
+        private String kundanWeight;
+        @SerializedName("stone_weight")
+        @Expose
+        private String stoneWeight;
+        @SerializedName("black_beads_weight")
+        @Expose
+        private String blackBeadsWeight;
+        @SerializedName("extra_less")
+        @Expose
+        private String extraLess;
+        @SerializedName("kundan_pcs")
+        @Expose
+        private String kundanPcs;
         @SerializedName("images")
         @Expose
         private String images;
@@ -82,17 +98,6 @@ public class Cart {
         @SerializedName("zoom_image")
         @Expose
         private String zoomImage;
-
-        @SerializedName("color")
-        @Expose
-        private String color;
-        @SerializedName("polish")
-        @Expose
-        private String polish;
-
-        @SerializedName("tone")
-        @Expose
-        private String tone;
         @SerializedName("thumb_image")
         @Expose
         private String thumbImage;
@@ -146,19 +151,27 @@ public class Cart {
             this.collectionSkuCode = collectionSkuCode;
         }
 
-        public Double getGrossWt() {
+        public String getManufacturingCode() {
+            return manufacturingCode;
+        }
+
+        public void setManufacturingCode(String manufacturingCode) {
+            this.manufacturingCode = manufacturingCode;
+        }
+
+        public String getGrossWt() {
             return grossWt;
         }
 
-        public void setGrossWt(Double grossWt) {
+        public void setGrossWt(String grossWt) {
             this.grossWt = grossWt;
         }
 
-        public Double getNetWt() {
+        public String getNetWt() {
             return netWt;
         }
 
-        public void setNetWt(Double netWt) {
+        public void setNetWt(String netWt) {
             this.netWt = netWt;
         }
 
@@ -178,12 +191,44 @@ public class Cart {
             this.remarks = remarks;
         }
 
-        public String getLength() {
-            return length;
+        public String getKundanWeight() {
+            return kundanWeight;
         }
 
-        public void setLength(String length) {
-            this.length = length;
+        public void setKundanWeight(String kundanWeight) {
+            this.kundanWeight = kundanWeight;
+        }
+
+        public String getStoneWeight() {
+            return stoneWeight;
+        }
+
+        public void setStoneWeight(String stoneWeight) {
+            this.stoneWeight = stoneWeight;
+        }
+
+        public String getBlackBeadsWeight() {
+            return blackBeadsWeight;
+        }
+
+        public void setBlackBeadsWeight(String blackBeadsWeight) {
+            this.blackBeadsWeight = blackBeadsWeight;
+        }
+
+        public String getExtraLess() {
+            return extraLess;
+        }
+
+        public void setExtraLess(String extraLess) {
+            this.extraLess = extraLess;
+        }
+
+        public String getKundanPcs() {
+            return kundanPcs;
+        }
+
+        public void setKundanPcs(String kundanPcs) {
+            this.kundanPcs = kundanPcs;
         }
 
         public String getImages() {
@@ -242,29 +287,6 @@ public class Cart {
             this.totalPrice = totalPrice;
         }
 
-        public String getColor() {
-            return color;
-        }
-
-        public void setColor(String color) {
-            this.color = color;
-        }
-
-        public String getPolish() {
-            return polish;
-        }
-
-        public void setPolish(String polish) {
-            this.polish = polish;
-        }
-
-        public String getTone() {
-            return tone;
-        }
-
-        public void setTone(String tone) {
-            this.tone = tone;
-        }
     }
 
 

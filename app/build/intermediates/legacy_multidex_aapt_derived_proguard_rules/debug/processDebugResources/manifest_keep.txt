@@ -1,2 +1,2 @@
-# Referenced at /Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:32
+# Referenced at C:\Users\50004932\Swarnsarita\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:32
 -keep class com.project.jewelmart.swarnsarita.utils.ApplicationClass { <init>(); }
