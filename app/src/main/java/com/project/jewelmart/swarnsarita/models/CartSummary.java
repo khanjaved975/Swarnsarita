@@ -93,6 +93,12 @@ public class CartSummary {
             @SerializedName("quantity")
             @Expose
             private Integer quantity;
+            @SerializedName("in_stock_count")
+            @Expose
+            private Integer in_stock_count;
+            @SerializedName("on_order_count")
+            @Expose
+            private Integer on_stock_count;
 
             public String getGrossWt() {
                 return grossWt;
@@ -110,6 +116,21 @@ public class CartSummary {
                 this.quantity = quantity;
             }
 
+            public Integer getIn_stock_count() {
+                return in_stock_count;
+            }
+
+            public void setIn_stock_count(Integer in_stock_count) {
+                this.in_stock_count = in_stock_count;
+            }
+
+            public Integer getOn_stock_count() {
+                return on_stock_count;
+            }
+
+            public void setOn_stock_count(Integer on_stock_count) {
+                this.on_stock_count = on_stock_count;
+            }
         }
 
     }

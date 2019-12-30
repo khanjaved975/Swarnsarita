@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("ScreenName", "Homescreen");
             intent.putExtra("ProductId", "");
             intent.putExtra("Model", "");
-            startService(intent);
+//            startService(intent);
         }
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);

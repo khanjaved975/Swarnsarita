@@ -308,7 +308,8 @@ public class CartFragment extends Fragment implements OnLoadMoreListener {
                     } else {
                         checkoutCustomDialog("\n Product Master : \n" + "Gross Weight : " + resource.getCartSummary().getProductMaster().getGrossWt() +
                                         "\n" + "Quantity : " + resource.getCartSummary().getProductMaster().getQuantity() + "\n\n" + "On Order : "
-                                        + resource.getCartSummary().getInventoryMaster().getGrossWt()+"\n"+"In Stock : "+resource.getCartSummary().getInventoryMaster().getQuantity()
+                                        + resource.getCartSummary().getProductMaster().getOn_stock_count()+"\n"+"In Stock : "+
+                                        resource.getCartSummary().getProductMaster().getIn_stock_count()
                                 );
                     }
                 }

@@ -13562,7 +13562,7 @@ com.project.jewelmart.swarnsarita.ServiceAlert:
 com.project.jewelmart.swarnsarita.SplashActivity:
     android.widget.ProgressBar progressBar
     171:171:public void initFreshChat()
-    221:237:public void sendEmail(java.lang.String)
+    220:236:public void sendEmail(java.lang.String)
 com.project.jewelmart.swarnsarita.SplashActivity$5
 com.project.jewelmart.swarnsarita.SplashActivity_ViewBinding:
     18:19:public SplashActivity_ViewBinding(com.project.jewelmart.swarnsarita.SplashActivity)
@@ -13606,13 +13606,13 @@ com.project.jewelmart.swarnsarita.adapters.AdapterPeople$1
 com.project.jewelmart.swarnsarita.adapters.AdapterPeople$OnItemClickListener
 com.project.jewelmart.swarnsarita.adapters.AdapterPeople$ViewHolder
 com.project.jewelmart.swarnsarita.adapters.AdapterProductCart:
-    212:228:private void toggleSection(android.view.View,android.view.View,com.project.jewelmart.swarnsarita.adapters.AdapterProductCart$OriginalViewHolder)
-    231:236:public boolean toggleArrow(android.view.View)
+    216:232:private void toggleSection(android.view.View,android.view.View,com.project.jewelmart.swarnsarita.adapters.AdapterProductCart$OriginalViewHolder)
+    235:240:public boolean toggleArrow(android.view.View)
 com.project.jewelmart.swarnsarita.adapters.AdapterProductCart$6
 com.project.jewelmart.swarnsarita.adapters.AdapterProductCart$6$1
 com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist:
-    206:222:private void toggleSection(android.view.View,android.view.View,com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist$OriginalViewHolder)
-    225:230:public boolean toggleArrow(android.view.View)
+    210:226:private void toggleSection(android.view.View,android.view.View,com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist$OriginalViewHolder)
+    229:234:public boolean toggleArrow(android.view.View)
 com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist$6
 com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist$6$1
 com.project.jewelmart.swarnsarita.adapters.AdapterProductWishlist$OriginalViewHolder:
@@ -13717,20 +13717,20 @@ com.project.jewelmart.swarnsarita.models.CartSummary:
     25:26:public void setAck(java.lang.String)
     33:34:public void setCartSummary(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_)
 com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_:
+    private com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$InventoryMaster inventoryMaster
     final synthetic com.project.jewelmart.swarnsarita.models.CartSummary this$0
     36:36:public CartSummary$CartSummary_(com.project.jewelmart.swarnsarita.models.CartSummary)
     50:51:public void setProductMaster(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$ProductMaster)
+    54:54:public com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$InventoryMaster getInventoryMaster()
     58:59:public void setInventoryMaster(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$InventoryMaster)
-com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$InventoryMaster:
-    final synthetic com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_ this$1
-    61:61:public CartSummary$CartSummary_$InventoryMaster(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_)
-    75:76:public void setGrossWt(java.lang.String)
-    83:84:public void setQuantity(java.lang.Integer)
+com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$InventoryMaster
 com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_$ProductMaster:
     final synthetic com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_ this$1
     88:88:public CartSummary$CartSummary_$ProductMaster(com.project.jewelmart.swarnsarita.models.CartSummary$CartSummary_)
-    102:103:public void setGrossWt(java.lang.String)
-    110:111:public void setQuantity(java.lang.Integer)
+    108:109:public void setGrossWt(java.lang.String)
+    116:117:public void setQuantity(java.lang.Integer)
+    124:125:public void setIn_stock_count(java.lang.Integer)
+    132:133:public void setOn_stock_count(java.lang.Integer)
 com.project.jewelmart.swarnsarita.models.Collection
 com.project.jewelmart.swarnsarita.models.Collection$1
 com.project.jewelmart.swarnsarita.models.CustomImage
@@ -13904,9 +13904,9 @@ com.project.jewelmart.swarnsarita.pojo.Cart:
     33:34:public void setMsg(java.lang.String)
     41:42:public void setData(java.util.List)
 com.project.jewelmart.swarnsarita.pojo.Cart$Datum:
+    private java.lang.String productInventoryType
     private java.lang.String productInventoryId
-    private java.lang.Double netWt
-    private java.lang.String length
+    private java.lang.String manufacturingCode
     private java.lang.String largeImage
     private java.lang.String zoomImage
     private java.lang.String thumbImage
@@ -13914,34 +13914,36 @@ com.project.jewelmart.swarnsarita.pojo.Cart$Datum:
     private java.lang.String totalNetWt
     final synthetic com.project.jewelmart.swarnsarita.pojo.Cart this$0
     44:44:public Cart$Datum(com.project.jewelmart.swarnsarita.pojo.Cart)
-    114:115:public void setCartWishId(java.lang.String)
-    122:123:public void setProductInventoryType(java.lang.String)
-    126:126:public java.lang.String getProductInventoryId()
-    130:131:public void setProductInventoryId(java.lang.String)
-    138:139:public void setCollectionName(java.lang.String)
-    146:147:public void setCollectionSkuCode(java.lang.String)
-    154:155:public void setGrossWt(java.lang.Double)
-    158:158:public java.lang.Double getNetWt()
-    162:163:public void setNetWt(java.lang.Double)
-    170:171:public void setQuantity(java.lang.String)
-    178:179:public void setRemarks(java.lang.String)
-    182:182:public java.lang.String getLength()
-    186:187:public void setLength(java.lang.String)
-    194:195:public void setImages(java.lang.String)
-    198:198:public java.lang.String getLargeImage()
-    202:203:public void setLargeImage(java.lang.String)
-    206:206:public java.lang.String getZoomImage()
-    210:211:public void setZoomImage(java.lang.String)
-    214:214:public java.lang.String getThumbImage()
-    218:219:public void setThumbImage(java.lang.String)
-    222:222:public java.lang.String getTotalGrossWt()
-    226:227:public void setTotalGrossWt(java.lang.String)
-    230:230:public java.lang.String getTotalNetWt()
-    234:235:public void setTotalNetWt(java.lang.String)
-    242:243:public void setTotalPrice(java.lang.String)
-    250:251:public void setColor(java.lang.String)
-    258:259:public void setPolish(java.lang.String)
-    266:267:public void setTone(java.lang.String)
+    119:120:public void setCartWishId(java.lang.String)
+    123:123:public java.lang.String getProductInventoryType()
+    127:128:public void setProductInventoryType(java.lang.String)
+    131:131:public java.lang.String getProductInventoryId()
+    135:136:public void setProductInventoryId(java.lang.String)
+    143:144:public void setCollectionName(java.lang.String)
+    151:152:public void setCollectionSkuCode(java.lang.String)
+    155:155:public java.lang.String getManufacturingCode()
+    159:160:public void setManufacturingCode(java.lang.String)
+    167:168:public void setGrossWt(java.lang.String)
+    175:176:public void setNetWt(java.lang.String)
+    183:184:public void setQuantity(java.lang.String)
+    191:192:public void setRemarks(java.lang.String)
+    199:200:public void setKundanWeight(java.lang.String)
+    207:208:public void setStoneWeight(java.lang.String)
+    215:216:public void setBlackBeadsWeight(java.lang.String)
+    223:224:public void setExtraLess(java.lang.String)
+    231:232:public void setKundanPcs(java.lang.String)
+    239:240:public void setImages(java.lang.String)
+    243:243:public java.lang.String getLargeImage()
+    247:248:public void setLargeImage(java.lang.String)
+    251:251:public java.lang.String getZoomImage()
+    255:256:public void setZoomImage(java.lang.String)
+    259:259:public java.lang.String getThumbImage()
+    263:264:public void setThumbImage(java.lang.String)
+    267:267:public java.lang.String getTotalGrossWt()
+    271:272:public void setTotalGrossWt(java.lang.String)
+    275:275:public java.lang.String getTotalNetWt()
+    279:280:public void setTotalNetWt(java.lang.String)
+    287:288:public void setTotalPrice(java.lang.String)
 com.project.jewelmart.swarnsarita.pojo.CartAcknowledge:
     28:29:public void setAck(java.lang.String)
     36:37:public void setMsg(java.lang.String)
