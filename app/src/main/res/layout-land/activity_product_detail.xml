@@ -93,9 +93,7 @@
                                     android:paddingRight="2dp"
                                     android:src="@drawable/fill_wishlist"
                                     android:tint="@color/colorAccent"
-                                    android:visibility="gone"
-
-                                    />
+                                    android:visibility="gone" />
 
                                 <ImageView
                                     android:id="@+id/cart_icon"
@@ -169,7 +167,6 @@
                                     app:srcCompat="@drawable/ic_add" />
 
                             </LinearLayout>
-
 
                             <com.project.jewelmart.swarnsarita.widgets.FontTextView
                                 android:layout_width="wrap_content"
@@ -955,7 +952,6 @@
                 app:cardBackgroundColor="@android:color/white"
                 app:cardCornerRadius="3dp"
                 app:cardElevation="2dp"
-
                 app:contentPadding="@dimen/spacing_medium">
 
                 <com.project.jewelmart.swarnsarita.widgets.FontBoldTextView
@@ -1002,7 +998,7 @@
             android:tint="@android:color/white"
             app:backgroundTint="@color/colorAccent"
             app:fabSize="normal"
-            app:layout_behavior="com.example.javedkhan.bitcoin.utils.ScrollAwareFABBehavior"
+            app:layout_behavior=".ScrollAwareFABBehavior"
             app:rippleColor="@android:color/darker_gray"
             app:srcCompat="@drawable/ic_add" />
 
