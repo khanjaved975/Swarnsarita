@@ -254,7 +254,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\50004932\.gradle\cac
 	android:hardwareAccelerated
 		ADDED from C:\Users\50004932\Swarnsarita\app\src\main\AndroidManifest.xml:28:9-43
 	android:debuggable
-		ADDED from C:\Users\50004932\Swarnsarita\app\src\main\AndroidManifest.xml:27:9-35
+		ADDED from C:\Users\50004932\Swarnsarita\app\src\main\AndroidManifest.xml:27:9-34
 	android:largeHeap
 		ADDED from C:\Users\50004932\Swarnsarita\app\src\main\AndroidManifest.xml:31:9-33
 	android:icon

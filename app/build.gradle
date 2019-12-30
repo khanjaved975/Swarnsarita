@@ -52,7 +52,7 @@ android {
         }
 
         debug {
-            debuggable false
+            debuggable true
            // minifyEnabled true
            // shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
