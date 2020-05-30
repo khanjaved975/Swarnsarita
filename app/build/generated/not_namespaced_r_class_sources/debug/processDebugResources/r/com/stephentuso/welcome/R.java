@@ -649,24 +649,24 @@ public final class R {
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f080056;
         public static final int abc_textfield_search_material = 0x7f080057;
         public static final int abc_vector_test = 0x7f080058;
-        public static final int notification_action_background = 0x7f0801ce;
-        public static final int notification_bg = 0x7f0801d0;
-        public static final int notification_bg_low = 0x7f0801d1;
-        public static final int notification_bg_low_normal = 0x7f0801d2;
-        public static final int notification_bg_low_pressed = 0x7f0801d3;
-        public static final int notification_bg_normal = 0x7f0801d4;
-        public static final int notification_bg_normal_pressed = 0x7f0801d5;
-        public static final int notification_icon_background = 0x7f0801d6;
-        public static final int notification_template_icon_bg = 0x7f0801d7;
-        public static final int notification_template_icon_low_bg = 0x7f0801d8;
-        public static final int notification_tile_bg = 0x7f0801d9;
-        public static final int notify_panel_notification_icon_bg = 0x7f0801da;
-        public static final int wel_button_borderless_background = 0x7f0801e8;
-        public static final int wel_button_borderless_background_theme_light = 0x7f0801e9;
-        public static final int wel_ic_chevron_left_white_24dp = 0x7f0801ea;
-        public static final int wel_ic_chevron_right_white_24dp = 0x7f0801eb;
-        public static final int wel_ic_done_black = 0x7f0801ec;
-        public static final int wel_ic_done_white = 0x7f0801ed;
+        public static final int notification_action_background = 0x7f0801cf;
+        public static final int notification_bg = 0x7f0801d1;
+        public static final int notification_bg_low = 0x7f0801d2;
+        public static final int notification_bg_low_normal = 0x7f0801d3;
+        public static final int notification_bg_low_pressed = 0x7f0801d4;
+        public static final int notification_bg_normal = 0x7f0801d5;
+        public static final int notification_bg_normal_pressed = 0x7f0801d6;
+        public static final int notification_icon_background = 0x7f0801d7;
+        public static final int notification_template_icon_bg = 0x7f0801d8;
+        public static final int notification_template_icon_low_bg = 0x7f0801d9;
+        public static final int notification_tile_bg = 0x7f0801da;
+        public static final int notify_panel_notification_icon_bg = 0x7f0801db;
+        public static final int wel_button_borderless_background = 0x7f0801e9;
+        public static final int wel_button_borderless_background_theme_light = 0x7f0801ea;
+        public static final int wel_ic_chevron_left_white_24dp = 0x7f0801eb;
+        public static final int wel_ic_chevron_right_white_24dp = 0x7f0801ec;
+        public static final int wel_ic_done_black = 0x7f0801ed;
+        public static final int wel_ic_done_white = 0x7f0801ee;
     }
     public static final class id {
         private id() {}

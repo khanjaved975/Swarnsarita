@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">swarnsarita.jewelmarts.in</domain>
+        <domain includeSubdomains="true">demo.jewelmart.biz</domain>
     </domain-config>
 </network-security-config>

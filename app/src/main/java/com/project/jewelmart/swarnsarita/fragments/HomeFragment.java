@@ -1,6 +1,7 @@
 package com.project.jewelmart.swarnsarita.fragments;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -19,6 +20,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -31,15 +33,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.balysv.materialripple.MaterialRippleLayout;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.project.jewelmart.swarnsarita.BannerDetialActivity;
+import com.project.jewelmart.swarnsarita.LoginActivity;
 import com.project.jewelmart.swarnsarita.ProductDetailActivity;
 import com.project.jewelmart.swarnsarita.ProductGridActivity;
 import com.project.jewelmart.swarnsarita.adapters.CustomCatRecycleAdapter;
@@ -782,6 +788,9 @@ public class HomeFragment extends Fragment {
                     startAutoSlider(adapterImageSlider2.getCount());
                     //  setupAdapter(productList, themetype);
                     setCategory();
+                    if(resource.get(0).getUser_login_status().toLowerCase().equals("inactive")){
+                        forceLogout();
+                    }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -798,6 +807,53 @@ public class HomeFragment extends Fragment {
         });
 
     }
+
+    private void forceLogout(){
+        showDialogLogout(getActivity(),"Alert !","You login permission has been suspended, kindly contact system administrator");
+    }
+
+
+    public  void showDialogLogout(final Activity context, String t, String msg) {
+        final com.project.jewelmart.swarnsarita.utils.UserSessionManager userSessionManager = new com.project.jewelmart.swarnsarita.utils.UserSessionManager(context);
+        final Dialog dialog = new Dialog(context);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); // before
+        dialog.setContentView(R.layout.dialog_info);
+        dialog.setCancelable(false);
+        TextView title = (TextView) dialog.findViewById(R.id.title);
+        title.setText(t);
+        TextView content = (TextView) dialog.findViewById(R.id.content);
+        content.setText(msg);
+        WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
+        lp.copyFrom(dialog.getWindow().getAttributes());
+        lp.width = WindowManager.LayoutParams.WRAP_CONTENT;
+        lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
+        ((AppCompatButton) dialog.findViewById(R.id.bt_close)).setText("Ok");
+        ((AppCompatButton) dialog.findViewById(R.id.bt_close)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                userSessionManager.Logout(context);
+                Intent intent = new Intent(context, LoginActivity.class);
+                context.startActivity(intent);
+                Toast.makeText(context, "Logout", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+                context.finish();
+               /* context.overridePendingTransition(R.anim.in_from_left, R.anim.out_to_right);
+                dialog.dismiss();*/
+            }
+        });
+
+        ((ImageView) dialog.findViewById(R.id.cancel)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+
+        ((ImageView) dialog.findViewById(R.id.cancel)).setVisibility(View.GONE);
+        dialog.show();
+        dialog.getWindow().setAttributes(lp);
+    }
+
 
     private static class AdapterImageSlider2 extends PagerAdapter {
 
@@ -899,15 +955,11 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getActivity().getMenuInflater().inflate(R.menu.menu_main, menu);
-        //MenuItem item = menu.findItem(R.id.action_hometheme);
         int color = parseColor("#666666");
         for (int i = 0; i < menu.size(); i++) {
             menu.getItem(i).getIcon().setColorFilter(color, PorterDuff.Mode.SRC_ATOP);
         }
-        //item.setVisible(true);
-        //menu.findItem(R.id.action_openRight).setVisible(false);
         super.onPrepareOptionsMenu(menu);
     }
 

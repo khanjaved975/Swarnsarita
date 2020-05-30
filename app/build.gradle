@@ -24,8 +24,8 @@ android {
         applicationId "com.project.jewelmart.swarnsarita"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 9
-        versionName '1.8'
+        versionCode 11
+        versionName '2.0'
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -52,7 +52,7 @@ android {
         }
 
         debug {
-            debuggable true
+            debuggable false
            // minifyEnabled true
            // shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'

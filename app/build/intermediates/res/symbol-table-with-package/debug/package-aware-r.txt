@@ -2015,6 +2015,7 @@ drawable ic_notification
 drawable ic_open_right
 drawable ic_rate
 drawable ic_remove
+drawable ic_search
 drawable ic_shopping_cart_black_48dp
 drawable ic_thumb_up_white
 drawable ic_verified_user
@@ -2991,6 +2992,8 @@ menu menu_product_more
 menu menu_wishlist_more
 menu menu_worker_home
 mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 raw a_new_lang_template
 raw arabic
 raw badgenew

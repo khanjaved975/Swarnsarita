@@ -34,12 +34,12 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int ms__arrow = 0x7f0801c5;
-        public static final int ms__drawable = 0x7f0801c6;
-        public static final int ms__drop_down_shadow = 0x7f0801c7;
-        public static final int ms__menu_down = 0x7f0801c8;
-        public static final int ms__selector = 0x7f0801c9;
-        public static final int ms__shadow_background = 0x7f0801ca;
+        public static final int ms__arrow = 0x7f0801c6;
+        public static final int ms__drawable = 0x7f0801c7;
+        public static final int ms__drop_down_shadow = 0x7f0801c8;
+        public static final int ms__menu_down = 0x7f0801c9;
+        public static final int ms__selector = 0x7f0801ca;
+        public static final int ms__shadow_background = 0x7f0801cb;
     }
     public static final class id {
         private id() {}

@@ -13537,7 +13537,7 @@ com.project.jewelmart.swarnsarita.R$raw
 com.project.jewelmart.swarnsarita.R$string
 com.project.jewelmart.swarnsarita.R$style
 com.project.jewelmart.swarnsarita.R$styleable:
-    8513:8513:public R$styleable()
+    8516:8516:public R$styleable()
 com.project.jewelmart.swarnsarita.R$xml
 com.project.jewelmart.swarnsarita.RegistrationActivity:
     private android.support.v7.widget.AppCompatTextView lblTitle
@@ -13662,12 +13662,12 @@ com.project.jewelmart.swarnsarita.fragments.HomeFragment:
     public static final java.lang.String ORIENTATION
     private android.support.v7.widget.RecyclerView mRecyclerView
     private static final int REQUEST_LOCATION
-    705:711:public static void displayImageOriginal(android.content.Context,android.widget.ImageView,int)
+    711:717:public static void displayImageOriginal(android.content.Context,android.widget.ImageView,int)
 com.project.jewelmart.swarnsarita.fragments.HomeFragment$AdapterImageSlider
 com.project.jewelmart.swarnsarita.fragments.HomeFragment$AdapterImageSlider$1
 com.project.jewelmart.swarnsarita.fragments.HomeFragment$AdapterImageSlider$OnItemClickListener
 com.project.jewelmart.swarnsarita.fragments.HomeFragment$AdapterImageSlider2:
-    829:829:public com.project.jewelmart.swarnsarita.models.Images getItem(int)
+    885:885:public com.project.jewelmart.swarnsarita.models.Images getItem(int)
 com.project.jewelmart.swarnsarita.fragments.SubcatFragment:
     private java.lang.CharSequence mTitle
     private int backCount
@@ -14082,40 +14082,41 @@ com.project.jewelmart.swarnsarita.pojo.FilterObject:
     public java.lang.String mat_calc_type
 com.project.jewelmart.swarnsarita.pojo.Home:
     private com.project.jewelmart.swarnsarita.pojo.Home$ImagePath imagePath
-    32:33:public void setBasePath(java.lang.String)
-    40:41:public void setBrandBanner(java.util.List)
-    48:49:public void setFinalCollection(java.util.List)
-    52:52:public com.project.jewelmart.swarnsarita.pojo.Home$ImagePath getImagePath()
-    56:57:public void setImagePath(com.project.jewelmart.swarnsarita.pojo.Home$ImagePath)
+    35:36:public void setBasePath(java.lang.String)
+    43:44:public void setBrandBanner(java.util.List)
+    51:52:public void setFinalCollection(java.util.List)
+    55:55:public com.project.jewelmart.swarnsarita.pojo.Home$ImagePath getImagePath()
+    59:60:public void setImagePath(com.project.jewelmart.swarnsarita.pojo.Home$ImagePath)
+    67:68:public void setUser_login_status(java.lang.String)
 com.project.jewelmart.swarnsarita.pojo.Home$BrandBanner:
     private java.lang.String position
     final synthetic com.project.jewelmart.swarnsarita.pojo.Home this$0
-    59:59:public Home$BrandBanner(com.project.jewelmart.swarnsarita.pojo.Home)
-    76:77:public void setBrandImage(java.lang.String)
-    80:80:public java.lang.String getPosition()
-    84:85:public void setPosition(java.lang.String)
-    92:93:public void setDescription(java.lang.String)
+    70:70:public Home$BrandBanner(com.project.jewelmart.swarnsarita.pojo.Home)
+    87:88:public void setBrandImage(java.lang.String)
+    91:91:public java.lang.String getPosition()
+    95:96:public void setPosition(java.lang.String)
+    103:104:public void setDescription(java.lang.String)
 com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection:
     final synthetic com.project.jewelmart.swarnsarita.pojo.Home this$0
-    96:100:public Home$FinalCollection(com.project.jewelmart.swarnsarita.pojo.Home)
-    109:110:public void setKey(java.lang.String)
-    117:118:public void setProductAssign(java.util.List)
+    107:111:public Home$FinalCollection(com.project.jewelmart.swarnsarita.pojo.Home)
+    120:121:public void setKey(java.lang.String)
+    128:129:public void setProductAssign(java.util.List)
 com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection$ProductAssign:
     private java.lang.String grossWt
     final synthetic com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection this$1
-    120:150:public Home$FinalCollection$ProductAssign(com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection)
-    159:160:public void setCollectionSkuCode(java.lang.String)
-    163:163:public java.lang.String getGrossWt()
-    167:168:public void setGrossWt(java.lang.String)
-    175:176:public void setNetWt(java.lang.String)
-    183:184:public void setImages(java.util.List)
-    207:208:public void setProduct_id(java.lang.String)
-    211:211:public java.lang.String getQuantity()
-    219:220:public void setProduct_status(java.lang.String)
+    131:161:public Home$FinalCollection$ProductAssign(com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection)
+    170:171:public void setCollectionSkuCode(java.lang.String)
+    174:174:public java.lang.String getGrossWt()
+    178:179:public void setGrossWt(java.lang.String)
+    186:187:public void setNetWt(java.lang.String)
+    194:195:public void setImages(java.util.List)
+    218:219:public void setProduct_id(java.lang.String)
+    222:222:public java.lang.String getQuantity()
+    230:231:public void setProduct_status(java.lang.String)
 com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection$ProductAssign$Image:
     final synthetic com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection$ProductAssign this$2
-    226:226:public Home$FinalCollection$ProductAssign$Image(com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection$ProductAssign)
-    237:238:public void setImageName(java.lang.String)
+    237:237:public Home$FinalCollection$ProductAssign$Image(com.project.jewelmart.swarnsarita.pojo.Home$FinalCollection$ProductAssign)
+    248:249:public void setImageName(java.lang.String)
 com.project.jewelmart.swarnsarita.pojo.Home$ImagePath
 com.project.jewelmart.swarnsarita.pojo.Loginstatus:
     27:28:public void setMsg(java.lang.String)

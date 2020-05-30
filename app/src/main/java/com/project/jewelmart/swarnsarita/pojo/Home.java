@@ -14,6 +14,9 @@ public class Home {
     @SerializedName("base_path")
     @Expose
     private String basePath;
+    @SerializedName("user_login_status")
+    @Expose
+    private String user_login_status;
     @SerializedName("brand_banner")
     @Expose
     private List<BrandBanner> brandBanner = null;
@@ -54,6 +57,14 @@ public class Home {
 
     public void setImagePath(ImagePath imagePath) {
         this.imagePath = imagePath;
+    }
+
+    public String getUser_login_status() {
+        return user_login_status;
+    }
+
+    public void setUser_login_status(String user_login_status) {
+        this.user_login_status = user_login_status;
     }
 
     public class BrandBanner {

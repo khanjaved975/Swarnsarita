@@ -1,10 +1,7 @@
-#Mon Dec 30 13:24:23 IST 2019
-path.2=classes2.dex
-path.1=classes.dex
-path.0=classes.dex
-renamed.2=classes3.dex
+#Mon Apr 20 21:46:40 IST 2020
+base.0=/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.1=classes2.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\50004932\\Swarnsarita\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
-base.1=C\:\\Users\\50004932\\Swarnsarita\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
-base.0=C\:\\Users\\50004932\\Swarnsarita\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.1=/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/dex/debug/mergeDexDebug/out

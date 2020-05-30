@@ -1,4 +1,4 @@
-#Sun Dec 08 16:04:34 IST 2019
+#Sun Jan 19 00:03:28 IST 2020
 base.0=/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex

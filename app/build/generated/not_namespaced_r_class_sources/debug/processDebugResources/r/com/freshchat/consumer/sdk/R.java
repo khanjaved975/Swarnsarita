@@ -623,7 +623,7 @@ public final class R {
         public static final int freshchat_voice_message_seekbar = 0x7f080189;
         public static final int freshchat_voice_message_seekbar_thumb = 0x7f08018a;
         public static final int freshchat_voice_visualizer_drawable = 0x7f08018b;
-        public static final int notification_template_icon_bg = 0x7f0801d7;
+        public static final int notification_template_icon_bg = 0x7f0801d8;
     }
     public static final class id {
         private id() {}

@@ -10,7 +10,7 @@ public class Constant {
     public static final String WORKER = "worker";
     public static final String CLIENT = "client";
     //public final static String Url = "http://techseed.co.in/gg_new/";
-    public final static String Url = "http://swarnsarita.jewelmarts.in/";
+    public final static String Url = "http://demo.jewelmart.biz/";//"http://swarnsarita.jewelmarts.in/";
     public final static String Base_Url = Url+"webservices/";
     public final static String imagepath=Url+"public/backend/product_images/";
     //http://www.techseed.co.in/gg_new/public/backend/product_images/

@@ -35749,6 +35749,7 @@ com.project.jewelmart.swarnsarita.R$drawable: int ic_notification
 com.project.jewelmart.swarnsarita.R$drawable: int ic_open_right
 com.project.jewelmart.swarnsarita.R$drawable: int ic_rate
 com.project.jewelmart.swarnsarita.R$drawable: int ic_remove
+com.project.jewelmart.swarnsarita.R$drawable: int ic_search
 com.project.jewelmart.swarnsarita.R$drawable: int ic_shopping_cart_black_48dp
 com.project.jewelmart.swarnsarita.R$drawable: int ic_thumb_up_white
 com.project.jewelmart.swarnsarita.R$drawable: int ic_verified_user
@@ -36725,6 +36726,8 @@ com.project.jewelmart.swarnsarita.R$menu: int menu_product_more
 com.project.jewelmart.swarnsarita.R$menu: int menu_wishlist_more
 com.project.jewelmart.swarnsarita.R$menu: int menu_worker_home
 com.project.jewelmart.swarnsarita.R$mipmap: int ic_launcher
+com.project.jewelmart.swarnsarita.R$mipmap: int ic_launcher_foreground
+com.project.jewelmart.swarnsarita.R$mipmap: int ic_launcher_round
 com.project.jewelmart.swarnsarita.R$raw: int a_new_lang_template
 com.project.jewelmart.swarnsarita.R$raw: int arabic
 com.project.jewelmart.swarnsarita.R$raw: int badgenew

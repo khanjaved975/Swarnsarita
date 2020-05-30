@@ -135,7 +135,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void CheckLogin() {
         final ProgressDialog pdg = ProgressIndicator.ShowLoading(LoginActivity.this);
-        Call<Loginstatus> countriesCall = apiInterface.doCheckLogin(strphoneNo, strPass,usertype);
+        Call<Loginstatus> countriesCall = apiInterface.doCheckLogin(strphoneNo, strPass,usertype.toLowerCase());
         countriesCall.enqueue(new Callback<Loginstatus>() {
             @Override
             public void onResponse(Call<Loginstatus> call, Response<Loginstatus> response) {
