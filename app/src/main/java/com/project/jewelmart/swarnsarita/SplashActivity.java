@@ -127,7 +127,7 @@ public class SplashActivity extends AppCompatActivity {
                                 i = new Intent(getApplicationContext(), WorkerActivity.class);
                             } else {
                                 SingletonSupport.getInstance().isLogin = false;
-                                i = new Intent(getApplicationContext(), MainActivity.class);
+                                i = new Intent(getApplicationContext(), LoginActivity.class);
                             }
                         }
                         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
