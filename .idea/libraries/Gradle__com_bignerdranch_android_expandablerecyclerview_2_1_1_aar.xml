@@ -1,10 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.bignerdranch.android:expandablerecyclerview:2.1.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandablerecyclerview-2.1.1.aar/7b4d52fa19c28560825117c55ee44580/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandablerecyclerview-2.1.1.aar/7b4d52fa19c28560825117c55ee44580/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/57ff92ae9a658f18c80c7a16d6bc487a/expandablerecyclerview-2.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/57ff92ae9a658f18c80c7a16d6bc487a/expandablerecyclerview-2.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/57ff92ae9a658f18c80c7a16d6bc487a/expandablerecyclerview-2.1.1/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bignerdranch.android/expandablerecyclerview/2.1.1/e3beb2883dcf8ea83b48b022e96cccdc14c97253/expandablerecyclerview-2.1.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bignerdranch.android/expandablerecyclerview/2.1.1/95b7a847f6c4afea063ecd141f9eda7f27875532/expandablerecyclerview-2.1.1-sources.jar!/" />
     </SOURCES>

@@ -85,7 +85,7 @@
             android:layout_gravity="bottom"
             android:textStyle="bold"
             android:textColor="@color/grey_60"
-            android:text="Pawered by TECHSEED"
+            android:text="Pawered by A2TECH SOLUTION"
             android:layout_marginBottom="10dp"
             android:id="@+id/companylabel"
             android:layout_alignParentBottom="true"

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\50004932\\Swarnsarita\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw430dp-land-v13\\values-sw430dp-land-v13.xml",
+            "outputFile": "/Users/javedkhan/Desktop/Client/Swarnsarita/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw430dp-land-v13/values-sw430dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\50004932\\.gradle\\caches\\transforms-1\\files-1.1\\welcome-1.4.1.aar\\c107aecbe238e4dcfda1405a4ebacaea\\res\\values-sw430dp-land-v13\\values-sw430dp-land-v13.xml",
+                    "source": "/Users/javedkhan/.gradle/caches/transforms-2/files-2.1/740f4af6e461192dada0b8d13a6c410c/welcome-1.4.1/res/values-sw430dp-land-v13/values-sw430dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

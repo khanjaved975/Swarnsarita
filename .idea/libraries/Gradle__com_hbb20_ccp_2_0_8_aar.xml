@@ -1,10 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.hbb20:ccp:2.0.8@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ccp-2.0.8.aar/4832f8008be13b7e261a3c9debd4a3d3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0455f8b5c4a623d234b3aebe9924de54/ccp-2.0.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0455f8b5c4a623d234b3aebe9924de54/ccp-2.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0455f8b5c4a623d234b3aebe9924de54/ccp-2.0.8/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hbb20/ccp/2.0.8/e545426dac5cb9ab13ce9c862b21afa1479b8804/ccp-2.0.8-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hbb20/ccp/2.0.8/f8c27a1726a7fe9a84dc585e7e919871e75b4199/ccp-2.0.8-sources.jar!/" />
     </SOURCES>

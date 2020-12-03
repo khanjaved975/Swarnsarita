@@ -1,10 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: me.everything:overscroll-decor-android:1.0.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/50fadd3b2feb34f35901bd6801e4bd27/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/overscroll-decor-android-1.0.4.aar/50fadd3b2feb34f35901bd6801e4bd27/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/828a51cf0156d2c4ece1d6ab91e1c84e/overscroll-decor-android-1.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/828a51cf0156d2c4ece1d6ab91e1c84e/overscroll-decor-android-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/828a51cf0156d2c4ece1d6ab91e1c84e/overscroll-decor-android-1.0.4/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.everything/overscroll-decor-android/1.0.4/69e91eaff6c75d3a2359f325bddfc10bfacfdc44/overscroll-decor-android-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.everything/overscroll-decor-android/1.0.4/cdf310a5ee81b805214c1b92f50dfbc60fa5e8f7/overscroll-decor-android-1.0.4-sources.jar!/" />
     </SOURCES>
